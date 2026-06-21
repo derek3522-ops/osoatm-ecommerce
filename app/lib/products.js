@@ -1,0 +1,1883 @@
+// app/lib/products.js - Complete product database for OSO ATM Parts
+
+export const products = [
+  {
+    "id": 1,
+    "sku": "PAR-20549",
+    "name": "Genmega ACU 7 Mainboard",
+    "manufacturer": "Genmega",
+    "category": "Mainboards",
+    "cost": 742.99,
+    "price": 705.99,
+    "description": "CE, Main Board, ACU 7, w/o Modem",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "C4000",
+      "C4000 Level 1",
+      "C4000P",
+      "C6000",
+      "C6000 Level 1",
+      "C6000P",
+      "CRM-3000",
+      "GI900",
+      "G2500",
+      "G2500 Level 1",
+      "G2500P",
+      "G2500P Level 1",
+      "GT3000",
+      "GT5000"
+    ]
+  },
+  {
+    "id": 2,
+    "sku": "PAR-10097",
+    "name": "Genmega RCDU, Rear Load Dispenser Assembly",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "cost": 1299.99,
+    "price": 1234.99,
+    "description": "Genmega 1-High RCDU, Rear Load Dispenser, w/out Cassettes",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "GT3000",
+      "T4000"
+    ]
+  },
+  {
+    "id": 3,
+    "sku": "PAR-20483",
+    "name": "Genmega NFC Card Reader",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "cost": 359.99,
+    "price": 341.99,
+    "description": "Genmega NFC/TAP VIVOPAY Card Reader - Installation kit required",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "All Genmega ATMs"
+    ]
+  },
+  {
+    "id": 4,
+    "sku": "PAR-20958",
+    "name": "Genmega HCDU 2K Note Cassette",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "cost": 699.99,
+    "price": 664.99,
+    "description": "Cassette, HCDU Type, 1st Cassette, 2K Note",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "c4000",
+      "c4000S",
+      "GI900",
+      "G2500",
+      "G6000",
+      "GT3000",
+      "T4000"
+    ]
+  },
+  {
+    "id": 5,
+    "sku": "PAR-10770",
+    "name": "Genmega Mini High Bright Topper",
+    "manufacturer": "Genmega",
+    "category": "Toppers",
+    "cost": 139.99,
+    "price": 132.99,
+    "description": "Topper II, Sloped Base",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "GI900",
+      "G2500",
+      "Onyx"
+    ]
+  },
+  {
+    "id": 6,
+    "sku": "PAR-10041",
+    "name": "S&G Electronic Lock",
+    "manufacturer": "Hyosung & Genmega",
+    "category": "Locks",
+    "cost": 94.99,
+    "price": 89.99,
+    "description": "Proven Security TitanTM lock with motorized blocking device",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "All Hyosung and Genmega ATMs"
+    ]
+  },
+  {
+    "id": 7,
+    "sku": "PAR-10696",
+    "name": "Genmega SCDU / WCDU, 1K Cassette",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "cost": 399.99,
+    "price": 379.99,
+    "description": "SCDU / WCDU 1K Cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "c4000",
+      "GI900",
+      "G2500"
+    ]
+  },
+  {
+    "id": 8,
+    "sku": "PAR-10695",
+    "name": "Genmega SCDU 1K Dispenser Assembly",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "cost": 899.99,
+    "price": 854.99,
+    "description": "1K Dispenser without Cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "C4000",
+      "C6000",
+      "GI900",
+      "G2500",
+      "GT3000",
+      "GT5000",
+      "Onyx",
+      "T4000"
+    ]
+  },
+  {
+    "id": 9,
+    "sku": "PAR-10694",
+    "name": "Genmega 2\" Printer Assembly",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "cost": 619.99,
+    "price": 588.99,
+    "description": "2\" Printer Assembly without Image Print",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "C4000",
+      "GI900",
+      "G2500",
+      "GT3000",
+      "GT5000",
+      "Onyx"
+    ]
+  },
+  {
+    "id": 10,
+    "sku": "PAR-10823",
+    "name": "Genmega 2 High HCDU",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "cost": 1359.99,
+    "price": 1291.99,
+    "description": "2 High HCDU without Cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "C4000",
+      "GI900",
+      "G2500",
+      "Onyx"
+    ]
+  },
+  {
+    "id": 11,
+    "sku": "PAR-10434",
+    "name": "Genmega MCDU / HCDU, 2K Note Cassette",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "cost": 634.99,
+    "price": 602.99,
+    "description": "2K Note Cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1700",
+      "1700W",
+      "c4000",
+      "c4000S",
+      "GI900",
+      "G2500",
+      "G6000",
+      "GT3000",
+      "T4000"
+    ]
+  },
+  {
+    "id": 12,
+    "sku": "PAR-10323",
+    "name": "Genmega / Hantle Power Supply",
+    "manufacturer": "Genmega",
+    "category": "Power Supplies",
+    "cost": 349.99,
+    "price": 331.99,
+    "description": "Genmega Power Supply Assembly",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "700",
+      "1700W",
+      "GI900",
+      "G2500",
+      "C4000",
+      "E4000",
+      "X4000",
+      "Onyx",
+      "Onyx W"
+    ]
+  },
+  {
+    "id": 13,
+    "sku": "REF-10133",
+    "name": "Hyosung 1K Note Dispenser, Refurbished",
+    "manufacturer": "Hyosung",
+    "category": "Dispensers",
+    "cost": 1099.99,
+    "price": 1044.99,
+    "description": "Refurbished Front Load CDU without Cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "condition": "Refurbished",
+    "compatibility": [
+      "NH 2700CE",
+      "NH 1800SE",
+      "MX 5000SE",
+      "MX 5200",
+      "MX 5200SE",
+      "Halo",
+      "Halo II",
+      "Halo S"
+    ]
+  },
+  {
+    "id": 14,
+    "sku": "REF-10131",
+    "name": "Hyosung 2K Note Dispenser, Refurbished",
+    "manufacturer": "Hyosung",
+    "category": "Dispensers",
+    "cost": 1599.99,
+    "price": 1519.99,
+    "description": "Refurbished Front Load CDU without Cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "condition": "Refurbished",
+    "compatibility": [
+      "NH 2700CE",
+      "NH 1800SE",
+      "MX 5000SE",
+      "MX 5200",
+      "MX 5200SE",
+      "Halo",
+      "Halo II",
+      "Halo S"
+    ]
+  },
+  {
+    "id": 15,
+    "sku": "REF-10120",
+    "name": "Hyosung 1K 9Pin CDU, Refurbished",
+    "manufacturer": "Hyosung",
+    "category": "Dispensers",
+    "cost": 499.99,
+    "price": 474.99,
+    "description": "1K CDU with 9Pin connection",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "condition": "Refurbished"
+  },
+  {
+    "id": 16,
+    "sku": "REF-10078",
+    "name": "Hyosung 1K Cassette, New Revision–Refurbished",
+    "manufacturer": "Hyosung",
+    "category": "Cassettes",
+    "cost": 339.99,
+    "price": 322.99,
+    "description": "New Revision 1K Cassette- Refurbished",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "condition": "Refurbished",
+    "compatibility": [
+      "MX 5000CE (Grey)",
+      "NH 1800",
+      "NH 1800POS",
+      "NH 1800SE",
+      "NH 1000",
+      "MX 5200SE"
+    ]
+  },
+  {
+    "id": 17,
+    "sku": "REF-10076",
+    "name": "Hyosung 2K Cassette, Refurbished",
+    "manufacturer": "Hyosung",
+    "category": "Cassettes",
+    "cost": 299.99,
+    "price": 284.99,
+    "description": "2K Cassette, Refurbished",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "condition": "Refurbished",
+    "compatibility": [
+      "NH 2700CE",
+      "MX 5300XP",
+      "NH 1800CE",
+      "NH 1500",
+      "MX 5100T",
+      "MX 5000CE (Grey)",
+      "MX 7000T"
+    ]
+  },
+  {
+    "id": 18,
+    "sku": "PAR-10663",
+    "name": "Hyosung Bezel Key",
+    "manufacturer": "Hyosung",
+    "category": "Keys & Accessories",
+    "cost": 9.59,
+    "price": 8.99,
+    "description": "Fits All ATM Hyosung Model Types",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "All Hyosung Models"
+    ]
+  },
+  {
+    "id": 19,
+    "sku": "PAR-10368",
+    "name": "ATM Wireless Antenna",
+    "manufacturer": "Universal",
+    "category": "Wireless/Connectivity",
+    "cost": 12.99,
+    "price": 11.99,
+    "description": "Standard Antenna - Increases cellular reception, weatherized with magnetic base and 10 foot cord",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "sku": "PAR-10332",
+    "name": "Hyosung Printer Assembly",
+    "manufacturer": "Hyosung",
+    "category": "Printers",
+    "cost": 719.99,
+    "price": 683.99,
+    "description": "Hyosung Receipt Printer Assembly",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "NH 1800CE",
+      "NH 1500",
+      "MX 5000CE",
+      "NH 1800SE",
+      "NH 1800",
+      "NH 1800POS",
+      "MX 5300CE"
+    ]
+  },
+  {
+    "id": 21,
+    "sku": "PAR-10324",
+    "name": "Hyosung Power Supply",
+    "manufacturer": "Hyosung",
+    "category": "Power Supplies",
+    "cost": 347.99,
+    "price": 330.99,
+    "description": "New Revision Power Supply",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "1800",
+      "1800CE",
+      "1800SE",
+      "2700CE",
+      "2700T",
+      "4000W",
+      "Halo",
+      "Halo-S",
+      "Halo II",
+      "5000CE",
+      "5000SE",
+      "5300CE",
+      "Force"
+    ]
+  },
+  {
+    "id": 22,
+    "sku": "PAR-10291",
+    "name": "Hyosung PCI 3.0 Keypad Upgrade Kit for 1800SE",
+    "manufacturer": "Hyosung",
+    "category": "Keypads",
+    "cost": 899.99,
+    "price": 854.99,
+    "description": "Includes Mounting Bracket and Adapter Cable",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "sku": "PAR-20830",
+    "name": "Hyosung EMV Card Reader",
+    "manufacturer": "Hyosung",
+    "category": "Card Readers",
+    "cost": 289.99,
+    "price": 274.99,
+    "description": "Hyosung ATM EMV chip replacement card reader - Card Reader Only. Not an upgrade kit",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "Multiple Hyosung models"
+    ]
+  },
+  {
+    "id": 24,
+    "sku": "PAR-10186",
+    "name": "Hyosung LCD Display Panel with LED Backlight",
+    "manufacturer": "Hyosung",
+    "category": "LCD Displays",
+    "cost": 275.99,
+    "price": 261.99,
+    "description": "New Revision LCD Display Panel w/o Electronics Size - 10.1\"",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "NH 2700CE",
+      "HALO",
+      "HALO II",
+      "HALO S",
+      "NH 2700T",
+      "MX 5000SE",
+      "MX 5600T",
+      "MX 7600I"
+    ]
+  },
+  {
+    "id": 25,
+    "sku": "PAR-20816",
+    "name": "Hyosung NFC Reader Complete Kit for Halo II",
+    "manufacturer": "Hyosung",
+    "category": "Card Readers",
+    "cost": 379.99,
+    "price": 360.99,
+    "description": "NFC Reader Complete Kit to include bracket and cables for Halo II",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "Hyosung Halo II"
+    ]
+  },
+  {
+    "id": 26,
+    "sku": "PAR-20776",
+    "name": "Hyosung 1K, New Revision",
+    "manufacturer": "Hyosung",
+    "category": "Cassettes",
+    "cost": 527.99,
+    "price": 501.99,
+    "description": "Hyosung 1000 note removable cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "NH 2700CE",
+      "NH 1800CE",
+      "NH 1500",
+      "MX 5000CE (Grey)",
+      "NH 2200",
+      "NH 1800SE",
+      "NH 1800",
+      "NH 2700T"
+    ]
+  },
+  {
+    "id": 27,
+    "sku": "PAR-10071",
+    "name": "Hyosung 2K Cassette",
+    "manufacturer": "Hyosung",
+    "category": "Cassettes",
+    "cost": 479.99,
+    "price": 455.99,
+    "description": "2,000 Note Plastic Cassette",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "NH 2700CE",
+      "MX 5300XP",
+      "NH 1800CE",
+      "NH 1500",
+      "MX 5100T",
+      "MX 5000CE (Grey)",
+      "MX 7000T",
+      "NH 1800SE"
+    ]
+  },
+  {
+    "id": 28,
+    "sku": "PAR-11466",
+    "name": "Hyosung XI Keypad",
+    "manufacturer": "Hyosung",
+    "category": "Keypads",
+    "cost": 654.99,
+    "price": 621.99,
+    "description": "Hyosung EPP- XI PCI 5.0 Keypad",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "compatibility": [
+      "NH 2700T",
+      "NH 1800SE",
+      "NH 2700CE",
+      "MX 5200SE",
+      "HALO II",
+      "MX 2800SE",
+      "HALO",
+      "HALO S",
+      "MX 4000W",
+      "MX 5000SE",
+      "MX 5200"
+    ]
+  },
+  {
+    "id": 29,
+    "sku": "WIR-10001",
+    "name": "DPL High Gain Antenna",
+    "manufacturer": "DPL",
+    "category": "Wireless/Connectivity",
+    "cost": 27.99,
+    "price": 26.99,
+    "description": "High-gain replacement antenna for improved cellular signal on DPL wireless modems.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "sku": "WIR-10002",
+    "name": "DPL ATM Restart Module",
+    "manufacturer": "DPL",
+    "category": "Wireless/Connectivity",
+    "cost": 26.99,
+    "price": 25.99,
+    "description": "Automatic restart module that power-cycles the ATM to recover from lockups remotely.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "sku": "WIR-10003",
+    "name": "InHand IR302 4G Wireless Router",
+    "manufacturer": "InHand",
+    "category": "Wireless/Connectivity",
+    "cost": 119.99,
+    "price": 113.99,
+    "description": "InHand IR302 4G LTE industrial router for ATM connectivity. Purchase outright.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "sku": "WIR-10003-R",
+    "name": "InHand IR302 4G Wireless Router — Rental",
+    "manufacturer": "InHand",
+    "category": "Wireless/Connectivity",
+    "cost": 12.99,
+    "price": 11.99,
+    "description": "InHand IR302 4G LTE router, monthly rental option. Price is per month.",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "rental": true
+  },
+  {
+    "id": 33,
+    "sku": "WIR-10004",
+    "name": "DPL Hercules 4G LTE Wireless ATM Modem",
+    "manufacturer": "DPL",
+    "category": "Wireless/Connectivity",
+    "cost": 179,
+    "price": 169.99,
+    "description": "DPL Hercules 4G LTE wireless modem for ATM communications. Purchase outright.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 34,
+    "sku": "WIR-10004-R",
+    "name": "DPL Hercules 4G LTE Wireless ATM Modem — Rental",
+    "manufacturer": "DPL",
+    "category": "Wireless/Connectivity",
+    "cost": 15.99,
+    "price": 14.99,
+    "description": "DPL Hercules 4G LTE wireless modem, monthly rental option. Price is per month.",
+    "image": "/products/placeholder.png",
+    "inStock": true,
+    "rental": true
+  },
+  {
+    "id": 35,
+    "sku": "WIR-10005",
+    "name": "IoT Power Relay",
+    "manufacturer": "DPL",
+    "category": "Wireless/Connectivity",
+    "cost": 29.99,
+    "price": 27.99,
+    "description": "Network-controlled power relay for remote power cycling of ATM equipment.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 36,
+    "sku": "WIR-10006",
+    "name": "Origin Wireless Router",
+    "manufacturer": "Origin",
+    "category": "Wireless/Connectivity",
+    "cost": 86.99,
+    "price": 82.99,
+    "description": "Origin by Allpoint Wireless router for ATM connectivity.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "sku": "GM-251107361",
+    "name": "Power Supply, Assembly, Sungho SH270T05",
+    "manufacturer": "Genmega",
+    "category": "Power Supplies",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #251107361). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 38,
+    "sku": "GM-251118701",
+    "name": "Power Supply, Assembly, PSU6000",
+    "manufacturer": "Genmega",
+    "category": "Power Supplies",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #251118701). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 39,
+    "sku": "GM-251160081",
+    "name": "Power Supply, Assembly, PSU4100",
+    "manufacturer": "Genmega",
+    "category": "Power Supplies",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #251160081). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 40,
+    "sku": "GM-251160071",
+    "name": "Power Supply, Assembly, PSU3100",
+    "manufacturer": "Genmega",
+    "category": "Power Supplies",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #251160071). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 41,
+    "sku": "GM-251118661",
+    "name": "Power Supply, Assembly, HT-PSU1700",
+    "manufacturer": "Genmega",
+    "category": "Power Supplies",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #251118661). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 42,
+    "sku": "GM-251118791",
+    "name": "Power Supply, Assembly, PSU2100",
+    "manufacturer": "Genmega",
+    "category": "Power Supplies",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #251118791). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 43,
+    "sku": "GM-230219201",
+    "name": "Lock, with Two Keys, Universal Kiosk, #5000",
+    "manufacturer": "Genmega",
+    "category": "Locks",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #230219201). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 44,
+    "sku": "GM-230210511",
+    "name": "Lock, with Three Keys, Universal Kiosk, Coinsource",
+    "manufacturer": "Genmega",
+    "category": "Locks",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #230210511). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 45,
+    "sku": "GM-230215321",
+    "name": "Lock, Key, Type #5000, UK Series, Gemini Series",
+    "manufacturer": "Genmega",
+    "category": "Locks",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #230215321). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 46,
+    "sku": "GM-230210581",
+    "name": "Lock, Key, Type C415A, Two Keys",
+    "manufacturer": "Genmega",
+    "category": "Locks",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #230210581). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 47,
+    "sku": "GM-230200591",
+    "name": "Key, Front Bezel, Eagle",
+    "manufacturer": "Genmega",
+    "category": "Locks",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #230200591). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 48,
+    "sku": "GM-230201821",
+    "name": "Key, TCDU, Reject Box, 905",
+    "manufacturer": "Genmega",
+    "category": "Locks",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #230201821). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 49,
+    "sku": "GM-270213101",
+    "name": "Printer, Step Motor, Paper Presenter",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #270213101). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 50,
+    "sku": "GM-270230801",
+    "name": "Printer, Print Head and Paper Cutter, 2\" or 3\" Universal",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #270230801). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 51,
+    "sku": "GM-270210801",
+    "name": "Printer, Print Thermal Head, 2\" or 3\"",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #270210801). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 52,
+    "sku": "GM-270213201",
+    "name": "Printer, Paper Presenter, Without Motor or Sensor",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #270213201). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 53,
+    "sku": "GM-270280101",
+    "name": "Printer, Paper Presenter Module, REV 1, with Step Motor",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #270280101). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 54,
+    "sku": "GM-270213211",
+    "name": "Printer, Paper Cutter, 2\" or 3\"",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #270213211). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 55,
+    "sku": "GM-270230811",
+    "name": "Printer, Paper Path Lower Guide, Print Head and Cutter",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #270230811). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 56,
+    "sku": "GM-201207541",
+    "name": "EPP, PCI V5.X Certified, EPP B5",
+    "manufacturer": "Genmega",
+    "category": "Keypads",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #201207541). Contact us for current pricing and availability.",
+    "image": "/products/201207541.png",
+    "inStock": true
+  },
+  {
+    "id": 57,
+    "sku": "GM-240218701",
+    "name": "MCR, Reset Board, with Cable & Jumper, EMV, T4000",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #240218701). Contact us for current pricing and availability.",
+    "image": "/products/201207541.png",
+    "inStock": true
+  },
+  {
+    "id": 58,
+    "sku": "GM-241180051",
+    "name": "MCR, MS-RW and Single CIS Scanner Combo, TIT",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #241180051). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 59,
+    "sku": "GM-241180071",
+    "name": "MCR, Assembly, EMV Type, TDR",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #241180071). Contact us for current pricing and availability.",
+    "image": "/products/241180071.jpg",
+    "inStock": true
+  },
+  {
+    "id": 60,
+    "sku": "GM-241180061",
+    "name": "MCR, MS-RW and Dual CIS Scanners Combo, TIT",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #241180061). Contact us for current pricing and availability.",
+    "image": "/products/241180071.jpg",
+    "inStock": true
+  },
+  {
+    "id": 61,
+    "sku": "GM-240230421",
+    "name": "Lightening Kit, MCR, MS-RW/CIS, TIT, LSX3100",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #240230421). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 62,
+    "sku": "GM-240230361",
+    "name": "Lightening Kit, MCR, MS-RW/CIS, TIT, LSK2500",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #240230361). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 63,
+    "sku": "GM-240218621",
+    "name": "MCR Reset Board, with Cable & Jumper, EMV, 1700/2500",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #240218621). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 64,
+    "sku": "GM-210290954",
+    "name": "Upgrade Kit, Sunviewable 7\" LCD, GT3000",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210290954). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 65,
+    "sku": "GM-210290944",
+    "name": "Upgrade Kit, LCD, AA104SH02, T4000",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210290944). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 66,
+    "sku": "GM-210201561",
+    "name": "Touch Interface Board, Capacitive Type, Universal Kiosk",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210201561). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 67,
+    "sku": "GM-210201591",
+    "name": "Touch Interface Board, Capacitive Type, REV 1, UK",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210201591). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 68,
+    "sku": "GM-210201461",
+    "name": "LCD, Touchscreen Interface Panel, 15\", G6000",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210201461). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 69,
+    "sku": "GM-210201691",
+    "name": "LCD, Touchscreen Interface Panel, 15\", C6000 /CRM-3000",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210201691). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 70,
+    "sku": "GM-210207731",
+    "name": "LCD, TCON Board, 17.3\" LCD, Nova",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210207731). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 71,
+    "sku": "GM-150208961",
+    "name": "CDU, Reverse Roller, Blue, D=26.8, HCDU Cassette",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #150208961). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 72,
+    "sku": "GM-150209331",
+    "name": "CDU, Push Plate, Polymer Note, SCDU",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #150209331). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 73,
+    "sku": "GM-150209371",
+    "name": "CDU, Push Plate, Polymer Note, HCDU (Cashpoint)",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #150209371). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 74,
+    "sku": "GM-150209341",
+    "name": "CDU, Push Plate, Polymer Note, HCDU",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #150209341). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 75,
+    "sku": "GM-150218181",
+    "name": "CDU, Note Pickup Roller with Rubber, SCDU/MCDU",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #150218181). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 76,
+    "sku": "GM-150298981",
+    "name": "CDU, Cassette Latch, SCDU",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #150298981). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 77,
+    "sku": "GM-151110451",
+    "name": "CDU, Assembly, 2 High HCDU, Front Load, Without CST",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #151110451). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 78,
+    "sku": "GM-151110591",
+    "name": "CDU, Assembly, 2 High HPCDU, Without CST",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #151110591). Contact us for current pricing and availability.",
+    "image": "/products/151110591.jpg",
+    "inStock": true
+  },
+  {
+    "id": 79,
+    "sku": "GM-151112711",
+    "name": "CDU, Assembly, 2 High PCDU II, Presenter, Without CST",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #151112711). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 80,
+    "sku": "GM-151130221",
+    "name": "CDU, Assembly, 2 High SCDU-E III, Without CST",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #151130221). Contact us for current pricing and availability.",
+    "image": "/products/151130221.jpg",
+    "inStock": true
+  },
+  {
+    "id": 81,
+    "sku": "GM-151110461",
+    "name": "CDU, Assembly, 3 High HCDU, Front Load, Without CST",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #151110461). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 82,
+    "sku": "GM-151120531",
+    "name": "CDU, 3 High Feed Module, Without CST, HCDU",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #151120531). Contact us for current pricing and availability.",
+    "image": "/products/151120531.jpg",
+    "inStock": true
+  },
+  {
+    "id": 83,
+    "sku": "GM-151210481",
+    "name": "CDU, Control Board, Blue, HCDU",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #151210481). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 84,
+    "sku": "GM-150230261",
+    "name": "CDU, Feed Rubber Belt, 2ND Feed Module, Inside, S3M-327",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #150230261). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 85,
+    "sku": "GM-280209331",
+    "name": "Upgrade Kit, Top Cabinet Locking Mechanism",
+    "manufacturer": "Genmega",
+    "category": "Upgrade Kits",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #280209331). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 86,
+    "sku": "GM-281215584",
+    "name": "Upgrade Kit, TDR-MCR, Universal Kiosk",
+    "manufacturer": "Genmega",
+    "category": "Upgrade Kits",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #281215584). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 87,
+    "sku": "GM-280210214",
+    "name": "Upgrade Kit, RPU, 3\", Paper Low Sensor",
+    "manufacturer": "Genmega",
+    "category": "Upgrade Kits",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #280210214). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 88,
+    "sku": "GM-281230664",
+    "name": "Upgrade Kit, Revision, Belt, WCDU",
+    "manufacturer": "Genmega",
+    "category": "Upgrade Kits",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #281230664). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 89,
+    "sku": "GM-280207524",
+    "name": "Upgrade Kit, Pertech Check Scanner, Universal Kiosk II",
+    "manufacturer": "Genmega",
+    "category": "Upgrade Kits",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #280207524). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 90,
+    "sku": "GM-280207654",
+    "name": "Upgrade Kit, Pertech Check Scanner, Gemini-A",
+    "manufacturer": "Genmega",
+    "category": "Upgrade Kits",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #280207654). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 91,
+    "sku": "GM-361185101",
+    "name": "Card Dispenser, KDE, Magnetic with 6\" Ext. Hopper",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #361185101). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 92,
+    "sku": "GM-360285211",
+    "name": "Card Dispenser, KDE, I/O Board",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #360285211). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 93,
+    "sku": "GM-360285201",
+    "name": "Card Dispenser, KDE, Control Board",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #360285201). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 94,
+    "sku": "GM-361185111",
+    "name": "Card Dispenser, KDE, Card READ/PRESENT and Control Module",
+    "manufacturer": "Genmega",
+    "category": "Card Readers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #361185111). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 95,
+    "sku": "GM-120203511",
+    "name": "Bezel, Door Bezel, Magnet Assembly",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120203511). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 96,
+    "sku": "GM-120219791",
+    "name": "Bezel, Door Bezel, Presenter Type, Onyx-P",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120219791). Contact us for current pricing and availability.",
+    "image": "/products/placeholder.png",
+    "inStock": true
+  },
+  {
+    "id": 97,
+    "sku": "GM-110189161",
+    "name": "Digital Media Topper II, Flat Base",
+    "manufacturer": "Genmega",
+    "category": "Toppers",
+    "pricing": "quote",
+    "description": "Genmega Digital Media Topper II with flat base — a digital advertising display that mounts on top of your ATM to run promotions and attract customers. Genuine Genmega part (item #110189161). Contact us for current pricing and availability.",
+    "image": "/products/110189161.jpg",
+    "inStock": true
+  },
+  {
+    "id": 98,
+    "sku": "GM-110189191",
+    "name": "Digital Media GenTopper III, 21\", Sloped Base",
+    "manufacturer": "Genmega",
+    "category": "Toppers",
+    "pricing": "quote",
+    "description": "Genmega Digital Media GenTopper III with a 21-inch display and sloped base. A high-visibility advertising topper that mounts on top of your ATM. Includes wiring harness. Genuine Genmega part (item #110189191). Contact us for current pricing and availability.",
+    "image": "/products/110189191.png",
+    "inStock": true
+  },
+  {
+    "id": 99,
+    "sku": "GM-111106601",
+    "name": "Digital Media Topper, HDT-1900",
+    "manufacturer": "Genmega",
+    "category": "Toppers",
+    "pricing": "quote",
+    "description": "Genmega HDT-1900 Digital Media Topper — a compact advertising display that mounts on top of your ATM to promote cash, fees, or branding. Genuine Genmega part (item #111106601). Contact us for current pricing and availability.",
+    "image": "/products/111106601.jpg",
+    "inStock": true
+  },
+  {
+    "id": 100,
+    "sku": "GM-151110441",
+    "name": "CDU Assembly, 1-High HCDU, Front Load (without Cassette)",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genmega 1-high HCDU cash dispensing unit, front-load configuration (cassette not included; mount bracket not included). Genuine Genmega part (item #151110441). Contact us for current pricing and availability.",
+    "image": "/products/151110441.jpg",
+    "inStock": true
+  },
+  {
+    "id": 101,
+    "sku": "GM-151110571",
+    "name": "CDU Assembly, 1-High HPCDU (without Cassette)",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genmega 1-high HPCDU cash dispensing unit (cassette not included; shutter module not included). Genuine Genmega part (item #151110571). Contact us for current pricing and availability.",
+    "image": "/products/151110571.jpg",
+    "inStock": true
+  },
+  {
+    "id": 102,
+    "sku": "GM-151119981",
+    "name": "CDU 2nd Feed Module, SCDU-E III (without Cassette)",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genmega second feed module for the SCDU-E III dispenser, adds an additional cassette position (cassette not included). Genuine Genmega part (item #151119981). Contact us for current pricing and availability.",
+    "image": "/products/151119981.jpg",
+    "inStock": true
+  },
+  {
+    "id": 103,
+    "sku": "GM-151130211",
+    "name": "CDU Assembly, 1-High SCDU-E III (without Cassette)",
+    "manufacturer": "Genmega",
+    "category": "Dispensers",
+    "pricing": "quote",
+    "description": "Genmega 1-high SCDU-E III cash dispensing unit (cassette not included). Genuine Genmega part (item #151130211). Contact us for current pricing and availability.",
+    "image": "/products/151130211.jpg",
+    "inStock": true
+  },
+  {
+    "id": 104,
+    "sku": "GM-271110151",
+    "name": "Printer, Assembly, 2\", WRPU, ONYX-W Printer",
+    "manufacturer": "Genmega",
+    "category": "Printers",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #271110151). Contact us for current pricing and availability.",
+    "image": "/products/271110151.jpg",
+    "inStock": true
+  },
+  {
+    "id": 105,
+    "sku": "GM-120219751",
+    "name": "Bezel, Front Bezel, G3000 Onyx",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120219751). Contact us for current pricing and availability.",
+    "image": "/products/120219751.jpg",
+    "inStock": true
+  },
+  {
+    "id": 106,
+    "sku": "GM-120219771",
+    "name": "Bezel, LCD Bezel, G3000 Onyx",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120219771). Contact us for current pricing and availability.",
+    "image": "/products/120219771.jpg",
+    "inStock": true
+  },
+  {
+    "id": 107,
+    "sku": "GM-120219641",
+    "name": "Bezel, Door Bezel Without LED, Nova",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120219641). Contact us for current pricing and availability.",
+    "image": "/products/120219641.png",
+    "inStock": true
+  },
+  {
+    "id": 108,
+    "sku": "GM-120219651",
+    "name": "Bezel, Door Bezel, G2500/3500",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120219651). Contact us for current pricing and availability.",
+    "image": "/products/120219651.jpg",
+    "inStock": true
+  },
+  {
+    "id": 109,
+    "sku": "GM-120104751",
+    "name": "Bezel, Front Bezel, With Touchscreen Without MCR EPP Bezel, Nova",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120104751). Contact us for current pricing and availability.",
+    "image": "/products/120104751.png",
+    "inStock": true
+  },
+  {
+    "id": 110,
+    "sku": "GM-120104611",
+    "name": "Bezel, Door Bezel, 1700",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120104611). Contact us for current pricing and availability.",
+    "image": "/products/120104611.jpg",
+    "inStock": true
+  },
+  {
+    "id": 111,
+    "sku": "GM-120104441",
+    "name": "Bezel, Front Bezel, Without Lock 1700",
+    "manufacturer": "Genmega",
+    "category": "Bezels",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #120104441). Contact us for current pricing and availability.",
+    "image": "/products/120104441.jpg",
+    "inStock": true
+  },
+  {
+    "id": 112,
+    "sku": "GM-141139501",
+    "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 1st Cassette, 2000 Notes",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #141139501). Contact us for current pricing and availability.",
+    "image": "/products/141139501.png",
+    "inStock": true
+  },
+  {
+    "id": 113,
+    "sku": "GM-141170011",
+    "name": "Cassette, WCDU-2K, 2000 Notes",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #141170011). Contact us for current pricing and availability.",
+    "image": "/products/141170011.jpg",
+    "inStock": true
+  },
+  {
+    "id": 114,
+    "sku": "GM-141139521",
+    "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 3rd Cassette, 2000 Notes",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #141139521). Contact us for current pricing and availability.",
+    "image": "/products/141139521.png",
+    "inStock": true
+  },
+  {
+    "id": 115,
+    "sku": "GM-141139531",
+    "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 4th Cassette, 2000 Notes",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #141139531). Contact us for current pricing and availability.",
+    "image": "/products/141139531.png",
+    "inStock": true
+  },
+  {
+    "id": 116,
+    "sku": "GM-141170101",
+    "name": "Cassette, SCDU-E, 1st Cassette",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #141170101). Contact us for current pricing and availability.",
+    "image": "/products/141170101.jpg",
+    "inStock": true
+  },
+  {
+    "id": 117,
+    "sku": "GM-141170111",
+    "name": "Cassette, SCDU-E, 2nd Cassette",
+    "manufacturer": "Genmega",
+    "category": "Cassettes",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #141170111). Contact us for current pricing and availability.",
+    "image": "/products/141170111.jpg",
+    "inStock": true
+  },
+  {
+    "id": 118,
+    "sku": "GM-210207711",
+    "name": "LCD, Panel, Color, 8\" Wide",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210207711). Contact us for current pricing and availability.",
+    "image": "/products/210207711.jpg",
+    "inStock": true
+  },
+  {
+    "id": 119,
+    "sku": "GM-210207701",
+    "name": "LCD, Panel, 7\" Color, Wide, 1700W, G1900, GT3000",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210207701). Contact us for current pricing and availability.",
+    "image": "/products/210207701.jpg",
+    "inStock": true
+  },
+  {
+    "id": 120,
+    "sku": "GM-210107551",
+    "name": "Assembly, 7\" Wide Color LCD, GT3000",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210107551). Contact us for current pricing and availability.",
+    "image": "/products/210107551.jpg",
+    "inStock": true
+  },
+  {
+    "id": 121,
+    "sku": "GM-210107541",
+    "name": "Assembly, 7\" Wide Color LCD",
+    "manufacturer": "Genmega",
+    "category": "LCD Displays",
+    "pricing": "quote",
+    "description": "Genuine Genmega part (item #210107541). Contact us for current pricing and availability.",
+    "image": "/products/210107541.jpg",
+    "inStock": true
+  }
+];
+
+export const categories = [
+  "All Parts",
+  "Cassettes",
+  "Dispensers",
+  "Printers",
+  "Keypads",
+  "Card Readers",
+  "Power Supplies",
+  "LCD Displays",
+  "Locks",
+  "Bezels",
+  "Upgrade Kits",
+  "Keys & Accessories",
+  "Wireless/Connectivity",
+  "Mainboards",
+  "Components",
+  "Toppers"
+];
+
+export const manufacturers = ["All","Genmega","Hyosung","DPL","InHand","Origin","Universal"];
+
+export const repairCategories = [
+  "All Services",
+  "CDU / Dispenser",
+  "Cassette",
+  "Note Separator",
+  "Keypad / EPP",
+  "Power Supply",
+  "Printer",
+  "Card Reader",
+  "Mainboard",
+  "Combo Deals"
+];
+
+export const repairServices = [
+  {
+    "id": 1,
+    "name": "Repair of 1K/2K CDU, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "CDU / Dispenser",
+    "price": 199,
+    "originalPrice": 249.99,
+    "description": "Full diagnostics, cleaning, belt/roller service, and bench testing for 1K/2K cash dispensers."
+  },
+  {
+    "id": 2,
+    "name": "Repair of 4K CDU w/o Cassettes, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "CDU / Dispenser",
+    "price": 299.99,
+    "description": "4K dispenser unit repair, cassettes not included. Includes full function test."
+  },
+  {
+    "id": 3,
+    "name": "Repair of Dual 1K CDU, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "CDU / Dispenser",
+    "price": 299.99,
+    "description": "Dual 1K dispenser repair with complete recalibration and testing."
+  },
+  {
+    "id": 4,
+    "name": "Repair of Drawer CDU, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "CDU / Dispenser",
+    "price": 244.99,
+    "description": "Drawer-style CDU repair including transport path and sensor service."
+  },
+  {
+    "id": 5,
+    "name": "Repair of SDD 1700 CDU",
+    "manufacturer": "Genmega",
+    "category": "CDU / Dispenser",
+    "price": 224.99,
+    "description": "SDD 1700 single dispenser repair and function verification."
+  },
+  {
+    "id": 6,
+    "name": "Repair of TCDU CDU, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "CDU / Dispenser",
+    "price": 249.99,
+    "description": "TCDU dispenser repair for Hantle/Genmega units."
+  },
+  {
+    "id": 7,
+    "name": "Repair of HCDU/RCDU 4K/6K CDU, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "CDU / Dispenser",
+    "price": 299.99,
+    "description": "High-capacity 4K/6K HCDU/RCDU dispenser repair."
+  },
+  {
+    "id": 8,
+    "name": "Repair of Dual SCDU CDU, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "CDU / Dispenser",
+    "price": 299.99,
+    "description": "Dual SCDU dispenser repair and calibration."
+  },
+  {
+    "id": 9,
+    "name": "Repair of SCDU CDU, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "CDU / Dispenser",
+    "price": 249.99,
+    "description": "Single SCDU dispenser repair with full bench test."
+  },
+  {
+    "id": 10,
+    "name": "Repair of WCDU Dispenser, Genmega",
+    "manufacturer": "Genmega",
+    "category": "CDU / Dispenser",
+    "price": 249.99,
+    "description": "WCDU dispenser repair for Genmega units."
+  },
+  {
+    "id": 11,
+    "name": "Repair of MCDU-HCDU-RCDU 1K/2K Note Dispenser, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "CDU / Dispenser",
+    "price": 249.99,
+    "description": "MCDU/HCDU/RCDU 1K/2K note dispenser repair."
+  },
+  {
+    "id": 12,
+    "name": "Repair of 1K/2K Cassette, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Cassette",
+    "price": 169.99,
+    "description": "Cassette repair including pusher plate, springs, and gate service."
+  },
+  {
+    "id": 13,
+    "name": "Repair of SDD 1700 Cassette",
+    "manufacturer": "Genmega",
+    "category": "Cassette",
+    "price": 139.99,
+    "description": "SDD 1700 cassette repair and reconditioning."
+  },
+  {
+    "id": 14,
+    "name": "Repair of Cassette for SCDU, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "Cassette",
+    "price": 157.99,
+    "description": "SCDU cassette repair for Hantle/Genmega units."
+  },
+  {
+    "id": 15,
+    "name": "Repair of Cassette for HCDU/RCDU/MCDU, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "Cassette",
+    "price": 157.99,
+    "description": "HCDU/RCDU/MCDU cassette repair and reconditioning."
+  },
+  {
+    "id": 16,
+    "name": "Repair of Drawer Note Separator, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Note Separator",
+    "price": 144.99,
+    "description": "Note separator repair for drawer-style dispensers."
+  },
+  {
+    "id": 17,
+    "name": "Repair of Cassette Note Separator, Hyosung 1K/2K/3K",
+    "manufacturer": "Hyosung",
+    "category": "Note Separator",
+    "price": 169.99,
+    "description": "Note separator repair for 1K/2K/3K cassettes."
+  },
+  {
+    "id": 18,
+    "name": "Repair of B1/B2/B3/B5 Keypad/EPP, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "Keypad / EPP",
+    "price": 174.99,
+    "description": "EPP keypad repair for Hantle/Genmega B-series units."
+  },
+  {
+    "id": 19,
+    "name": "Repair of PCI 5.0 EPP X1, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Keypad / EPP",
+    "price": 234.99,
+    "description": "PCI 5.0 EPP X1 encrypting pin pad repair."
+  },
+  {
+    "id": 20,
+    "name": "Repair of PCI 3.0 EPP 8000R, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Keypad / EPP",
+    "price": 234.99,
+    "description": "PCI 3.0 EPP 8000R encrypting pin pad repair."
+  },
+  {
+    "id": 21,
+    "name": "Repair of Power Supply, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Power Supply",
+    "price": 169.99,
+    "description": "Standard Hyosung power supply repair and load test."
+  },
+  {
+    "id": 22,
+    "name": "Repair of 5000/7000 Series Power Supply, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Power Supply",
+    "price": 274.99,
+    "description": "High-output 5000/7000 series power supply repair."
+  },
+  {
+    "id": 23,
+    "name": "Repair of Power Supply, Genmega/Hantle",
+    "manufacturer": "Genmega",
+    "category": "Power Supply",
+    "price": 149.99,
+    "description": "Genmega/Hantle power supply repair and load test."
+  },
+  {
+    "id": 24,
+    "name": "Repair of Printer, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Printer",
+    "price": 124.99,
+    "description": "Receipt printer repair, head cleaning, and feed adjustment."
+  },
+  {
+    "id": 25,
+    "name": "Repair of EMV Card Reader, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Card Reader",
+    "price": 145.99,
+    "description": "EMV card reader repair and read-head service."
+  },
+  {
+    "id": 26,
+    "name": "Repair of Main Board, Win6/Win7",
+    "manufacturer": "Hyosung",
+    "category": "Mainboard",
+    "price": 124.99,
+    "description": "Win6/Win7 mainboard diagnostics and component-level repair."
+  },
+  {
+    "id": 27,
+    "name": "COMBO: 1K/2K CDU + Cassette Repair, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Combo Deals",
+    "price": 398.98,
+    "isCombo": true,
+    "description": "Bundle: 1K/2K CDU repair plus cassette repair at a combined rate."
+  },
+  {
+    "id": 28,
+    "name": "COMBO: 4K CDU w/2 Cassettes Repair, Hyosung",
+    "manufacturer": "Hyosung",
+    "category": "Combo Deals",
+    "price": 569.97,
+    "isCombo": true,
+    "description": "Bundle: 4K CDU repair plus two cassette repairs."
+  },
+  {
+    "id": 29,
+    "name": "COMBO: Talaris SDD 1700 Dispenser w/Cassette Repair",
+    "manufacturer": "Genmega",
+    "category": "Combo Deals",
+    "price": 346.73,
+    "isCombo": true,
+    "description": "Bundle: SDD 1700 dispenser repair plus cassette repair."
+  },
+  {
+    "id": 30,
+    "name": "COMBO: MCDU-HCDU-RCDU-SCDU CDU + Cassette, Hantle/Genmega",
+    "manufacturer": "Genmega",
+    "category": "Combo Deals",
+    "price": 389.48,
+    "isCombo": true,
+    "description": "Bundle: Hantle/Genmega CDU repair plus cassette repair."
+  }
+];
+
+// Returns true if a product has a real photo (not the placeholder)
+export function hasRealImage(product) {
+  return !!product.image && !product.image.includes('placeholder');
+}
