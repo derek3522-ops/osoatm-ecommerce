@@ -28,7 +28,7 @@ export default function PartsPage() {
     let result = products.filter(product => {
       const manufacturerMatch = selectedManufacturer === 'All' || product.manufacturer === selectedManufacturer;
       const categoryMatch = selectedCategory === 'All Parts' || product.category === selectedCategory;
-      const priceMatch = product.price >= priceRange[0] && product.price <= priceRange[1];
+      const priceMatch = product.pricing === 'quote' || (product.price >= priceRange[0] && product.price <= priceRange[1]);
       const searchMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          product.sku.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          product.description.toLowerCase().includes(searchTerm.toLowerCase());
