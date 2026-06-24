@@ -10,26 +10,9 @@ export const products = [
     "cost": 742.99,
     "price": 705.99,
     "description": "CE, Main Board, ACU 7, w/o Modem",
-    "image": "/products/placeholder.png",
+    "image": "/products/acu7-mainboard.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "C4000",
-      "C4000 Level 1",
-      "C4000P",
-      "C6000",
-      "C6000 Level 1",
-      "C6000P",
-      "CRM-3000",
-      "GI900",
-      "G2500",
-      "G2500 Level 1",
-      "G2500P",
-      "G2500P Level 1",
-      "GT3000",
-      "GT5000"
-    ]
+    "compatibility": ["1700","1700W","C4000","C4000 Level 1","C4000P","C6000","C6000 Level 1","C6000P","CRM-3000","GI900","G2500","G2500 Level 1","G2500P","G2500P Level 1","GT3000","GT5000"]
   },
   {
     "id": 2,
@@ -40,12 +23,9 @@ export const products = [
     "cost": 1299.99,
     "price": 1234.99,
     "description": "Genmega 1-High RCDU, Rear Load Dispenser, w/out Cassettes",
-    "image": "/products/placeholder.png",
+    "image": "/products/rcdu-rear-load-dispenser.png",
     "inStock": true,
-    "compatibility": [
-      "GT3000",
-      "T4000"
-    ]
+    "compatibility": ["GT3000","T4000"]
   },
   {
     "id": 3,
@@ -56,11 +36,9 @@ export const products = [
     "cost": 359.99,
     "price": 341.99,
     "description": "Genmega NFC/TAP VIVOPAY Card Reader - Installation kit required",
-    "image": "/products/placeholder.png",
+    "image": "/products/nfc-card-reader.png",
     "inStock": true,
-    "compatibility": [
-      "All Genmega ATMs"
-    ]
+    "compatibility": ["All Genmega ATMs"]
   },
   {
     "id": 4,
@@ -71,19 +49,9 @@ export const products = [
     "cost": 699.99,
     "price": 664.99,
     "description": "Cassette, HCDU Type, 1st Cassette, 2K Note",
-    "image": "/products/placeholder.png",
+    "image": "/products/hcdu-2k-cassette.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "c4000",
-      "c4000S",
-      "GI900",
-      "G2500",
-      "G6000",
-      "GT3000",
-      "T4000"
-    ]
+    "compatibility": ["1700","1700W","c4000","c4000S","GI900","G2500","G6000","GT3000","T4000"]
   },
   {
     "id": 5,
@@ -94,15 +62,9 @@ export const products = [
     "cost": 139.99,
     "price": 132.99,
     "description": "Topper II, Sloped Base",
-    "image": "/products/placeholder.png",
+    "image": "/products/mini-high-bright-topper.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "GI900",
-      "G2500",
-      "Onyx"
-    ]
+    "compatibility": ["1700","1700W","GI900","G2500","Onyx"]
   },
   {
     "id": 6,
@@ -113,11 +75,9 @@ export const products = [
     "cost": 94.99,
     "price": 89.99,
     "description": "Proven Security TitanTM lock with motorized blocking device",
-    "image": "/products/placeholder.png",
+    "image": "/products/sg-electronic-lock.png",
     "inStock": true,
-    "compatibility": [
-      "All Hyosung and Genmega ATMs"
-    ]
+    "compatibility": ["All Hyosung and Genmega ATMs"]
   },
   {
     "id": 7,
@@ -128,15 +88,9 @@ export const products = [
     "cost": 399.99,
     "price": 379.99,
     "description": "SCDU / WCDU 1K Cassette",
-    "image": "/products/placeholder.png",
+    "image": "/products/scdu-wcdu-1k-cassette.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "c4000",
-      "GI900",
-      "G2500"
-    ]
+    "compatibility": ["1700","1700W","c4000","GI900","G2500"]
   },
   {
     "id": 8,
@@ -147,20 +101,9 @@ export const products = [
     "cost": 899.99,
     "price": 854.99,
     "description": "1K Dispenser without Cassette",
-    "image": "/products/placeholder.png",
+    "image": "/products/scdu-1k-dispenser.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "C4000",
-      "C6000",
-      "GI900",
-      "G2500",
-      "GT3000",
-      "GT5000",
-      "Onyx",
-      "T4000"
-    ]
+    "compatibility": ["1700","1700W","C4000","C6000","GI900","G2500","GT3000","GT5000","Onyx","T4000"]
   },
   {
     "id": 9,
@@ -171,18 +114,9 @@ export const products = [
     "cost": 619.99,
     "price": 588.99,
     "description": "2\" Printer Assembly without Image Print",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "C4000",
-      "GI900",
-      "G2500",
-      "GT3000",
-      "GT5000",
-      "Onyx"
-    ]
+    "compatibility": ["1700","1700W","C4000","GI900","G2500","GT3000","GT5000","Onyx"]
   },
   {
     "id": 10,
@@ -193,16 +127,9 @@ export const products = [
     "cost": 1359.99,
     "price": 1291.99,
     "description": "2 High HCDU without Cassette",
-    "image": "/products/placeholder.png",
+    "image": "/products/hcdu-2high.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "C4000",
-      "GI900",
-      "G2500",
-      "Onyx"
-    ]
+    "compatibility": ["1700","1700W","C4000","GI900","G2500","Onyx"]
   },
   {
     "id": 11,
@@ -215,17 +142,7 @@ export const products = [
     "description": "2K Note Cassette",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "1700",
-      "1700W",
-      "c4000",
-      "c4000S",
-      "GI900",
-      "G2500",
-      "G6000",
-      "GT3000",
-      "T4000"
-    ]
+    "compatibility": ["1700","1700W","c4000","c4000S","GI900","G2500","G6000","GT3000","T4000"]
   },
   {
     "id": 12,
@@ -236,19 +153,9 @@ export const products = [
     "cost": 349.99,
     "price": 331.99,
     "description": "Genmega Power Supply Assembly",
-    "image": "/products/placeholder.png",
+    "image": "/products/power-supply.png",
     "inStock": true,
-    "compatibility": [
-      "700",
-      "1700W",
-      "GI900",
-      "G2500",
-      "C4000",
-      "E4000",
-      "X4000",
-      "Onyx",
-      "Onyx W"
-    ]
+    "compatibility": ["700","1700W","GI900","G2500","C4000","E4000","X4000","Onyx","Onyx W"]
   },
   {
     "id": 13,
@@ -262,16 +169,7 @@ export const products = [
     "image": "/products/placeholder.png",
     "inStock": true,
     "condition": "Refurbished",
-    "compatibility": [
-      "NH 2700CE",
-      "NH 1800SE",
-      "MX 5000SE",
-      "MX 5200",
-      "MX 5200SE",
-      "Halo",
-      "Halo II",
-      "Halo S"
-    ]
+    "compatibility": ["NH 2700CE","NH 1800SE","MX 5000SE","MX 5200","MX 5200SE","Halo","Halo II","Halo S"]
   },
   {
     "id": 14,
@@ -285,16 +183,7 @@ export const products = [
     "image": "/products/placeholder.png",
     "inStock": true,
     "condition": "Refurbished",
-    "compatibility": [
-      "NH 2700CE",
-      "NH 1800SE",
-      "MX 5000SE",
-      "MX 5200",
-      "MX 5200SE",
-      "Halo",
-      "Halo II",
-      "Halo S"
-    ]
+    "compatibility": ["NH 2700CE","NH 1800SE","MX 5000SE","MX 5200","MX 5200SE","Halo","Halo II","Halo S"]
   },
   {
     "id": 15,
@@ -321,14 +210,7 @@ export const products = [
     "image": "/products/placeholder.png",
     "inStock": true,
     "condition": "Refurbished",
-    "compatibility": [
-      "MX 5000CE (Grey)",
-      "NH 1800",
-      "NH 1800POS",
-      "NH 1800SE",
-      "NH 1000",
-      "MX 5200SE"
-    ]
+    "compatibility": ["MX 5000CE (Grey)","NH 1800","NH 1800POS","NH 1800SE","NH 1000","MX 5200SE"]
   },
   {
     "id": 17,
@@ -342,15 +224,7 @@ export const products = [
     "image": "/products/placeholder.png",
     "inStock": true,
     "condition": "Refurbished",
-    "compatibility": [
-      "NH 2700CE",
-      "MX 5300XP",
-      "NH 1800CE",
-      "NH 1500",
-      "MX 5100T",
-      "MX 5000CE (Grey)",
-      "MX 7000T"
-    ]
+    "compatibility": ["NH 2700CE","MX 5300XP","NH 1800CE","NH 1500","MX 5100T","MX 5000CE (Grey)","MX 7000T"]
   },
   {
     "id": 18,
@@ -363,9 +237,7 @@ export const products = [
     "description": "Fits All ATM Hyosung Model Types",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "All Hyosung Models"
-    ]
+    "compatibility": ["All Hyosung Models"]
   },
   {
     "id": 19,
@@ -390,15 +262,7 @@ export const products = [
     "description": "Hyosung Receipt Printer Assembly",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "NH 1800CE",
-      "NH 1500",
-      "MX 5000CE",
-      "NH 1800SE",
-      "NH 1800",
-      "NH 1800POS",
-      "MX 5300CE"
-    ]
+    "compatibility": ["NH 1800CE","NH 1500","MX 5000CE","NH 1800SE","NH 1800","NH 1800POS","MX 5300CE"]
   },
   {
     "id": 21,
@@ -411,21 +275,7 @@ export const products = [
     "description": "New Revision Power Supply",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "1800",
-      "1800CE",
-      "1800SE",
-      "2700CE",
-      "2700T",
-      "4000W",
-      "Halo",
-      "Halo-S",
-      "Halo II",
-      "5000CE",
-      "5000SE",
-      "5300CE",
-      "Force"
-    ]
+    "compatibility": ["1800","1800CE","1800SE","2700CE","2700T","4000W","Halo","Halo-S","Halo II","5000CE","5000SE","5300CE","Force"]
   },
   {
     "id": 22,
@@ -450,9 +300,7 @@ export const products = [
     "description": "Hyosung ATM EMV chip replacement card reader - Card Reader Only. Not an upgrade kit",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "Multiple Hyosung models"
-    ]
+    "compatibility": ["Multiple Hyosung models"]
   },
   {
     "id": 24,
@@ -465,16 +313,7 @@ export const products = [
     "description": "New Revision LCD Display Panel w/o Electronics Size - 10.1\"",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "NH 2700CE",
-      "HALO",
-      "HALO II",
-      "HALO S",
-      "NH 2700T",
-      "MX 5000SE",
-      "MX 5600T",
-      "MX 7600I"
-    ]
+    "compatibility": ["NH 2700CE","HALO","HALO II","HALO S","NH 2700T","MX 5000SE","MX 5600T","MX 7600I"]
   },
   {
     "id": 25,
@@ -487,9 +326,7 @@ export const products = [
     "description": "NFC Reader Complete Kit to include bracket and cables for Halo II",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "Hyosung Halo II"
-    ]
+    "compatibility": ["Hyosung Halo II"]
   },
   {
     "id": 26,
@@ -502,16 +339,7 @@ export const products = [
     "description": "Hyosung 1000 note removable cassette",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "NH 2700CE",
-      "NH 1800CE",
-      "NH 1500",
-      "MX 5000CE (Grey)",
-      "NH 2200",
-      "NH 1800SE",
-      "NH 1800",
-      "NH 2700T"
-    ]
+    "compatibility": ["NH 2700CE","NH 1800CE","NH 1500","MX 5000CE (Grey)","NH 2200","NH 1800SE","NH 1800","NH 2700T"]
   },
   {
     "id": 27,
@@ -524,16 +352,7 @@ export const products = [
     "description": "2,000 Note Plastic Cassette",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "NH 2700CE",
-      "MX 5300XP",
-      "NH 1800CE",
-      "NH 1500",
-      "MX 5100T",
-      "MX 5000CE (Grey)",
-      "MX 7000T",
-      "NH 1800SE"
-    ]
+    "compatibility": ["NH 2700CE","MX 5300XP","NH 1800CE","NH 1500","MX 5100T","MX 5000CE (Grey)","MX 7000T","NH 1800SE"]
   },
   {
     "id": 28,
@@ -546,19 +365,7 @@ export const products = [
     "description": "Hyosung EPP- XI PCI 5.0 Keypad",
     "image": "/products/placeholder.png",
     "inStock": true,
-    "compatibility": [
-      "NH 2700T",
-      "NH 1800SE",
-      "NH 2700CE",
-      "MX 5200SE",
-      "HALO II",
-      "MX 2800SE",
-      "HALO",
-      "HALO S",
-      "MX 4000W",
-      "MX 5000SE",
-      "MX 5200"
-    ]
+    "compatibility": ["NH 2700T","NH 1800SE","NH 2700CE","MX 5200SE","HALO II","MX 2800SE","HALO","HALO S","MX 4000W","MX 5000SE","MX 5200"]
   },
   {
     "id": 29,
@@ -666,7 +473,7 @@ export const products = [
     "category": "Power Supplies",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251107361). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/power-supply.png",
     "inStock": true
   },
   {
@@ -677,7 +484,7 @@ export const products = [
     "category": "Power Supplies",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251118701). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/power-supply.png",
     "inStock": true
   },
   {
@@ -688,7 +495,7 @@ export const products = [
     "category": "Power Supplies",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251160081). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/power-supply.png",
     "inStock": true
   },
   {
@@ -699,7 +506,7 @@ export const products = [
     "category": "Power Supplies",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251160071). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/power-supply.png",
     "inStock": true
   },
   {
@@ -710,7 +517,7 @@ export const products = [
     "category": "Power Supplies",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251118661). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/power-supply.png",
     "inStock": true
   },
   {
@@ -721,7 +528,7 @@ export const products = [
     "category": "Power Supplies",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251118791). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/power-supply.png",
     "inStock": true
   },
   {
@@ -732,7 +539,7 @@ export const products = [
     "category": "Locks",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #230219201). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/sg-electronic-lock.png",
     "inStock": true
   },
   {
@@ -743,7 +550,7 @@ export const products = [
     "category": "Locks",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #230210511). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/sg-electronic-lock.png",
     "inStock": true
   },
   {
@@ -754,7 +561,7 @@ export const products = [
     "category": "Locks",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #230215321). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/sg-electronic-lock.png",
     "inStock": true
   },
   {
@@ -765,7 +572,7 @@ export const products = [
     "category": "Locks",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #230210581). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/sg-electronic-lock.png",
     "inStock": true
   },
   {
@@ -798,7 +605,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #270213101). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true
   },
   {
@@ -809,7 +616,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #270230801). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true
   },
   {
@@ -820,7 +627,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #270210801). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true
   },
   {
@@ -831,7 +638,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #270213201). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true
   },
   {
@@ -842,7 +649,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #270280101). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true
   },
   {
@@ -853,7 +660,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #270213211). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true
   },
   {
@@ -864,7 +671,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #270230811). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/printer-2inch-assembly.png",
     "inStock": true
   },
   {
@@ -886,7 +693,7 @@ export const products = [
     "category": "Card Readers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #240218701). Contact us for current pricing and availability.",
-    "image": "/products/201207541.png",
+    "image": "/products/nfc-card-reader.png",
     "inStock": true
   },
   {
@@ -897,7 +704,7 @@ export const products = [
     "category": "Card Readers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #241180051). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/nfc-card-reader.png",
     "inStock": true
   },
   {
@@ -930,7 +737,7 @@ export const products = [
     "category": "Card Readers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #240230421). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/nfc-card-reader.png",
     "inStock": true
   },
   {
@@ -941,7 +748,7 @@ export const products = [
     "category": "Card Readers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #240230361). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/nfc-card-reader.png",
     "inStock": true
   },
   {
@@ -952,7 +759,7 @@ export const products = [
     "category": "Card Readers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #240218621). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/nfc-card-reader.png",
     "inStock": true
   },
   {
@@ -963,7 +770,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210290954). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/lcd-7inch-sunviewable-gt3000.png",
     "inStock": true
   },
   {
@@ -974,7 +781,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210290944). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/lcd-aa104sh02-t4000.png",
     "inStock": true
   },
   {
@@ -1040,7 +847,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #150208961). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/hcdu-2k-cassette.png",
     "inStock": true
   },
   {
@@ -1051,7 +858,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #150209331). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/scdu-wcdu-1k-cassette.png",
     "inStock": true
   },
   {
@@ -1062,7 +869,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #150209371). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/hcdu-2k-cassette.png",
     "inStock": true
   },
   {
@@ -1073,7 +880,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #150209341). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/hcdu-2k-cassette.png",
     "inStock": true
   },
   {
@@ -1084,7 +891,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #150218181). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/scdu-wcdu-1k-cassette.png",
     "inStock": true
   },
   {
@@ -1095,7 +902,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #150298981). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/scdu-wcdu-1k-cassette.png",
     "inStock": true
   },
   {
@@ -1106,7 +913,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151110451). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/cdu-2high-hcdu-front-load.png",
     "inStock": true
   },
   {
@@ -1128,7 +935,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151112711). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/cdu-2high-pcdu2-presenter.png",
     "inStock": true
   },
   {
@@ -1150,7 +957,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151110461). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/cdu-3high-hcdu-front-load.png",
     "inStock": true
   },
   {
@@ -1172,7 +979,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151210481). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
+    "image": "/products/cdu-control-board-blue-hcdu.png",
     "inStock": true
   },
   {
@@ -1336,7 +1143,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Toppers",
     "pricing": "quote",
-    "description": "Genmega Digital Media GenTopper III with a 21-inch display and sloped base. A high-visibility advertising topper that mounts on top of your ATM. Includes wiring harness. Genuine Genmega part (item #110189191). Contact us for current pricing and availability.",
+    "description": "Genmega Digital Media GenTopper III with a 21-inch display and sloped base. Genuine Genmega part (item #110189191). Contact us for current pricing and availability.",
     "image": "/products/110189191.png",
     "inStock": true
   },
@@ -1347,7 +1154,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Toppers",
     "pricing": "quote",
-    "description": "Genmega HDT-1900 Digital Media Topper — a compact advertising display that mounts on top of your ATM to promote cash, fees, or branding. Genuine Genmega part (item #111106601). Contact us for current pricing and availability.",
+    "description": "Genmega HDT-1900 Digital Media Topper. Genuine Genmega part (item #111106601). Contact us for current pricing and availability.",
     "image": "/products/111106601.jpg",
     "inStock": true
   },
@@ -1358,7 +1165,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genmega 1-high HCDU cash dispensing unit, front-load configuration (cassette not included; mount bracket not included). Genuine Genmega part (item #151110441). Contact us for current pricing and availability.",
+    "description": "Genmega 1-high HCDU cash dispensing unit, front-load configuration. Genuine Genmega part (item #151110441). Contact us for current pricing and availability.",
     "image": "/products/151110441.jpg",
     "inStock": true
   },
@@ -1369,7 +1176,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genmega 1-high HPCDU cash dispensing unit (cassette not included; shutter module not included). Genuine Genmega part (item #151110571). Contact us for current pricing and availability.",
+    "description": "Genmega 1-high HPCDU cash dispensing unit. Genuine Genmega part (item #151110571). Contact us for current pricing and availability.",
     "image": "/products/151110571.jpg",
     "inStock": true
   },
@@ -1380,7 +1187,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genmega second feed module for the SCDU-E III dispenser, adds an additional cassette position (cassette not included). Genuine Genmega part (item #151119981). Contact us for current pricing and availability.",
+    "description": "Genmega second feed module for the SCDU-E III dispenser. Genuine Genmega part (item #151119981). Contact us for current pricing and availability.",
     "image": "/products/151119981.jpg",
     "inStock": true
   },
@@ -1391,7 +1198,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genmega 1-high SCDU-E III cash dispensing unit (cassette not included). Genuine Genmega part (item #151130211). Contact us for current pricing and availability.",
+    "description": "Genmega 1-high SCDU-E III cash dispensing unit. Genuine Genmega part (item #151130211). Contact us for current pricing and availability.",
     "image": "/products/151130211.jpg",
     "inStock": true
   },
@@ -1596,288 +1403,50 @@ export const products = [
 ];
 
 export const categories = [
-  "All Parts",
-  "Cassettes",
-  "Dispensers",
-  "Printers",
-  "Keypads",
-  "Card Readers",
-  "Power Supplies",
-  "LCD Displays",
-  "Locks",
-  "Bezels",
-  "Upgrade Kits",
-  "Keys & Accessories",
-  "Wireless/Connectivity",
-  "Mainboards",
-  "Components",
-  "Toppers"
+  "All Parts","Cassettes","Dispensers","Printers","Keypads","Card Readers",
+  "Power Supplies","LCD Displays","Locks","Bezels","Upgrade Kits",
+  "Keys & Accessories","Wireless/Connectivity","Mainboards","Components","Toppers"
 ];
 
 export const manufacturers = ["All","Genmega","Hyosung","DPL","InHand","Origin","Universal"];
 
 export const repairCategories = [
-  "All Services",
-  "CDU / Dispenser",
-  "Cassette",
-  "Note Separator",
-  "Keypad / EPP",
-  "Power Supply",
-  "Printer",
-  "Card Reader",
-  "Mainboard",
-  "Combo Deals"
+  "All Services","CDU / Dispenser","Cassette","Note Separator",
+  "Keypad / EPP","Power Supply","Printer","Card Reader","Mainboard","Combo Deals"
 ];
 
 export const repairServices = [
-  {
-    "id": 1,
-    "name": "Repair of 1K/2K CDU, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "CDU / Dispenser",
-    "price": 199,
-    "originalPrice": 249.99,
-    "description": "Full diagnostics, cleaning, belt/roller service, and bench testing for 1K/2K cash dispensers."
-  },
-  {
-    "id": 2,
-    "name": "Repair of 4K CDU w/o Cassettes, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "CDU / Dispenser",
-    "price": 299.99,
-    "description": "4K dispenser unit repair, cassettes not included. Includes full function test."
-  },
-  {
-    "id": 3,
-    "name": "Repair of Dual 1K CDU, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "CDU / Dispenser",
-    "price": 299.99,
-    "description": "Dual 1K dispenser repair with complete recalibration and testing."
-  },
-  {
-    "id": 4,
-    "name": "Repair of Drawer CDU, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "CDU / Dispenser",
-    "price": 244.99,
-    "description": "Drawer-style CDU repair including transport path and sensor service."
-  },
-  {
-    "id": 5,
-    "name": "Repair of SDD 1700 CDU",
-    "manufacturer": "Genmega",
-    "category": "CDU / Dispenser",
-    "price": 224.99,
-    "description": "SDD 1700 single dispenser repair and function verification."
-  },
-  {
-    "id": 6,
-    "name": "Repair of TCDU CDU, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "CDU / Dispenser",
-    "price": 249.99,
-    "description": "TCDU dispenser repair for Hantle/Genmega units."
-  },
-  {
-    "id": 7,
-    "name": "Repair of HCDU/RCDU 4K/6K CDU, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "CDU / Dispenser",
-    "price": 299.99,
-    "description": "High-capacity 4K/6K HCDU/RCDU dispenser repair."
-  },
-  {
-    "id": 8,
-    "name": "Repair of Dual SCDU CDU, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "CDU / Dispenser",
-    "price": 299.99,
-    "description": "Dual SCDU dispenser repair and calibration."
-  },
-  {
-    "id": 9,
-    "name": "Repair of SCDU CDU, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "CDU / Dispenser",
-    "price": 249.99,
-    "description": "Single SCDU dispenser repair with full bench test."
-  },
-  {
-    "id": 10,
-    "name": "Repair of WCDU Dispenser, Genmega",
-    "manufacturer": "Genmega",
-    "category": "CDU / Dispenser",
-    "price": 249.99,
-    "description": "WCDU dispenser repair for Genmega units."
-  },
-  {
-    "id": 11,
-    "name": "Repair of MCDU-HCDU-RCDU 1K/2K Note Dispenser, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "CDU / Dispenser",
-    "price": 249.99,
-    "description": "MCDU/HCDU/RCDU 1K/2K note dispenser repair."
-  },
-  {
-    "id": 12,
-    "name": "Repair of 1K/2K Cassette, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Cassette",
-    "price": 169.99,
-    "description": "Cassette repair including pusher plate, springs, and gate service."
-  },
-  {
-    "id": 13,
-    "name": "Repair of SDD 1700 Cassette",
-    "manufacturer": "Genmega",
-    "category": "Cassette",
-    "price": 139.99,
-    "description": "SDD 1700 cassette repair and reconditioning."
-  },
-  {
-    "id": 14,
-    "name": "Repair of Cassette for SCDU, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "Cassette",
-    "price": 157.99,
-    "description": "SCDU cassette repair for Hantle/Genmega units."
-  },
-  {
-    "id": 15,
-    "name": "Repair of Cassette for HCDU/RCDU/MCDU, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "Cassette",
-    "price": 157.99,
-    "description": "HCDU/RCDU/MCDU cassette repair and reconditioning."
-  },
-  {
-    "id": 16,
-    "name": "Repair of Drawer Note Separator, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Note Separator",
-    "price": 144.99,
-    "description": "Note separator repair for drawer-style dispensers."
-  },
-  {
-    "id": 17,
-    "name": "Repair of Cassette Note Separator, Hyosung 1K/2K/3K",
-    "manufacturer": "Hyosung",
-    "category": "Note Separator",
-    "price": 169.99,
-    "description": "Note separator repair for 1K/2K/3K cassettes."
-  },
-  {
-    "id": 18,
-    "name": "Repair of B1/B2/B3/B5 Keypad/EPP, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "Keypad / EPP",
-    "price": 174.99,
-    "description": "EPP keypad repair for Hantle/Genmega B-series units."
-  },
-  {
-    "id": 19,
-    "name": "Repair of PCI 5.0 EPP X1, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Keypad / EPP",
-    "price": 234.99,
-    "description": "PCI 5.0 EPP X1 encrypting pin pad repair."
-  },
-  {
-    "id": 20,
-    "name": "Repair of PCI 3.0 EPP 8000R, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Keypad / EPP",
-    "price": 234.99,
-    "description": "PCI 3.0 EPP 8000R encrypting pin pad repair."
-  },
-  {
-    "id": 21,
-    "name": "Repair of Power Supply, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Power Supply",
-    "price": 169.99,
-    "description": "Standard Hyosung power supply repair and load test."
-  },
-  {
-    "id": 22,
-    "name": "Repair of 5000/7000 Series Power Supply, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Power Supply",
-    "price": 274.99,
-    "description": "High-output 5000/7000 series power supply repair."
-  },
-  {
-    "id": 23,
-    "name": "Repair of Power Supply, Genmega/Hantle",
-    "manufacturer": "Genmega",
-    "category": "Power Supply",
-    "price": 149.99,
-    "description": "Genmega/Hantle power supply repair and load test."
-  },
-  {
-    "id": 24,
-    "name": "Repair of Printer, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Printer",
-    "price": 124.99,
-    "description": "Receipt printer repair, head cleaning, and feed adjustment."
-  },
-  {
-    "id": 25,
-    "name": "Repair of EMV Card Reader, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Card Reader",
-    "price": 145.99,
-    "description": "EMV card reader repair and read-head service."
-  },
-  {
-    "id": 26,
-    "name": "Repair of Main Board, Win6/Win7",
-    "manufacturer": "Hyosung",
-    "category": "Mainboard",
-    "price": 124.99,
-    "description": "Win6/Win7 mainboard diagnostics and component-level repair."
-  },
-  {
-    "id": 27,
-    "name": "COMBO: 1K/2K CDU + Cassette Repair, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Combo Deals",
-    "price": 398.98,
-    "isCombo": true,
-    "description": "Bundle: 1K/2K CDU repair plus cassette repair at a combined rate."
-  },
-  {
-    "id": 28,
-    "name": "COMBO: 4K CDU w/2 Cassettes Repair, Hyosung",
-    "manufacturer": "Hyosung",
-    "category": "Combo Deals",
-    "price": 569.97,
-    "isCombo": true,
-    "description": "Bundle: 4K CDU repair plus two cassette repairs."
-  },
-  {
-    "id": 29,
-    "name": "COMBO: Talaris SDD 1700 Dispenser w/Cassette Repair",
-    "manufacturer": "Genmega",
-    "category": "Combo Deals",
-    "price": 346.73,
-    "isCombo": true,
-    "description": "Bundle: SDD 1700 dispenser repair plus cassette repair."
-  },
-  {
-    "id": 30,
-    "name": "COMBO: MCDU-HCDU-RCDU-SCDU CDU + Cassette, Hantle/Genmega",
-    "manufacturer": "Genmega",
-    "category": "Combo Deals",
-    "price": 389.48,
-    "isCombo": true,
-    "description": "Bundle: Hantle/Genmega CDU repair plus cassette repair."
-  }
+  {"id":1,"name":"Repair of 1K/2K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":199,"originalPrice":249.99,"description":"Full diagnostics, cleaning, belt/roller service, and bench testing for 1K/2K cash dispensers."},
+  {"id":2,"name":"Repair of 4K CDU w/o Cassettes, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":299.99,"description":"4K dispenser unit repair, cassettes not included. Includes full function test."},
+  {"id":3,"name":"Repair of Dual 1K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":299.99,"description":"Dual 1K dispenser repair with complete recalibration and testing."},
+  {"id":4,"name":"Repair of Drawer CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":244.99,"description":"Drawer-style CDU repair including transport path and sensor service."},
+  {"id":5,"name":"Repair of TCDU CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":249.99,"description":"TCDU dispenser repair for Hantle/Genmega units."},
+  {"id":6,"name":"Repair of HCDU/RCDU 4K/6K CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":299.99,"description":"High-capacity 4K/6K HCDU/RCDU dispenser repair."},
+  {"id":7,"name":"Repair of Dual SCDU CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":299.99,"description":"Dual SCDU dispenser repair and calibration."},
+  {"id":8,"name":"Repair of SCDU CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":249.99,"description":"Single SCDU dispenser repair with full bench test."},
+  {"id":9,"name":"Repair of WCDU Dispenser, Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":249.99,"description":"WCDU dispenser repair for Genmega units."},
+  {"id":10,"name":"Repair of MCDU-HCDU-RCDU 1K/2K Note Dispenser, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":249.99,"description":"MCDU/HCDU/RCDU 1K/2K note dispenser repair."},
+  {"id":11,"name":"Repair of 1K/2K Cassette, Hyosung","manufacturer":"Hyosung","category":"Cassette","price":169.99,"description":"Cassette repair including pusher plate, springs, and gate service."},
+  {"id":12,"name":"Repair of SDD 1700 Cassette","manufacturer":"Genmega","category":"Cassette","price":139.99,"description":"SDD 1700 cassette repair and reconditioning."},
+  {"id":13,"name":"Repair of Cassette for SCDU, Hantle/Genmega","manufacturer":"Genmega","category":"Cassette","price":157.99,"description":"SCDU cassette repair for Hantle/Genmega units."},
+  {"id":14,"name":"Repair of Cassette for HCDU/RCDU/MCDU, Hantle/Genmega","manufacturer":"Genmega","category":"Cassette","price":157.99,"description":"HCDU/RCDU/MCDU cassette repair and reconditioning."},
+  {"id":15,"name":"Repair of Drawer Note Separator, Hyosung","manufacturer":"Hyosung","category":"Note Separator","price":144.99,"description":"Note separator repair for drawer-style dispensers."},
+  {"id":16,"name":"Repair of Cassette Note Separator, Hyosung 1K/2K/3K","manufacturer":"Hyosung","category":"Note Separator","price":169.99,"description":"Note separator repair for 1K/2K/3K cassettes."},
+  {"id":17,"name":"Repair of B1/B2/B3/B5 Keypad/EPP, Hantle/Genmega","manufacturer":"Genmega","category":"Keypad / EPP","price":174.99,"description":"EPP keypad repair for Hantle/Genmega B-series units."},
+  {"id":18,"name":"Repair of PCI 5.0 EPP X1, Hyosung","manufacturer":"Hyosung","category":"Keypad / EPP","price":234.99,"description":"PCI 5.0 EPP X1 encrypting pin pad repair."},
+  {"id":19,"name":"Repair of PCI 3.0 EPP 8000R, Hyosung","manufacturer":"Hyosung","category":"Keypad / EPP","price":234.99,"description":"PCI 3.0 EPP 8000R encrypting pin pad repair."},
+  {"id":20,"name":"Repair of Power Supply, Hyosung","manufacturer":"Hyosung","category":"Power Supply","price":169.99,"description":"Standard Hyosung power supply repair and load test."},
+  {"id":21,"name":"Repair of 5000/7000 Series Power Supply, Hyosung","manufacturer":"Hyosung","category":"Power Supply","price":274.99,"description":"High-output 5000/7000 series power supply repair."},
+  {"id":22,"name":"Repair of Power Supply, Genmega/Hantle","manufacturer":"Genmega","category":"Power Supply","price":149.99,"description":"Genmega/Hantle power supply repair and load test."},
+  {"id":23,"name":"Repair of Printer, Hyosung","manufacturer":"Hyosung","category":"Printer","price":124.99,"description":"Receipt printer repair, head cleaning, and feed adjustment."},
+  {"id":24,"name":"Repair of EMV Card Reader, Hyosung","manufacturer":"Hyosung","category":"Card Reader","price":145.99,"description":"EMV card reader repair and read-head service."},
+  {"id":25,"name":"Repair of Main Board, Win6/Win7","manufacturer":"Hyosung","category":"Mainboard","price":124.99,"description":"Win6/Win7 mainboard diagnostics and component-level repair."},
+  {"id":26,"name":"COMBO: 1K/2K CDU + Cassette Repair, Hyosung","manufacturer":"Hyosung","category":"Combo Deals","price":398.98,"isCombo":true,"description":"Bundle: 1K/2K CDU repair plus cassette repair at a combined rate."},
+  {"id":27,"name":"COMBO: 4K CDU w/2 Cassettes Repair, Hyosung","manufacturer":"Hyosung","category":"Combo Deals","price":569.97,"isCombo":true,"description":"Bundle: 4K CDU repair plus two cassette repairs."},
+  {"id":28,"name":"COMBO: Talaris SDD 1700 Dispenser w/Cassette Repair","manufacturer":"Genmega","category":"Combo Deals","price":346.73,"isCombo":true,"description":"Bundle: SDD 1700 dispenser repair plus cassette repair."},
+  {"id":29,"name":"COMBO: MCDU-HCDU-RCDU-SCDU CDU + Cassette, Hantle/Genmega","manufacturer":"Genmega","category":"Combo Deals","price":389.48,"isCombo":true,"description":"Bundle: Hantle/Genmega CDU repair plus cassette repair."}
 ];
 
-// Returns true if a product has a real photo (not the placeholder)
 export function hasRealImage(product) {
   return !!product.image && !product.image.includes('placeholder');
 }
