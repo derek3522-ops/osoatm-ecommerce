@@ -60,7 +60,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Toppers",
     "cost": 139.99,
-    "price": 152.99,
+    "price": 132.99,
     "description": "Topper II, Sloped Base",
     "image": "/products/mini-high-bright-topper.png",
     "inStock": true,
@@ -73,7 +73,7 @@ export const products = [
     "manufacturer": "Hyosung & Genmega",
     "category": "Locks",
     "cost": 94.99,
-    "price": 109.99,
+    "price": 89.99,
     "description": "Proven Security TitanTM lock with motorized blocking device",
     "image": "/products/sg-electronic-lock.png",
     "inStock": true,
@@ -132,26 +132,13 @@ export const products = [
     "compatibility": ["1700","1700W","C4000","GI900","G2500","Onyx"]
   },
   {
-    "id": 11,
-    "sku": "PAR-10434",
-    "name": "Genmega MCDU / HCDU, 2K Note Cassette",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "cost": 634.99,
-    "price": 602.99,
-    "description": "2K Note Cassette",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["1700","1700W","c4000","c4000S","GI900","G2500","G6000","GT3000","T4000"]
-  },
-  {
     "id": 12,
     "sku": "PAR-10323",
     "name": "Genmega / Hantle Power Supply",
     "manufacturer": "Genmega",
     "category": "Power Supplies",
     "cost": 349.99,
-    "price": 351.99,
+    "price": 331.99,
     "description": "Genmega Power Supply Assembly",
     "image": "/products/power-supply.png",
     "inStock": true,
@@ -466,61 +453,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 37,
-    "sku": "GM-251107361",
-    "name": "Power Supply, Assembly, Sungho SH270T05",
-    "manufacturer": "Genmega",
-    "category": "Power Supplies",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #251107361). Contact us for current pricing and availability.",
-    "image": "/products/power-supply.png",
-    "inStock": true
-  },
-  {
-    "id": 38,
-    "sku": "GM-251118701",
-    "name": "Power Supply, Assembly, PSU6000",
-    "manufacturer": "Genmega",
-    "category": "Power Supplies",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #251118701). Contact us for current pricing and availability.",
-    "image": "/products/power-supply.png",
-    "inStock": true
-  },
-  {
-    "id": 39,
-    "sku": "GM-251160081",
-    "name": "Power Supply, Assembly, PSU4100",
-    "manufacturer": "Genmega",
-    "category": "Power Supplies",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #251160081). Contact us for current pricing and availability.",
-    "image": "/products/power-supply.png",
-    "inStock": true
-  },
-  {
-    "id": 40,
-    "sku": "GM-251160071",
-    "name": "Power Supply, Assembly, PSU3100",
-    "manufacturer": "Genmega",
-    "category": "Power Supplies",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #251160071). Contact us for current pricing and availability.",
-    "image": "/products/power-supply.png",
-    "inStock": true
-  },
-  {
-    "id": 41,
-    "sku": "GM-251118661",
-    "name": "Power Supply, Assembly, HT-PSU1700",
-    "manufacturer": "Genmega",
-    "category": "Power Supplies",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #251118661). Contact us for current pricing and availability.",
-    "image": "/products/power-supply.png",
-    "inStock": true
-  },
-  {
     "id": 42,
     "sku": "GM-251118791",
     "name": "Power Supply, Assembly, PSU2100",
@@ -529,39 +461,6 @@ export const products = [
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251118791). Contact us for current pricing and availability.",
     "image": "/products/power-supply.png",
-    "inStock": true
-  },
-  {
-    "id": 43,
-    "sku": "GM-230219201",
-    "name": "Lock, with Two Keys, Universal Kiosk, #5000",
-    "manufacturer": "Genmega",
-    "category": "Locks",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #230219201). Contact us for current pricing and availability.",
-    "image": "/products/sg-electronic-lock.png",
-    "inStock": true
-  },
-  {
-    "id": 44,
-    "sku": "GM-230210511",
-    "name": "Lock, with Three Keys, Universal Kiosk, Coinsource",
-    "manufacturer": "Genmega",
-    "category": "Locks",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #230210511). Contact us for current pricing and availability.",
-    "image": "/products/sg-electronic-lock.png",
-    "inStock": true
-  },
-  {
-    "id": 45,
-    "sku": "GM-230215321",
-    "name": "Lock, Key, Type #5000, UK Series, Gemini Series",
-    "manufacturer": "Genmega",
-    "category": "Locks",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #230215321). Contact us for current pricing and availability.",
-    "image": "/products/sg-electronic-lock.png",
     "inStock": true
   },
   {
@@ -598,83 +497,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 49,
-    "sku": "GM-270213101",
-    "name": "Printer, Step Motor, Paper Presenter",
-    "manufacturer": "Genmega",
-    "category": "Printers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #270213101). Contact us for current pricing and availability.",
-    "image": "/products/printer-2inch-assembly.png",
-    "inStock": true
-  },
-  {
-    "id": 50,
-    "sku": "GM-270230801",
-    "name": "Printer, Print Head and Paper Cutter, 2\" or 3\" Universal",
-    "manufacturer": "Genmega",
-    "category": "Printers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #270230801). Contact us for current pricing and availability.",
-    "image": "/products/printer-2inch-assembly.png",
-    "inStock": true
-  },
-  {
-    "id": 51,
-    "sku": "GM-270210801",
-    "name": "Printer, Print Thermal Head, 2\" or 3\"",
-    "manufacturer": "Genmega",
-    "category": "Printers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #270210801). Contact us for current pricing and availability.",
-    "image": "/products/printer-2inch-assembly.png",
-    "inStock": true
-  },
-  {
-    "id": 52,
-    "sku": "GM-270213201",
-    "name": "Printer, Paper Presenter, Without Motor or Sensor",
-    "manufacturer": "Genmega",
-    "category": "Printers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #270213201). Contact us for current pricing and availability.",
-    "image": "/products/printer-2inch-assembly.png",
-    "inStock": true
-  },
-  {
-    "id": 53,
-    "sku": "GM-270280101",
-    "name": "Printer, Paper Presenter Module, REV 1, with Step Motor",
-    "manufacturer": "Genmega",
-    "category": "Printers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #270280101). Contact us for current pricing and availability.",
-    "image": "/products/printer-2inch-assembly.png",
-    "inStock": true
-  },
-  {
-    "id": 54,
-    "sku": "GM-270213211",
-    "name": "Printer, Paper Cutter, 2\" or 3\"",
-    "manufacturer": "Genmega",
-    "category": "Printers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #270213211). Contact us for current pricing and availability.",
-    "image": "/products/printer-2inch-assembly.png",
-    "inStock": true
-  },
-  {
-    "id": 55,
-    "sku": "GM-270230811",
-    "name": "Printer, Paper Path Lower Guide, Print Head and Cutter",
-    "manufacturer": "Genmega",
-    "category": "Printers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #270230811). Contact us for current pricing and availability.",
-    "image": "/products/printer-2inch-assembly.png",
-    "inStock": true
-  },
-  {
     "id": 56,
     "sku": "GM-201207541",
     "name": "EPP, PCI V5.X Certified, EPP B5",
@@ -686,28 +508,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 57,
-    "sku": "GM-240218701",
-    "name": "MCR, Reset Board, with Cable & Jumper, EMV, T4000",
-    "manufacturer": "Genmega",
-    "category": "Card Readers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #240218701). Contact us for current pricing and availability.",
-    "image": "/products/nfc-card-reader.png",
-    "inStock": true
-  },
-  {
-    "id": 58,
-    "sku": "GM-241180051",
-    "name": "MCR, MS-RW and Single CIS Scanner Combo, TIT",
-    "manufacturer": "Genmega",
-    "category": "Card Readers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #241180051). Contact us for current pricing and availability.",
-    "image": "/products/nfc-card-reader.png",
-    "inStock": true
-  },
-  {
     "id": 59,
     "sku": "GM-241180071",
     "name": "MCR, Assembly, EMV Type, TDR",
@@ -716,28 +516,6 @@ export const products = [
     "pricing": "quote",
     "description": "Genuine Genmega part (item #241180071). Contact us for current pricing and availability.",
     "image": "/products/241180071.jpg",
-    "inStock": true
-  },
-  {
-    "id": 60,
-    "sku": "GM-241180061",
-    "name": "MCR, MS-RW and Dual CIS Scanners Combo, TIT",
-    "manufacturer": "Genmega",
-    "category": "Card Readers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #241180061). Contact us for current pricing and availability.",
-    "image": "/products/241180071.jpg",
-    "inStock": true
-  },
-  {
-    "id": 61,
-    "sku": "GM-240230421",
-    "name": "Lightening Kit, MCR, MS-RW/CIS, TIT, LSX3100",
-    "manufacturer": "Genmega",
-    "category": "Card Readers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #240230421). Contact us for current pricing and availability.",
-    "image": "/products/nfc-card-reader.png",
     "inStock": true
   },
   {
