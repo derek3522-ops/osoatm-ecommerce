@@ -507,3 +507,5 @@ export const errorCodes = [
 ];
 
 export default errorCodes;
+
+export const errorCodeManufacturers = ["All", "Genmega", "Hyosung"];
