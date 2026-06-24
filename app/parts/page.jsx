@@ -86,13 +86,13 @@ export default function PartsPage() {
                 <h3 className="font-bold mb-3">Manufacturer</h3>
                 <div className="space-y-2">
                   {manufacturers.map(mfr => (
-                    <label key={mfr} className="flex items-center cursor-pointer">
+                    <label key={mfr} className="flex items-center gap-2 cursor-pointer">
                       <input
                         type="radio"
                         name="manufacturer"
                         checked={selectedManufacturer === mfr}
                         onChange={() => setSelectedManufacturer(mfr)}
-                        className="mr-2"
+                        className="w-4 h-4 flex-shrink-0"
                       />
                       <span className="text-sm">{mfr}</span>
                     </label>
