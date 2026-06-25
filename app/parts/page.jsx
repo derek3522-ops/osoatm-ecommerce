@@ -32,7 +32,7 @@ export default function PartsPage() {
       const searchMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                    product.sku.toLowerCase().includes(searchTerm.toLowerCase()) ||
                    product.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                   (product.itemNumber && product.itemNumber.toLowerCase().includes(searchTerm.toLowerCase()));
+                   (product.partNumber && product.partNumber.toLowerCase().includes(searchTerm.toLowerCase()));
       
       return manufacturerMatch && categoryMatch && priceMatch && searchMatch;
     });
