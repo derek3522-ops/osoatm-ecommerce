@@ -75,7 +75,7 @@ export default function PartsPage() {
                 <h3 className="font-bold mb-3">Search</h3>
                 <input
                   type="text"
-                  placeholder="Part name, SKU..."
+                  placeholder="Part name, Part Number..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="w-full px-3 py-2 border rounded"
