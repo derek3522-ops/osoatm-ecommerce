@@ -3,7 +3,7 @@
 export const products = [
   {
     "id": 1,
-    "sku": "PAR-20549",
+    "sku": "OSO-00001",
     "name": "Genmega ACU 7 Mainboard",
     "manufacturer": "Genmega",
     "category": "Mainboards",
@@ -16,7 +16,7 @@ export const products = [
   },
   {
     "id": 2,
-    "sku": "PAR-10097",
+    "sku": "OSO-00002",
     "name": "Genmega RCDU, Rear Load Dispenser Assembly",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -29,7 +29,7 @@ export const products = [
   },
   {
     "id": 3,
-    "sku": "PAR-20483",
+    "sku": "OSO-00003",
     "name": "Genmega NFC Card Reader",
     "manufacturer": "Genmega",
     "category": "Card Readers",
@@ -42,7 +42,7 @@ export const products = [
   },
   {
     "id": 4,
-    "sku": "PAR-20958",
+    "sku": "OSO-00004",
     "name": "Genmega HCDU 2K Note Cassette",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -55,7 +55,7 @@ export const products = [
   },
   {
     "id": 5,
-    "sku": "PAR-10770",
+    "sku": "OSO-00005",
     "name": "Genmega Mini High Bright Topper",
     "manufacturer": "Genmega",
     "category": "Toppers",
@@ -68,7 +68,7 @@ export const products = [
   },
   {
     "id": 6,
-    "sku": "PAR-10041",
+    "sku": "OSO-00006",
     "name": "S&G Electronic Lock",
     "manufacturer": "Hyosung & Genmega",
     "category": "Locks",
@@ -81,7 +81,7 @@ export const products = [
   },
   {
     "id": 7,
-    "sku": "PAR-10696",
+    "sku": "OSO-00007",
     "name": "Genmega SCDU / WCDU, 1K Cassette",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -94,7 +94,7 @@ export const products = [
   },
   {
     "id": 8,
-    "sku": "PAR-10695",
+    "sku": "OSO-00008",
     "name": "Genmega SCDU 1K Dispenser Assembly",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -107,7 +107,7 @@ export const products = [
   },
   {
     "id": 9,
-    "sku": "PAR-10694",
+    "sku": "OSO-00009",
     "name": "Genmega 2\" Printer Assembly",
     "manufacturer": "Genmega",
     "category": "Printers",
@@ -120,7 +120,7 @@ export const products = [
   },
   {
     "id": 10,
-    "sku": "PAR-10823",
+    "sku": "OSO-00010",
     "name": "Genmega 2 High HCDU",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -133,7 +133,7 @@ export const products = [
   },
   {
     "id": 12,
-    "sku": "PAR-10323",
+    "sku": "OSO-00011",
     "name": "Genmega / Hantle Power Supply",
     "manufacturer": "Genmega",
     "category": "Power Supplies",
@@ -146,7 +146,7 @@ export const products = [
   },
   {
     "id": 18,
-    "sku": "PAR-10663",
+    "sku": "OSO-00012",
     "name": "Hyosung Bezel Key",
     "manufacturer": "Hyosung",
     "category": "Keys & Accessories",
@@ -159,7 +159,7 @@ export const products = [
   },
   {
     "id": 19,
-    "sku": "PAR-10368",
+    "sku": "OSO-00013",
     "name": "ATM Wireless Antenna",
     "manufacturer": "Universal",
     "category": "Wireless/Connectivity",
@@ -171,7 +171,7 @@ export const products = [
   },
   {
     "id": 20,
-    "sku": "PAR-10332",
+    "sku": "OSO-00014",
     "name": "Hyosung Printer Assembly",
     "manufacturer": "Hyosung",
     "category": "Printers",
@@ -184,7 +184,7 @@ export const products = [
   },
   {
     "id": 21,
-    "sku": "PAR-10324",
+    "sku": "OSO-00015",
     "name": "Hyosung Power Supply",
     "manufacturer": "Hyosung",
     "category": "Power Supplies",
@@ -197,7 +197,7 @@ export const products = [
   },
   {
     "id": 23,
-    "sku": "PAR-20830",
+    "sku": "OSO-00016",
     "name": "Hyosung EMV Card Reader",
     "manufacturer": "Hyosung",
     "category": "Card Readers",
@@ -210,7 +210,7 @@ export const products = [
   },
   {
     "id": 24,
-    "sku": "PAR-10186",
+    "sku": "OSO-00017",
     "name": "Hyosung LCD Display Panel with LED Backlight",
     "manufacturer": "Hyosung",
     "category": "LCD Displays",
@@ -223,7 +223,7 @@ export const products = [
   },
   {
     "id": 25,
-    "sku": "PAR-20816",
+    "sku": "OSO-00018",
     "name": "Hyosung NFC Reader Complete Kit for Halo II",
     "manufacturer": "Hyosung",
     "category": "Card Readers",
@@ -236,7 +236,7 @@ export const products = [
   },
   {
     "id": 29,
-    "sku": "WIR-10001",
+    "sku": "OSO-00019",
     "name": "DPL High Gain Antenna",
     "manufacturer": "DPL",
     "category": "Wireless/Connectivity",
@@ -248,7 +248,7 @@ export const products = [
   },
   {
     "id": 30,
-    "sku": "WIR-10002",
+    "sku": "OSO-00020",
     "name": "DPL ATM Restart Module",
     "manufacturer": "DPL",
     "category": "Wireless/Connectivity",
@@ -260,7 +260,7 @@ export const products = [
   },
   {
     "id": 31,
-    "sku": "WIR-10003",
+    "sku": "OSO-00021",
     "name": "InHand IR302 4G Wireless Router",
     "manufacturer": "InHand",
     "category": "Wireless/Connectivity",
@@ -272,7 +272,7 @@ export const products = [
   },
   {
     "id": 32,
-    "sku": "WIR-10003-R",
+    "sku": "OSO-00022",
     "name": "InHand IR302 4G Wireless Router — Rental",
     "manufacturer": "InHand",
     "category": "Wireless/Connectivity",
@@ -285,7 +285,7 @@ export const products = [
   },
   {
     "id": 33,
-    "sku": "WIR-10004",
+    "sku": "OSO-00023",
     "name": "DPL Hercules 4G LTE Wireless ATM Modem",
     "manufacturer": "DPL",
     "category": "Wireless/Connectivity",
@@ -297,7 +297,7 @@ export const products = [
   },
   {
     "id": 34,
-    "sku": "WIR-10004-R",
+    "sku": "OSO-00024",
     "name": "DPL Hercules 4G LTE Wireless ATM Modem — Rental",
     "manufacturer": "DPL",
     "category": "Wireless/Connectivity",
@@ -310,7 +310,7 @@ export const products = [
   },
   {
     "id": 35,
-    "sku": "WIR-10005",
+    "sku": "OSO-00025",
     "name": "IoT Power Relay",
     "manufacturer": "DPL",
     "category": "Wireless/Connectivity",
@@ -322,7 +322,7 @@ export const products = [
   },
   {
     "id": 36,
-    "sku": "WIR-10006",
+    "sku": "OSO-00026",
     "name": "Origin Wireless Router",
     "manufacturer": "Origin",
     "category": "Wireless/Connectivity",
@@ -334,7 +334,7 @@ export const products = [
   },
   {
     "id": 42,
-    "sku": "GM-251118791",
+    "sku": "OSO-00027",
     "name": "Power Supply, Assembly, PSU2100",
     "manufacturer": "Genmega",
     "category": "Power Supplies",
@@ -345,7 +345,7 @@ export const products = [
   },
   {
     "id": 46,
-    "sku": "GM-230210581",
+    "sku": "OSO-00028",
     "name": "Lock, Key, Type C415A, Two Keys",
     "manufacturer": "Genmega",
     "category": "Locks",
@@ -356,7 +356,7 @@ export const products = [
   },
   {
     "id": 47,
-    "sku": "GM-230200591",
+    "sku": "OSO-00029",
     "name": "Key, Front Bezel, Eagle",
     "manufacturer": "Genmega",
     "category": "Locks",
@@ -367,7 +367,7 @@ export const products = [
   },
   {
     "id": 56,
-    "sku": "GM-201207541",
+    "sku": "OSO-00030",
     "name": "EPP, PCI V5.X Certified, EPP B5",
     "manufacturer": "Genmega",
     "category": "Keypads",
@@ -378,7 +378,7 @@ export const products = [
   },
   {
     "id": 59,
-    "sku": "GM-241180071",
+    "sku": "OSO-00031",
     "name": "MCR, Assembly, EMV Type, TDR",
     "manufacturer": "Genmega",
     "category": "Card Readers",
@@ -389,7 +389,7 @@ export const products = [
   },
   {
     "id": 64,
-    "sku": "GM-210290954",
+    "sku": "OSO-00032",
     "name": "Upgrade Kit, Sunviewable 7\" LCD, GT3000",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -400,7 +400,7 @@ export const products = [
   },
   {
     "id": 65,
-    "sku": "GM-210290944",
+    "sku": "OSO-00033",
     "name": "Upgrade Kit, LCD, AA104SH02, T4000",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -411,7 +411,7 @@ export const products = [
   },
   {
     "id": 78,
-    "sku": "GM-151110591",
+    "sku": "OSO-00034",
     "name": "CDU, Assembly, 2 High HPCDU, Without CST",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -422,7 +422,7 @@ export const products = [
   },
   {
     "id": 79,
-    "sku": "GM-151112711",
+    "sku": "OSO-00035",
     "name": "CDU, Assembly, 2 High PCDU II, Presenter, Without CST",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -433,7 +433,7 @@ export const products = [
   },
   {
     "id": 80,
-    "sku": "GM-151130221",
+    "sku": "OSO-00036",
     "name": "CDU, Assembly, 2 High SCDU-E III, Without CST",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -444,7 +444,7 @@ export const products = [
   },
   {
     "id": 81,
-    "sku": "GM-151110461",
+    "sku": "OSO-00037",
     "name": "CDU, Assembly, 3 High HCDU, Front Load, Without CST",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -455,7 +455,7 @@ export const products = [
   },
   {
     "id": 82,
-    "sku": "GM-151120531",
+    "sku": "OSO-00038",
     "name": "CDU, 3 High Feed Module, Without CST, HCDU",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -466,7 +466,7 @@ export const products = [
   },
   {
     "id": 83,
-    "sku": "GM-151210481",
+    "sku": "OSO-00039",
     "name": "CDU, Control Board, Blue, HCDU",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -477,7 +477,7 @@ export const products = [
   },
   {
     "id": 97,
-    "sku": "GM-110189161",
+    "sku": "OSO-00040",
     "name": "Digital Media Topper II, Flat Base",
     "manufacturer": "Genmega",
     "category": "Toppers",
@@ -488,7 +488,7 @@ export const products = [
   },
   {
     "id": 98,
-    "sku": "GM-110189191",
+    "sku": "OSO-00041",
     "name": "Digital Media GenTopper III, 21\", Sloped Base",
     "manufacturer": "Genmega",
     "category": "Toppers",
@@ -499,7 +499,7 @@ export const products = [
   },
   {
     "id": 99,
-    "sku": "GM-111106601",
+    "sku": "OSO-00042",
     "name": "Digital Media Topper, HDT-1900",
     "manufacturer": "Genmega",
     "category": "Toppers",
@@ -510,7 +510,7 @@ export const products = [
   },
   {
     "id": 100,
-    "sku": "GM-151110441",
+    "sku": "OSO-00043",
     "name": "CDU Assembly, 1-High HCDU, Front Load (without Cassette)",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -521,7 +521,7 @@ export const products = [
   },
   {
     "id": 101,
-    "sku": "GM-151110571",
+    "sku": "OSO-00044",
     "name": "CDU Assembly, 1-High HPCDU (without Cassette)",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -532,7 +532,7 @@ export const products = [
   },
   {
     "id": 102,
-    "sku": "GM-151119981",
+    "sku": "OSO-00045",
     "name": "CDU 2nd Feed Module, SCDU-E III (without Cassette)",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -543,7 +543,7 @@ export const products = [
   },
   {
     "id": 103,
-    "sku": "GM-151130211",
+    "sku": "OSO-00046",
     "name": "CDU Assembly, 1-High SCDU-E III (without Cassette)",
     "manufacturer": "Genmega",
     "category": "Dispensers",
@@ -554,7 +554,7 @@ export const products = [
   },
   {
     "id": 104,
-    "sku": "GM-271110151",
+    "sku": "OSO-00047",
     "name": "Printer, Assembly, 2\", WRPU, ONYX-W Printer",
     "manufacturer": "Genmega",
     "category": "Printers",
@@ -565,7 +565,7 @@ export const products = [
   },
   {
     "id": 105,
-    "sku": "GM-120219751",
+    "sku": "OSO-00048",
     "name": "Bezel, Front Bezel, G3000 Onyx",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -576,7 +576,7 @@ export const products = [
   },
   {
     "id": 106,
-    "sku": "GM-120219771",
+    "sku": "OSO-00049",
     "name": "Bezel, LCD Bezel, G3000 Onyx",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -587,7 +587,7 @@ export const products = [
   },
   {
     "id": 107,
-    "sku": "GM-120219641",
+    "sku": "OSO-00050",
     "name": "Bezel, Door Bezel Without LED, Nova",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -598,7 +598,7 @@ export const products = [
   },
   {
     "id": 108,
-    "sku": "GM-120219651",
+    "sku": "OSO-00051",
     "name": "Bezel, Door Bezel, G2500/3500",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -609,7 +609,7 @@ export const products = [
   },
   {
     "id": 109,
-    "sku": "GM-120104751",
+    "sku": "OSO-00052",
     "name": "Bezel, Front Bezel, With Touchscreen Without MCR EPP Bezel, Nova",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -620,7 +620,7 @@ export const products = [
   },
   {
     "id": 110,
-    "sku": "GM-120104611",
+    "sku": "OSO-00053",
     "name": "Bezel, Door Bezel, 1700",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -631,7 +631,7 @@ export const products = [
   },
   {
     "id": 111,
-    "sku": "GM-120104441",
+    "sku": "OSO-00054",
     "name": "Bezel, Front Bezel, Without Lock 1700",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -642,7 +642,7 @@ export const products = [
   },
   {
     "id": 113,
-    "sku": "GM-141170011",
+    "sku": "OSO-00055",
     "name": "Cassette, WCDU-2K, 2000 Notes",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -653,7 +653,7 @@ export const products = [
   },
   {
     "id": 114,
-    "sku": "GM-141139521",
+    "sku": "OSO-00056",
     "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 3rd Cassette, 2000 Notes",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -664,7 +664,7 @@ export const products = [
   },
   {
     "id": 115,
-    "sku": "GM-141139531",
+    "sku": "OSO-00057",
     "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 4th Cassette, 2000 Notes",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -675,7 +675,7 @@ export const products = [
   },
   {
     "id": 116,
-    "sku": "GM-141170101",
+    "sku": "OSO-00058",
     "name": "Cassette, SCDU-E, 1st Cassette",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -686,7 +686,7 @@ export const products = [
   },
   {
     "id": 117,
-    "sku": "GM-141170111",
+    "sku": "OSO-00059",
     "name": "Cassette, SCDU-E, 2nd Cassette",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -697,7 +697,7 @@ export const products = [
   },
   {
     "id": 118,
-    "sku": "GM-210207711",
+    "sku": "OSO-00060",
     "name": "LCD, Panel, Color, 8\" Wide",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -708,7 +708,7 @@ export const products = [
   },
   {
     "id": 119,
-    "sku": "GM-210207701",
+    "sku": "OSO-00061",
     "name": "LCD, Panel, 7\" Color, Wide, 1700W, G1900, GT3000",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -719,7 +719,7 @@ export const products = [
   },
   {
     "id": 120,
-    "sku": "GM-210107551",
+    "sku": "OSO-00062",
     "name": "Assembly, 7\" Wide Color LCD, GT3000",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -730,7 +730,7 @@ export const products = [
   },
   {
     "id": 121,
-    "sku": "GM-210107541",
+    "sku": "OSO-00063",
     "name": "Assembly, 7\" Wide Color LCD",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
