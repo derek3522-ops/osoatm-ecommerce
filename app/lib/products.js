@@ -519,28 +519,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 62,
-    "sku": "GM-240230361",
-    "name": "Lightening Kit, MCR, MS-RW/CIS, TIT, LSK2500",
-    "manufacturer": "Genmega",
-    "category": "Card Readers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #240230361). Contact us for current pricing and availability.",
-    "image": "/products/nfc-card-reader.png",
-    "inStock": true
-  },
-  {
-    "id": 63,
-    "sku": "GM-240218621",
-    "name": "MCR Reset Board, with Cable & Jumper, EMV, 1700/2500",
-    "manufacturer": "Genmega",
-    "category": "Card Readers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #240218621). Contact us for current pricing and availability.",
-    "image": "/products/nfc-card-reader.png",
-    "inStock": true
-  },
-  {
     "id": 64,
     "sku": "GM-210290954",
     "name": "Upgrade Kit, Sunviewable 7\" LCD, GT3000",
@@ -560,127 +538,6 @@ export const products = [
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210290944). Contact us for current pricing and availability.",
     "image": "/products/lcd-aa104sh02-t4000.png",
-    "inStock": true
-  },
-  {
-    "id": 66,
-    "sku": "GM-210201561",
-    "name": "Touch Interface Board, Capacitive Type, Universal Kiosk",
-    "manufacturer": "Genmega",
-    "category": "LCD Displays",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #210201561). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 67,
-    "sku": "GM-210201591",
-    "name": "Touch Interface Board, Capacitive Type, REV 1, UK",
-    "manufacturer": "Genmega",
-    "category": "LCD Displays",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #210201591). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 68,
-    "sku": "GM-210201461",
-    "name": "LCD, Touchscreen Interface Panel, 15\", G6000",
-    "manufacturer": "Genmega",
-    "category": "LCD Displays",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #210201461). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 69,
-    "sku": "GM-210201691",
-    "name": "LCD, Touchscreen Interface Panel, 15\", C6000 /CRM-3000",
-    "manufacturer": "Genmega",
-    "category": "LCD Displays",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #210201691). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 70,
-    "sku": "GM-210207731",
-    "name": "LCD, TCON Board, 17.3\" LCD, Nova",
-    "manufacturer": "Genmega",
-    "category": "LCD Displays",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #210207731). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 71,
-    "sku": "GM-150208961",
-    "name": "CDU, Reverse Roller, Blue, D=26.8, HCDU Cassette",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #150208961). Contact us for current pricing and availability.",
-    "image": "/products/hcdu-2k-cassette.png",
-    "inStock": true
-  },
-  {
-    "id": 72,
-    "sku": "GM-150209331",
-    "name": "CDU, Push Plate, Polymer Note, SCDU",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #150209331). Contact us for current pricing and availability.",
-    "image": "/products/scdu-wcdu-1k-cassette.png",
-    "inStock": true
-  },
-  {
-    "id": 73,
-    "sku": "GM-150209371",
-    "name": "CDU, Push Plate, Polymer Note, HCDU (Cashpoint)",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #150209371). Contact us for current pricing and availability.",
-    "image": "/products/hcdu-2k-cassette.png",
-    "inStock": true
-  },
-  {
-    "id": 74,
-    "sku": "GM-150209341",
-    "name": "CDU, Push Plate, Polymer Note, HCDU",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #150209341). Contact us for current pricing and availability.",
-    "image": "/products/hcdu-2k-cassette.png",
-    "inStock": true
-  },
-  {
-    "id": 75,
-    "sku": "GM-150218181",
-    "name": "CDU, Note Pickup Roller with Rubber, SCDU/MCDU",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #150218181). Contact us for current pricing and availability.",
-    "image": "/products/scdu-wcdu-1k-cassette.png",
-    "inStock": true
-  },
-  {
-    "id": 76,
-    "sku": "GM-150298981",
-    "name": "CDU, Cassette Latch, SCDU",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #150298981). Contact us for current pricing and availability.",
-    "image": "/products/scdu-wcdu-1k-cassette.png",
     "inStock": true
   },
   {
@@ -758,39 +615,6 @@ export const products = [
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151210481). Contact us for current pricing and availability.",
     "image": "/products/cdu-control-board-blue-hcdu.png",
-    "inStock": true
-  },
-  {
-    "id": 84,
-    "sku": "GM-150230261",
-    "name": "CDU, Feed Rubber Belt, 2ND Feed Module, Inside, S3M-327",
-    "manufacturer": "Genmega",
-    "category": "Dispensers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #150230261). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 85,
-    "sku": "GM-280209331",
-    "name": "Upgrade Kit, Top Cabinet Locking Mechanism",
-    "manufacturer": "Genmega",
-    "category": "Upgrade Kits",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #280209331). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 86,
-    "sku": "GM-281215584",
-    "name": "Upgrade Kit, TDR-MCR, Universal Kiosk",
-    "manufacturer": "Genmega",
-    "category": "Upgrade Kits",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #281215584). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
     "inStock": true
   },
   {
