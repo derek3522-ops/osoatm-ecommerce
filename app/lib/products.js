@@ -10,7 +10,7 @@ export const products = [
     "cost": 600.00,
     "price": 700.00,
     "description": "CE, Main Board, ACU 7, w/o Modem",
-    "itemNumber": "161110881",
+    "partNumber": "161110881",
     "image": "/products/acu7-mainboard.png",
     "inStock": true
   },
@@ -324,7 +324,7 @@ export const products = [
     "category": "Power Supplies",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #251118791). Contact us for current pricing and availability.",
-    "itemNumber": "251118791",
+    "partNumber": "251118791",
     "image": "/products/power-supply.png",
     "inStock": true
   },
@@ -336,7 +336,7 @@ export const products = [
     "category": "Locks",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #230210581). Contact us for current pricing and availability.",
-    "itemNumber": "230210581",
+    "partNumber": "230210581",
     "image": "/products/sg-electronic-lock.png",
     "inStock": true
   },
@@ -348,7 +348,7 @@ export const products = [
     "category": "Locks",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #230200591). Contact us for current pricing and availability.",
-    "itemNumber": "230200591",
+    "partNumber": "230200591",
     "image": "/products/placeholder.png",
     "inStock": true
   },
@@ -360,7 +360,7 @@ export const products = [
     "category": "Keypads",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #201207541). Contact us for current pricing and availability.",
-    "itemNumber": "201207541",
+    "partNumber": "201207541",
     "image": "/products/201207541.png",
     "inStock": true
   },
@@ -372,7 +372,7 @@ export const products = [
     "category": "Card Readers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #241180071). Contact us for current pricing and availability.",
-    "itemNumber": "241180071",
+    "partNumber": "241180071",
     "image": "/products/241180071.jpg",
     "inStock": true
   },
@@ -384,7 +384,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210290954). Contact us for current pricing and availability.",
-    "itemNumber": "210290954",
+    "partNumber": "210290954",
     "image": "/products/lcd-7inch-sunviewable-gt3000.png",
     "inStock": true
   },
@@ -396,7 +396,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210290944). Contact us for current pricing and availability.",
-    "itemNumber": "210290944",
+    "partNumber": "210290944",
     "image": "/products/lcd-aa104sh02-t4000.png",
     "inStock": true
   },
@@ -408,7 +408,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151110591). Contact us for current pricing and availability.",
-    "itemNumber": "151110591",
+    "partNumber": "151110591",
     "image": "/products/151110591.jpg",
     "inStock": true
   },
@@ -420,7 +420,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151112711). Contact us for current pricing and availability.",
-    "itemNumber": "151112711",
+    "partNumber": "151112711",
     "image": "/products/cdu-2high-pcdu2-presenter.png",
     "inStock": true
   },
@@ -432,7 +432,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151130221). Contact us for current pricing and availability.",
-    "itemNumber": "151130221",
+    "partNumber": "151130221",
     "image": "/products/151130221.jpg",
     "inStock": true
   },
@@ -444,7 +444,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151110461). Contact us for current pricing and availability.",
-    "itemNumber": "151110461",
+    "partNumber": "151110461",
     "image": "/products/cdu-3high-hcdu-front-load.png",
     "inStock": true
   },
@@ -456,7 +456,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151120531). Contact us for current pricing and availability.",
-    "itemNumber": "151120531",
+    "partNumber": "151120531",
     "image": "/products/151120531.jpg",
     "inStock": true
   },
@@ -468,7 +468,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #151210481). Contact us for current pricing and availability.",
-    "itemNumber": "151210481",
+    "partNumber": "151210481",
     "image": "/products/cdu-control-board-blue-hcdu.png",
     "inStock": true
   },
@@ -480,7 +480,7 @@ export const products = [
     "category": "Toppers",
     "pricing": "quote",
     "description": "Genmega Digital Media Topper II with flat base — a digital advertising display that mounts on top of your ATM to run promotions and attract customers. Genuine Genmega part (item #110189161). Contact us for current pricing and availability.",
-    "itemNumber": "110189161",
+    "partNumber": "110189161",
     "image": "/products/110189161.jpg",
     "inStock": true
   },
@@ -492,7 +492,7 @@ export const products = [
     "category": "Toppers",
     "pricing": "quote",
     "description": "Genmega Digital Media GenTopper III with a 21-inch display and sloped base. Genuine Genmega part (item #110189191). Contact us for current pricing and availability.",
-    "itemNumber": "110189191",
+    "partNumber": "110189191",
     "image": "/products/110189191.png",
     "inStock": true
   },
@@ -504,7 +504,7 @@ export const products = [
     "category": "Toppers",
     "pricing": "quote",
     "description": "Genmega HDT-1900 Digital Media Topper. Genuine Genmega part (item #111106601). Contact us for current pricing and availability.",
-    "itemNumber": "111106601",
+    "partNumber": "111106601",
     "image": "/products/111106601.jpg",
     "inStock": true
   },
@@ -516,7 +516,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genmega 1-high HCDU cash dispensing unit, front-load configuration. Genuine Genmega part (item #151110441). Contact us for current pricing and availability.",
-    "itemNumber": "151110441",
+    "partNumber": "151110441",
     "image": "/products/151110441.jpg",
     "inStock": true
   },
@@ -528,7 +528,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genmega 1-high HPCDU cash dispensing unit. Genuine Genmega part (item #151110571). Contact us for current pricing and availability.",
-    "itemNumber": "151110571",
+    "partNumber": "151110571",
     "image": "/products/151110571.jpg",
     "inStock": true
   },
@@ -540,7 +540,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genmega second feed module for the SCDU-E III dispenser. Genuine Genmega part (item #151119981). Contact us for current pricing and availability.",
-    "itemNumber": "151119981",
+    "partNumber": "151119981",
     "image": "/products/151119981.jpg",
     "inStock": true
   },
@@ -552,7 +552,7 @@ export const products = [
     "category": "Dispensers",
     "pricing": "quote",
     "description": "Genmega 1-high SCDU-E III cash dispensing unit. Genuine Genmega part (item #151130211). Contact us for current pricing and availability.",
-    "itemNumber": "151130211",
+    "partNumber": "151130211",
     "image": "/products/151130211.jpg",
     "inStock": true
   },
@@ -564,7 +564,7 @@ export const products = [
     "category": "Printers",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #271110151). Contact us for current pricing and availability.",
-    "itemNumber": "271110151",
+    "partNumber": "271110151",
     "image": "/products/271110151.jpg",
     "inStock": true
   },
@@ -576,7 +576,7 @@ export const products = [
     "category": "Bezels",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #120219751). Contact us for current pricing and availability.",
-    "itemNumber": "120219751",
+    "partNumber": "120219751",
     "image": "/products/120219751.jpg",
     "inStock": true
   },
@@ -588,7 +588,7 @@ export const products = [
     "category": "Bezels",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #120219771). Contact us for current pricing and availability.",
-    "itemNumber": "120219771",
+    "partNumber": "120219771",
     "image": "/products/120219771.jpg",
     "inStock": true
   },
@@ -600,7 +600,7 @@ export const products = [
     "category": "Bezels",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #120219641). Contact us for current pricing and availability.",
-    "itemNumber": "120219641",
+    "partNumber": "120219641",
     "image": "/products/120219641.png",
     "inStock": true
   },
@@ -612,7 +612,7 @@ export const products = [
     "category": "Bezels",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #120219651). Contact us for current pricing and availability.",
-    "itemNumber": "120219651",
+    "partNumber": "120219651",
     "image": "/products/120219651.jpg",
     "inStock": true
   },
@@ -624,7 +624,7 @@ export const products = [
     "category": "Bezels",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #120104751). Contact us for current pricing and availability.",
-    "itemNumber": "120104751",
+    "partNumber": "120104751",
     "image": "/products/120104751.png",
     "inStock": true
   },
@@ -636,7 +636,7 @@ export const products = [
     "category": "Bezels",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #120104611). Contact us for current pricing and availability.",
-    "itemNumber": "120104611",
+    "partNumber": "120104611",
     "image": "/products/120104611.jpg",
     "inStock": true
   },
@@ -648,7 +648,7 @@ export const products = [
     "category": "Bezels",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #120104441). Contact us for current pricing and availability.",
-    "itemNumber": "120104441",
+    "partNumber": "120104441",
     "image": "/products/120104441.jpg",
     "inStock": true
   },
@@ -660,7 +660,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #141170011). Contact us for current pricing and availability.",
-    "itemNumber": "141170011",
+    "partNumber": "141170011",
     "image": "/products/141170011.jpg",
     "inStock": true
   },
@@ -672,7 +672,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #141139521). Contact us for current pricing and availability.",
-    "itemNumber": "141139521",
+    "partNumber": "141139521",
     "image": "/products/141139521.png",
     "inStock": true
   },
@@ -684,7 +684,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #141139531). Contact us for current pricing and availability.",
-    "itemNumber": "141139531",
+    "partNumber": "141139531",
     "image": "/products/141139531.png",
     "inStock": true
   },
@@ -696,7 +696,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #141170101). Contact us for current pricing and availability.",
-    "itemNumber": "141170101",
+    "partNumber": "141170101",
     "image": "/products/141170101.jpg",
     "inStock": true
   },
@@ -708,7 +708,7 @@ export const products = [
     "category": "Cassettes",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #141170111). Contact us for current pricing and availability.",
-    "itemNumber": "141170111",
+    "partNumber": "141170111",
     "image": "/products/141170111.jpg",
     "inStock": true
   },
@@ -720,7 +720,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210207711). Contact us for current pricing and availability.",
-    "itemNumber": "210207711",
+    "partNumber": "210207711",
     "image": "/products/210207711.jpg",
     "inStock": true
   },
@@ -732,7 +732,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210207701). Contact us for current pricing and availability.",
-    "itemNumber": "210207701",
+    "partNumber": "210207701",
     "image": "/products/210207701.jpg",
     "inStock": true
   },
@@ -744,7 +744,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210107551). Contact us for current pricing and availability.",
-    "itemNumber": "210107551",
+    "partNumber": "210107551",
     "image": "/products/210107551.jpg",
     "inStock": true
   },
@@ -756,7 +756,7 @@ export const products = [
     "category": "LCD Displays",
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210107541). Contact us for current pricing and availability.",
-    "itemNumber": "210107541",
+    "partNumber": "210107541",
     "image": "/products/210107541.jpg",
     "inStock": true
   }
