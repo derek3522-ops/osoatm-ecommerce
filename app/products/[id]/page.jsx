@@ -195,23 +195,7 @@ export default function ProductPage({ params }) {
               )}
             </div>
 
-            {/* Compatibility */}
-            {product.compatibility && product.compatibility.length > 0 && (
-              <div className="card">
-                <h3 className="font-bold mb-3">Compatible Models</h3>
-                <div className="grid grid-cols-2 gap-2">
-                  {product.compatibility.slice(0, 8).map((model, i) => (
-                    <div key={i} className="text-sm text-gray-600 flex items-center">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-                      {model}
-                    </div>
-                  ))}
-                </div>
-                {product.compatibility.length > 8 && (
-                  <p className="text-sm text-gray-500 mt-3">...and {product.compatibility.length - 8} more models</p>
-                )}
-              </div>
-            )}
+          
           </div>
         </div>
 
