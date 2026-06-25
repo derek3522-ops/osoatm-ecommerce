@@ -86,7 +86,7 @@ export default function ProductPage({ params }) {
             <h1 className="text-4xl font-bold mb-2">{product.name}</h1>
             <p className="text-gray-600 mb-2 text-lg">{product.description}</p>
             {product.itemNumber && (
-              <p className="text-sm text-gray-500 mb-6">Item# : {product.itemNumber}</p>
+              <p className="text-sm text-gray-500 mb-6">Part# : {product.partNumber}</p>
             )}
 
             {/* SKU and Category */}
@@ -216,10 +216,10 @@ export default function ProductPage({ params }) {
                 <span className="text-gray-600">SKU:</span>
                 <span className="font-bold">{product.sku}</span>
               </div>
-              {product.itemNumber && (
+              {product.partNumber && (
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Item Number:</span>
-                  <span className="font-bold">{product.itemNumber}</span>
+                  <span className="text-gray-600">Part Number:</span>
+                  <span className="font-bold">{product.partNumber}</span>
                 </div>
               )}
               {product.condition && (
