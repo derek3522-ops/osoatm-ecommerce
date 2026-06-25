@@ -641,17 +641,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 112,
-    "sku": "GM-141139501",
-    "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 1st Cassette, 2000 Notes",
-    "manufacturer": "Genmega",
-    "category": "Cassettes",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #141139501). Contact us for current pricing and availability.",
-    "image": "/products/141139501.png",
-    "inStock": true
-  },
-  {
     "id": 113,
     "sku": "GM-141170011",
     "name": "Cassette, WCDU-2K, 2000 Notes",
