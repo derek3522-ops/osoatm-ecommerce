@@ -145,75 +145,6 @@ export const products = [
     "compatibility": ["700","1700W","GI900","G2500","C4000","E4000","X4000","Onyx","Onyx W"]
   },
   {
-    "id": 13,
-    "sku": "REF-10133",
-    "name": "Hyosung 1K Note Dispenser, Refurbished",
-    "manufacturer": "Hyosung",
-    "category": "Dispensers",
-    "cost": 1099.99,
-    "price": 1044.99,
-    "description": "Refurbished Front Load CDU without Cassette",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "condition": "Refurbished",
-    "compatibility": ["NH 2700CE","NH 1800SE","MX 5000SE","MX 5200","MX 5200SE","Halo","Halo II","Halo S"]
-  },
-  {
-    "id": 14,
-    "sku": "REF-10131",
-    "name": "Hyosung 2K Note Dispenser, Refurbished",
-    "manufacturer": "Hyosung",
-    "category": "Dispensers",
-    "cost": 1599.99,
-    "price": 1519.99,
-    "description": "Refurbished Front Load CDU without Cassette",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "condition": "Refurbished",
-    "compatibility": ["NH 2700CE","NH 1800SE","MX 5000SE","MX 5200","MX 5200SE","Halo","Halo II","Halo S"]
-  },
-  {
-    "id": 15,
-    "sku": "REF-10120",
-    "name": "Hyosung 1K 9Pin CDU, Refurbished",
-    "manufacturer": "Hyosung",
-    "category": "Dispensers",
-    "cost": 499.99,
-    "price": 474.99,
-    "description": "1K CDU with 9Pin connection",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "condition": "Refurbished"
-  },
-  {
-    "id": 16,
-    "sku": "REF-10078",
-    "name": "Hyosung 1K Cassette, New Revision–Refurbished",
-    "manufacturer": "Hyosung",
-    "category": "Cassettes",
-    "cost": 339.99,
-    "price": 322.99,
-    "description": "New Revision 1K Cassette- Refurbished",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "condition": "Refurbished",
-    "compatibility": ["MX 5000CE (Grey)","NH 1800","NH 1800POS","NH 1800SE","NH 1000","MX 5200SE"]
-  },
-  {
-    "id": 17,
-    "sku": "REF-10076",
-    "name": "Hyosung 2K Cassette, Refurbished",
-    "manufacturer": "Hyosung",
-    "category": "Cassettes",
-    "cost": 299.99,
-    "price": 284.99,
-    "description": "2K Cassette, Refurbished",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "condition": "Refurbished",
-    "compatibility": ["NH 2700CE","MX 5300XP","NH 1800CE","NH 1500","MX 5100T","MX 5000CE (Grey)","MX 7000T"]
-  },
-  {
     "id": 18,
     "sku": "PAR-10663",
     "name": "Hyosung Bezel Key",
@@ -265,18 +196,6 @@ export const products = [
     "compatibility": ["1800","1800CE","1800SE","2700CE","2700T","4000W","Halo","Halo-S","Halo II","5000CE","5000SE","5300CE","Force"]
   },
   {
-    "id": 22,
-    "sku": "PAR-10291",
-    "name": "Hyosung PCI 3.0 Keypad Upgrade Kit for 1800SE",
-    "manufacturer": "Hyosung",
-    "category": "Keypads",
-    "cost": 899.99,
-    "price": 854.99,
-    "description": "Includes Mounting Bracket and Adapter Cable",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
     "id": 23,
     "sku": "PAR-20830",
     "name": "Hyosung EMV Card Reader",
@@ -314,45 +233,6 @@ export const products = [
     "image": "/products/placeholder.png",
     "inStock": true,
     "compatibility": ["Hyosung Halo II"]
-  },
-  {
-    "id": 26,
-    "sku": "PAR-20776",
-    "name": "Hyosung 1K, New Revision",
-    "manufacturer": "Hyosung",
-    "category": "Cassettes",
-    "cost": 527.99,
-    "price": 501.99,
-    "description": "Hyosung 1000 note removable cassette",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["NH 2700CE","NH 1800CE","NH 1500","MX 5000CE (Grey)","NH 2200","NH 1800SE","NH 1800","NH 2700T"]
-  },
-  {
-    "id": 27,
-    "sku": "PAR-10071",
-    "name": "Hyosung 2K Cassette",
-    "manufacturer": "Hyosung",
-    "category": "Cassettes",
-    "cost": 479.99,
-    "price": 455.99,
-    "description": "2,000 Note Plastic Cassette",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["NH 2700CE","MX 5300XP","NH 1800CE","NH 1500","MX 5100T","MX 5000CE (Grey)","MX 7000T","NH 1800SE"]
-  },
-  {
-    "id": 28,
-    "sku": "PAR-11466",
-    "name": "Hyosung XI Keypad",
-    "manufacturer": "Hyosung",
-    "category": "Keypads",
-    "cost": 654.99,
-    "price": 621.99,
-    "description": "Hyosung EPP- XI PCI 5.0 Keypad",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["NH 2700T","NH 1800SE","NH 2700CE","MX 5200SE","HALO II","MX 2800SE","HALO","HALO S","MX 4000W","MX 5000SE","MX 5200"]
   },
   {
     "id": 29,
@@ -486,17 +366,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 48,
-    "sku": "GM-230201821",
-    "name": "Key, TCDU, Reject Box, 905",
-    "manufacturer": "Genmega",
-    "category": "Locks",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #230201821). Contact us for current pricing and availability.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
     "id": 56,
     "sku": "GM-201207541",
     "name": "EPP, PCI V5.X Certified, EPP B5",
@@ -538,17 +407,6 @@ export const products = [
     "pricing": "quote",
     "description": "Genuine Genmega part (item #210290944). Contact us for current pricing and availability.",
     "image": "/products/lcd-aa104sh02-t4000.png",
-    "inStock": true
-  },
-  {
-    "id": 77,
-    "sku": "GM-151110451",
-    "name": "CDU, Assembly, 2 High HCDU, Front Load, Without CST",
-    "manufacturer": "Genmega",
-    "category": "Dispensers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #151110451). Contact us for current pricing and availability.",
-    "image": "/products/cdu-2high-hcdu-front-load.png",
     "inStock": true
   },
   {
