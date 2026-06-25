@@ -132,19 +132,20 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 12,
+    "id": 11,
     "sku": "OSO-00011",
     "name": "Genmega / Hantle Power Supply",
     "manufacturer": "Genmega",
     "category": "Power Supplies",
-    "cost": 349.99,
-    "price": 331.99,
-    "description": "Genmega Power Supply Assembly",
+    "cost": 294.00,
+    "price": 350.00,
+    "description": "Genmega Power Supply",
+    "partNumber": "251118791",
     "image": "/products/power-supply.png",
     "inStock": true
   },
   {
-    "id": 18,
+    "id": 12,
     "sku": "OSO-00012",
     "name": "Hyosung Bezel Key",
     "manufacturer": "Hyosung",
