@@ -12,8 +12,7 @@ export const products = [
     "description": "CE, Main Board, ACU 7, w/o Modem",
     "itemNumber": "161110881",
     "image": "/products/acu7-mainboard.png",
-    "inStock": true,
-    "compatibility": ["1700W","C4000","C6000","G2500","GT3000","GT5000","ONYX","NOVA","G1900"]
+    "inStock": true
   },
   {
     "id": 2,
@@ -25,8 +24,7 @@ export const products = [
     "price": 1234.99,
     "description": "Genmega 1-High RCDU, Rear Load Dispenser, w/out Cassettes",
     "image": "/products/rcdu-rear-load-dispenser.png",
-    "inStock": true,
-    "compatibility": ["GT3000","T4000"]
+    "inStock": true
   },
   {
     "id": 3,
@@ -38,8 +36,7 @@ export const products = [
     "price": 341.99,
     "description": "Genmega NFC/TAP VIVOPAY Card Reader - Installation kit required",
     "image": "/products/nfc-card-reader.png",
-    "inStock": true,
-    "compatibility": ["All Genmega ATMs"]
+    "inStock": true
   },
   {
     "id": 4,
@@ -51,8 +48,7 @@ export const products = [
     "price": 664.99,
     "description": "Cassette, HCDU Type, 1st Cassette, 2K Note",
     "image": "/products/hcdu-2k-cassette.png",
-    "inStock": true,
-    "compatibility": ["1700W","C4000","C6000","G2500","GT3000","GT5000","ONYX","NOVA","G1900"]
+    "inStock": true
   },
   {
     "id": 5,
@@ -64,8 +60,7 @@ export const products = [
     "price": 132.99,
     "description": "Topper II, Sloped Base",
     "image": "/products/mini-high-bright-topper.png",
-    "inStock": true,
-    "compatibility": ["NOVA","1700W","GI900","G2500","ONYX"]
+    "inStock": true
   },
   {
     "id": 6,
@@ -77,8 +72,7 @@ export const products = [
     "price": 89.99,
     "description": "Proven Security TitanTM lock with motorized blocking device",
     "image": "/products/sg-electronic-lock.png",
-    "inStock": true,
-    "compatibility": ["All Hyosung and Genmega ATMs"]
+    "inStock": true
   },
   {
     "id": 7,
@@ -90,8 +84,7 @@ export const products = [
     "price": 379.99,
     "description": "SCDU / WCDU 1K Cassette",
     "image": "/products/scdu-wcdu-1k-cassette.png",
-    "inStock": true,
-    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
+    "inStock": true
   },
   {
     "id": 8,
@@ -103,8 +96,7 @@ export const products = [
     "price": 854.99,
     "description": "1K Dispenser without Cassette",
     "image": "/products/scdu-1k-dispenser.png",
-    "inStock": true,
-    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
+    "inStock": true
   },
   {
     "id": 9,
@@ -116,8 +108,7 @@ export const products = [
     "price": 588.99,
     "description": "2\" Printer Assembly without Image Print",
     "image": "/products/printer-2inch-assembly.png",
-    "inStock": true,
-    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
+    "inStock": true
   },
   {
     "id": 10,
@@ -129,8 +120,7 @@ export const products = [
     "price": 1291.99,
     "description": "2 High HCDU without Cassette",
     "image": "/products/hcdu-2high.png",
-    "inStock": true,
-    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
+    "inStock": true
   },
   {
     "id": 12,
@@ -142,8 +132,7 @@ export const products = [
     "price": 331.99,
     "description": "Genmega Power Supply Assembly",
     "image": "/products/power-supply.png",
-    "inStock": true,
-    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
+    "inStock": true
   },
   {
     "id": 18,
@@ -155,8 +144,7 @@ export const products = [
     "price": 8.99,
     "description": "Fits All ATM Hyosung Model Types",
     "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["All Hyosung Models"]
+    "inStock": true
   },
   {
     "id": 19,
@@ -180,8 +168,7 @@ export const products = [
     "price": 683.99,
     "description": "Hyosung Receipt Printer Assembly",
     "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["NH 1800CE","NH 1500","MX 5000CE","NH 1800SE","NH 1800","NH 1800POS","MX 5300CE"]
+    "inStock": true
   },
   {
     "id": 21,
@@ -193,8 +180,7 @@ export const products = [
     "price": 330.99,
     "description": "New Revision Power Supply",
     "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["1800","1800CE","1800SE","2700CE","2700T","4000W","Halo","Halo-S","Halo II","5000CE","5000SE","5300CE","Force"]
+    "inStock": true
   },
   {
     "id": 23,
@@ -206,8 +192,7 @@ export const products = [
     "price": 274.99,
     "description": "Hyosung ATM EMV chip replacement card reader - Card Reader Only. Not an upgrade kit",
     "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["Multiple Hyosung models"]
+    "inStock": true
   },
   {
     "id": 24,
@@ -219,8 +204,7 @@ export const products = [
     "price": 261.99,
     "description": "New Revision LCD Display Panel w/o Electronics Size - 10.1\"",
     "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["NH 2700CE","HALO","HALO II","HALO S","NH 2700T","MX 5000SE","MX 5600T","MX 7600I"]
+    "inStock": true
   },
   {
     "id": 25,
@@ -232,8 +216,7 @@ export const products = [
     "price": 360.99,
     "description": "NFC Reader Complete Kit to include bracket and cables for Halo II",
     "image": "/products/placeholder.png",
-    "inStock": true,
-    "compatibility": ["Hyosung Halo II"]
+    "inStock": true
   },
   {
     "id": 29,
