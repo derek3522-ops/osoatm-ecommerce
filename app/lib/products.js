@@ -7,13 +7,13 @@ export const products = [
     "name": "Genmega ACU 7 Mainboard",
     "manufacturer": "Genmega",
     "category": "Mainboards",
-    "cost": 742.99,
-    "price": 705.99,
+    "cost": 600.00,
+    "price": 700.00,
     "description": "CE, Main Board, ACU 7, w/o Modem",
     "itemNumber": "161110881",
     "image": "/products/acu7-mainboard.png",
     "inStock": true,
-    "compatibility": ["1700","1700W","C4000","C4000 Level 1","C4000P","C6000","C6000 Level 1","C6000P","CRM-3000","GI900","G2500","G2500 Level 1","G2500P","G2500P Level 1","GT3000","GT5000"]
+    "compatibility": ["1700W","C4000","C6000","G2500","GT3000","GT5000","ONYX","NOVA","G1900"]
   },
   {
     "id": 2,
@@ -52,7 +52,7 @@ export const products = [
     "description": "Cassette, HCDU Type, 1st Cassette, 2K Note",
     "image": "/products/hcdu-2k-cassette.png",
     "inStock": true,
-    "compatibility": ["1700","1700W","c4000","c4000S","GI900","G2500","G6000","GT3000","T4000"]
+    "compatibility": ["1700W","C4000","C6000","G2500","GT3000","GT5000","ONYX","NOVA","G1900"]
   },
   {
     "id": 5,
@@ -65,7 +65,7 @@ export const products = [
     "description": "Topper II, Sloped Base",
     "image": "/products/mini-high-bright-topper.png",
     "inStock": true,
-    "compatibility": ["1700","1700W","GI900","G2500","Onyx"]
+    "compatibility": ["NOVA","1700W","GI900","G2500","ONYX"]
   },
   {
     "id": 6,
@@ -91,7 +91,7 @@ export const products = [
     "description": "SCDU / WCDU 1K Cassette",
     "image": "/products/scdu-wcdu-1k-cassette.png",
     "inStock": true,
-    "compatibility": ["1700","1700W","c4000","GI900","G2500"]
+    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
   },
   {
     "id": 8,
@@ -104,7 +104,7 @@ export const products = [
     "description": "1K Dispenser without Cassette",
     "image": "/products/scdu-1k-dispenser.png",
     "inStock": true,
-    "compatibility": ["1700","1700W","C4000","C6000","GI900","G2500","GT3000","GT5000","Onyx","T4000"]
+    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
   },
   {
     "id": 9,
@@ -117,7 +117,7 @@ export const products = [
     "description": "2\" Printer Assembly without Image Print",
     "image": "/products/printer-2inch-assembly.png",
     "inStock": true,
-    "compatibility": ["1700","1700W","C4000","GI900","G2500","GT3000","GT5000","Onyx"]
+    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
   },
   {
     "id": 10,
@@ -130,7 +130,7 @@ export const products = [
     "description": "2 High HCDU without Cassette",
     "image": "/products/hcdu-2high.png",
     "inStock": true,
-    "compatibility": ["1700","1700W","C4000","GI900","G2500","Onyx"]
+    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
   },
   {
     "id": 12,
@@ -143,7 +143,7 @@ export const products = [
     "description": "Genmega Power Supply Assembly",
     "image": "/products/power-supply.png",
     "inStock": true,
-    "compatibility": ["700","1700W","GI900","G2500","C4000","E4000","X4000","Onyx","Onyx W"]
+    "compatibility": ["1700W","C4000","C6000","G2500","ONYX","NOVA","G1900"]
   },
   {
     "id": 18,
