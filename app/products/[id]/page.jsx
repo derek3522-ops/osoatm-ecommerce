@@ -84,7 +84,10 @@ export default function ProductPage({ params }) {
             </div>
 
             <h1 className="text-4xl font-bold mb-2">{product.name}</h1>
-            <p className="text-gray-600 mb-6 text-lg">{product.description}</p>
+            <p className="text-gray-600 mb-2 text-lg">{product.description}</p>
+            {product.itemNumber && (
+              <p className="text-sm text-gray-500 mb-6">Item# : {product.itemNumber}</p>
+            )}
 
             {/* SKU and Category */}
             <div className="bg-gray-50 p-4 rounded mb-6 space-y-2">
@@ -205,7 +208,7 @@ export default function ProductPage({ params }) {
                   ))}
                 </div>
                 {product.compatibility.length > 8 && (
-                  <p className="text-sm text-gray-600 mt-3">...and {product.compatibility.length - 8} more models</p>
+                  <p className="text-sm text-gray-500 mt-3">...and {product.compatibility.length - 8} more models</p>
                 )}
               </div>
             )}
@@ -229,6 +232,12 @@ export default function ProductPage({ params }) {
                 <span className="text-gray-600">SKU:</span>
                 <span className="font-bold">{product.sku}</span>
               </div>
+              {product.itemNumber && (
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Item Number:</span>
+                  <span className="font-bold">{product.itemNumber}</span>
+                </div>
+              )}
               {product.condition && (
                 <div className="flex justify-between">
                   <span className="text-gray-600">Condition:</span>
