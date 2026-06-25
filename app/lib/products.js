@@ -47,7 +47,7 @@ export const products = [
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "cost": 534.00,
-    "price": 650.009,
+    "price": 650.00,
     "description": "1st Cassette, MCDU/HCDU/HPCDU/PCDU/RCDU",
     "partNumber": "141139501",
     "image": "/products/hcdu-2k-cassette.png",
