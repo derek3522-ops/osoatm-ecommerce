@@ -20,9 +20,10 @@ export const products = [
     "name": "Genmega RCDU, Rear Load Dispenser Assembly",
     "manufacturer": "Genmega",
     "category": "Dispensers",
-    "cost": 1299.99,
-    "price": 1234.99,
+    "cost": 1037.00,
+    "price": 1300.00,
     "description": "Genmega 1-High RCDU, Rear Load Dispenser, w/out Cassettes",
+    "partNumber": "151107931",
     "image": "/products/rcdu-rear-load-dispenser.png",
     "inStock": true
   },
