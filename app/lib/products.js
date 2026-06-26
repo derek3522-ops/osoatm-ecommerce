@@ -600,8 +600,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 47,
-    "sku": "OSO-00047",
+    "id": 48,
+    "sku": "OSO-00048",
     "name": "Genmega Nova Top Bezel, With Touchscreen, Without MCR EPP Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -613,8 +613,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 48,
-    "sku": "OSO-00048",
+    "id": 49,
+    "sku": "OSO-00049",
     "name": "Genmega 1700W Door Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -626,8 +626,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 49,
-    "sku": "OSO-00049",
+    "id": 50,
+    "sku": "OSO-00050",
     "name": "Genmega 1700W Top Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
@@ -639,8 +639,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 50,
-    "sku": "OSO-00050",
+    "id": 51,
+    "sku": "OSO-00051",
     "name": "Genmega WCDU-2K Cassette",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -652,8 +652,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 51,
-    "sku": "OSO-00051",
+    "id": 52,
+    "sku": "OSO-00052",
     "name": "Genmega 2K Note Cassette, 3rd",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -665,8 +665,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 52,
-    "sku": "OSO-00052",
+    "id": 53,
+    "sku": "OSO-00053",
     "name": "Genmega 2K Note Cassette, 4th",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -678,8 +678,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 53,
-    "sku": "OSO-00053",
+    "id": 54,
+    "sku": "OSO-00054",
     "name": "Genmega SCDU-E Cassette, 1st",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -691,8 +691,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 54,
-    "sku": "OSO-00054",
+    "id": 55,
+    "sku": "OSO-00055",
     "name": "Genmega SCDU-E Cassette, 2nd",
     "manufacturer": "Genmega",
     "category": "Cassettes",
@@ -704,8 +704,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 55,
-    "sku": "OSO-00055",
+    "id": 56,
+    "sku": "OSO-00056",
     "name": "Genmega 8\" LCD Panel, G2500",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -717,8 +717,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 56,
-    "sku": "OSO-00056",
+    "id": 57,
+    "sku": "OSO-00057",
     "name": "Genmega 7\" LCD Panel, 1700W, G1900, GT3000",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -730,8 +730,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 57,
-    "sku": "OSO-00057",
+    "id": 58,
+    "sku": "OSO-00058",
     "name": "Genmega GT3000 7\" LCD Assembly",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
@@ -743,8 +743,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 58,
-    "sku": "OSO-00058",
+    "id": 59,
+    "sku": "OSO-00059",
     "name": "Genmega 1700W 7\" LCD Assembly",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
