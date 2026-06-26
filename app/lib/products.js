@@ -329,11 +329,11 @@ export const products = [
   {
     "id": 46,
     "sku": "OSO-00028",
-    "name": "Lock, Key, Type C415A, Two Keys",
+    "name": "Genmega Bezel Key, Type C415A, Two Keys",
     "manufacturer": "Genmega",
     "category": "Locks",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #230210581). Contact us for current pricing and availability.",
+    "description": "Genmega Bezel Key, Not For Nova or Kiosk",
     "partNumber": "230210581",
     "image": "/products/sg-electronic-lock.png",
     "inStock": true
