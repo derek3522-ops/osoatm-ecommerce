@@ -241,19 +241,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 22,
-    "sku": "OSO-00022",
-    "name": "InHand IR302 4G Wireless Router — Rental",
-    "manufacturer": "InHand",
-    "category": "Wireless/Connectivity",
-    "cost": 12.99,
-    "price": 11.99,
-    "description": "InHand IR302 4G LTE router, monthly rental option. Price is per month.",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "rental": true
-  },
-  {
     "id": 26,
     "sku": "OSO-00026",
     "name": "Origin Wireless Router",
