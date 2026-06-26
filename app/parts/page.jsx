@@ -26,7 +26,7 @@ export default function PartsPage() {
   // Filter and sort products
   const filteredProducts = useMemo(() => {
     let result = products.filter(product => {
-      const manufacturerMatch = selectedManufacturer === 'All' || product.manufacturer === selectedManufacturer;
+      const manufacturerMatch = selectedManufacturer === 'All' ||    product.manufacturer === selectedManufacturer ||   (product.manufacturer && product.manufacturer.includes(selectedManufacturer));
       const categoryMatch = selectedCategory === 'All Parts' || product.category === selectedCategory;
       const priceMatch = product.pricing === 'quote' || (product.price >= priceRange[0] && product.price <= priceRange[1]);
       const searchMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
