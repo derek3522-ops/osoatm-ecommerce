@@ -336,7 +336,7 @@ export const products = [
     "price": 9.00,
     "description": "Genmega Bezel Key, Not For Nova or Kiosk",
     "partNumber": "230210581",
-    "image": "/products/sg-electronic-lock.png",
+    "image": "/products/c415a-key.png",
     "inStock": true
   },
   {
