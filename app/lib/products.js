@@ -349,7 +349,7 @@ export const products = [
     "price": 9.00,
     "description": "Genmega Barrel Key, Eagle, 1 Key",
     "partNumber": "230200591",
-    "image": "/products/placeholder.png",
+    "image": "/products/eagle-barrel-key.png",
     "inStock": true
   },
   {
