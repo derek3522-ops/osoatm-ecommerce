@@ -229,30 +229,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 19,
-    "sku": "OSO-00019",
-    "name": "DPL High Gain Antenna",
-    "manufacturer": "DPL",
-    "category": "Wireless/Connectivity",
-    "cost": 27.99,
-    "price": 26.99,
-    "description": "High-gain replacement antenna for improved cellular signal on DPL wireless modems.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 20,
-    "sku": "OSO-00020",
-    "name": "DPL ATM Restart Module",
-    "manufacturer": "DPL",
-    "category": "Wireless/Connectivity",
-    "cost": 26.99,
-    "price": 25.99,
-    "description": "Automatic restart module that power-cycles the ATM to recover from lockups remotely.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
     "id": 21,
     "sku": "OSO-00021",
     "name": "InHand IR302 4G Wireless Router",
@@ -276,43 +252,6 @@ export const products = [
     "image": "/products/placeholder.png",
     "inStock": true,
     "rental": true
-  },
-  {
-    "id": 23,
-    "sku": "OSO-00023",
-    "name": "DPL Hercules 4G LTE Wireless ATM Modem",
-    "manufacturer": "DPL",
-    "category": "Wireless/Connectivity",
-    "cost": 179,
-    "price": 169.99,
-    "description": "DPL Hercules 4G LTE wireless modem for ATM communications. Purchase outright.",
-    "image": "/products/placeholder.png",
-    "inStock": true
-  },
-  {
-    "id": 24,
-    "sku": "OSO-00024",
-    "name": "DPL Hercules 4G LTE Wireless ATM Modem — Rental",
-    "manufacturer": "DPL",
-    "category": "Wireless/Connectivity",
-    "cost": 15.99,
-    "price": 14.99,
-    "description": "DPL Hercules 4G LTE wireless modem, monthly rental option. Price is per month.",
-    "image": "/products/placeholder.png",
-    "inStock": true,
-    "rental": true
-  },
-  {
-    "id": 25,
-    "sku": "OSO-00025",
-    "name": "IoT Power Relay",
-    "manufacturer": "DPL",
-    "category": "Wireless/Connectivity",
-    "cost": 29.99,
-    "price": 27.99,
-    "description": "Network-controlled power relay for remote power cycling of ATM equipment.",
-    "image": "/products/placeholder.png",
-    "inStock": true
   },
   {
     "id": 26,
