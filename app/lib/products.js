@@ -702,7 +702,7 @@ export const categories = [
   "Keys & Accessories","Wireless/Connectivity","Mainboards","Components","Toppers"
 ];
 
-export const manufacturers = ["All","Genmega","Hyosung","DPL","InHand","Origin","Universal"];
+export const manufacturers = ["All","Genmega","Hyosung","InHand","Origin","Universal"];
 
 export const repairCategories = [
   "All Services","CDU / Dispenser","Cassette","Note Separator",
