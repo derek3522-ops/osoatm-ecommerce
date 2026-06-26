@@ -438,7 +438,7 @@ export const products = [
     "category": "Dispensers",
     "cost": 973.00,
     "price": 1100.00,
-    "description": "2 High 2K SCDU-E III, Without Cassettes NOTICE: Each Cassette Holds 1K Notes",
+    "description": "2 High 2K SCDU-E III, Without Cassettes NOTICE: Standard SCDU Cassettes Will NOT Fit",
     "partNumber": "151130221",
     "image": "/products/151130221.jpg",
     "inStock": true
