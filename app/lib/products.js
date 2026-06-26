@@ -355,7 +355,7 @@ export const products = [
   {
     "id": 56,
     "sku": "OSO-00030",
-    "name": "Genmega EPP, PCI V5.X Certified, EPP B5",
+    "name": "Genmega Keypad, PCI V5.X Certified, EPP B5",
     "manufacturer": "Genmega",
     "category": "Keypads",
     "cost": 437.00,
@@ -368,11 +368,12 @@ export const products = [
   {
     "id": 59,
     "sku": "OSO-00031",
-    "name": "MCR, Assembly, EMV Type, TDR",
+    "name": "EMV Card Reader, Type TDR",
     "manufacturer": "Genmega",
     "category": "Card Readers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #241180071). Contact us for current pricing and availability.",
+    "cost": 218.00,
+    "price": 250.00,
+    "description": "EMV Card Reader, Type TDR-R240N. NOTICE: This Is The Card Reader Only - No Cable Or Bracket Included",
     "partNumber": "241180071",
     "image": "/products/241180071.jpg",
     "inStock": true
