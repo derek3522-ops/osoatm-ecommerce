@@ -381,11 +381,12 @@ export const products = [
   {
     "id": 64,
     "sku": "OSO-00032",
-    "name": "Upgrade Kit, Sunviewable 7\" LCD, GT3000",
+    "name": "LCD Upgrade Kit, Sunviewable 7\" LCD, GT3000",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #210290954). Contact us for current pricing and availability.",
+    "cost": 710.00,
+    "price": 850.00,
+    "description": "Upgrade Kit, Sunviewable 7\" LCD, GT3000 NOTICE: Works Only On ACU 6 or ACU 7 Boards",
     "partNumber": "210290954",
     "image": "/products/lcd-7inch-sunviewable-gt3000.png",
     "inStock": true
