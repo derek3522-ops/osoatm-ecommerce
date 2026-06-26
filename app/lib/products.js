@@ -355,11 +355,13 @@ export const products = [
   {
     "id": 56,
     "sku": "OSO-00030",
-    "name": "EPP, PCI V5.X Certified, EPP B5",
+    "name": "Genmega EPP, PCI V5.X Certified, EPP B5",
     "manufacturer": "Genmega",
     "category": "Keypads",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #201207541). Contact us for current pricing and availability.",
+    "cost": 437.00,
+    "price": 550.00,
+    "description": "EPP, PCI V5.X CERTIFIED, EPP B5
+NOTICE: This keypad requires ATM Software version V05.00.37 or higher",
     "partNumber": "201207541",
     "image": "/products/201207541.png",
     "inStock": true
