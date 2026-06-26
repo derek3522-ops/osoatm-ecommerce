@@ -9,7 +9,7 @@ export const products = [
     "category": "Mainboards",
     "cost": 600.00,
     "price": 700.00,
-    "description": "CE, Main Board, ACU 7, w/o Modem",
+    "description": "CE, Main Board, ACU 7, Without Modem",
     "partNumber": "161110881",
     "image": "/products/acu7-mainboard.png",
     "inStock": true
@@ -17,12 +17,12 @@ export const products = [
   {
     "id": 2,
     "sku": "OSO-00002",
-    "name": "Genmega RCDU, Rear Load Dispenser Assembly",
+    "name": "Genmega RCDU, Rear Load Dispenser, Without Cassette",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "cost": 1037.00,
     "price": 1300.00,
-    "description": "Genmega 1-High RCDU, Rear Load Dispenser, Without Cassette",
+    "description": "1-High, 2K RCDU, Rear Load Dispenser, Without Cassette",
     "partNumber": "151107931",
     "image": "/products/rcdu-rear-load-dispenser.png",
     "inStock": true
@@ -35,7 +35,7 @@ export const products = [
     "category": "Card Readers",
     "cost": 180.00,
     "price": 300.00,
-    "description": "Genmega NFC/TAP VIVOPAY Card Reader",
+    "description": "Genmega NFC/TAP VIVOPAY Card Reader NOTICE: Comes With Wire Harness & Install Template",
     "partNumber": "180102381",
     "image": "/products/nfc-card-reader.png",
     "inStock": true
@@ -43,7 +43,7 @@ export const products = [
   {
     "id": 4,
     "sku": "OSO-00004",
-    "name": "Genmega 2K Note Cassette",
+    "name": "Genmega 2K Note Cassette, 1st",
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "cost": 534.00,
@@ -82,12 +82,12 @@ export const products = [
   {
     "id": 7,
     "sku": "OSO-00007",
-    "name": "Genmega SCDU / WCDU, 1K Cassette",
+    "name": "Genmega SCDU / WCDU 1K Cassette",
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "cost": 334.00,
     "price": 400.00,
-    "description": "SCDU / WCDU 1K Cassette",
+    "description": "1K Cassette NOTICE: Will Not Work With SCDU-E 2 High",
     "partNumber": "141170001",
     "image": "/products/scdu-wcdu-1k-cassette.png",
     "inStock": true
@@ -95,7 +95,7 @@ export const products = [
   {
     "id": 8,
     "sku": "OSO-00008",
-    "name": "Genmega SCDU 1K Dispenser W/Out Cassette",
+    "name": "Genmega SCDU Dispenser, Without Cassette",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "cost": 741.00,
@@ -121,7 +121,7 @@ export const products = [
   {
     "id": 10,
     "sku": "OSO-00010",
-    "name": "Genmega 2 High HCDU W/Out Cassettes",
+    "name": "Genmega 2 High HCDU, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "cost": 1116.00,
@@ -157,7 +157,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 19,
+    "id": 13,
     "sku": "OSO-00013",
     "name": "ATM Wireless Antenna",
     "manufacturer": "Universal",
@@ -169,7 +169,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 20,
+    "id": 14,
     "sku": "OSO-00014",
     "name": "Hyosung Printer Assembly",
     "manufacturer": "Hyosung",
@@ -181,7 +181,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 21,
+    "id": 15,
     "sku": "OSO-00015",
     "name": "Hyosung Power Supply",
     "manufacturer": "Hyosung",
@@ -193,7 +193,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 23,
+    "id": 16,
     "sku": "OSO-00016",
     "name": "Hyosung EMV Card Reader",
     "manufacturer": "Hyosung",
@@ -205,7 +205,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 24,
+    "id": 17,
     "sku": "OSO-00017",
     "name": "Hyosung LCD Display Panel with LED Backlight",
     "manufacturer": "Hyosung",
@@ -217,7 +217,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 25,
+    "id": 18,
     "sku": "OSO-00018",
     "name": "Hyosung NFC Reader Complete Kit for Halo II",
     "manufacturer": "Hyosung",
@@ -229,7 +229,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 29,
+    "id": 19,
     "sku": "OSO-00019",
     "name": "DPL High Gain Antenna",
     "manufacturer": "DPL",
@@ -241,7 +241,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 30,
+    "id": 20,
     "sku": "OSO-00020",
     "name": "DPL ATM Restart Module",
     "manufacturer": "DPL",
@@ -253,7 +253,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 31,
+    "id": 21,
     "sku": "OSO-00021",
     "name": "InHand IR302 4G Wireless Router",
     "manufacturer": "InHand",
@@ -265,7 +265,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 32,
+    "id": 22,
     "sku": "OSO-00022",
     "name": "InHand IR302 4G Wireless Router — Rental",
     "manufacturer": "InHand",
@@ -278,7 +278,7 @@ export const products = [
     "rental": true
   },
   {
-    "id": 33,
+    "id": 23,
     "sku": "OSO-00023",
     "name": "DPL Hercules 4G LTE Wireless ATM Modem",
     "manufacturer": "DPL",
@@ -290,7 +290,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 34,
+    "id": 24,
     "sku": "OSO-00024",
     "name": "DPL Hercules 4G LTE Wireless ATM Modem — Rental",
     "manufacturer": "DPL",
@@ -303,7 +303,7 @@ export const products = [
     "rental": true
   },
   {
-    "id": 35,
+    "id": 25,
     "sku": "OSO-00025",
     "name": "IoT Power Relay",
     "manufacturer": "DPL",
@@ -315,7 +315,7 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 36,
+    "id": 26,
     "sku": "OSO-00026",
     "name": "Origin Wireless Router",
     "manufacturer": "Origin",
@@ -327,8 +327,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 46,
-    "sku": "OSO-00028",
+    "id": 27,
+    "sku": "OSO-00027",
     "name": "Genmega Bezel Key, Type C415A, Two Keys",
     "manufacturer": "Genmega",
     "category": "Locks",
@@ -340,8 +340,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 47,
-    "sku": "OSO-00029",
+    "id": 28,
+    "sku": "OSO-00028",
     "name": "Genmega Barrel Key, Eagle, 1 Key",
     "manufacturer": "Genmega",
     "category": "Locks",
@@ -353,8 +353,8 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 56,
-    "sku": "OSO-00030",
+    "id": 29,
+    "sku": "OSO-00029",
     "name": "Genmega Keypad, PCI V5.X Certified, EPP B5",
     "manufacturer": "Genmega",
     "category": "Keypads",
@@ -366,9 +366,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 59,
-    "sku": "OSO-00031",
-    "name": "EMV Card Reader, Type TDR",
+    "id": 30,
+    "sku": "OSO-00030",
+    "name": "Gengmega EMV Card Reader, Type TDR",
     "manufacturer": "Genmega",
     "category": "Card Readers",
     "cost": 218.00,
@@ -379,9 +379,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 64,
-    "sku": "OSO-00032",
-    "name": "GT3000 LCD Upgrade Kit, Sunviewable 7\" LCD",
+    "id": 31,
+    "sku": "OSO-00031",
+    "name": "Genmega GT3000 LCD Upgrade Kit, Sunviewable 7\" LCD",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
     "cost": 710.00,
@@ -392,9 +392,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 65,
-    "sku": "OSO-00033",
-    "name": "T4000 LCD Upgrade Kit, AA104SH02",
+    "id": 32,
+    "sku": "OSO-00032",
+    "name": "Genmega T4000 LCD Upgrade Kit, AA104SH02",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
     "cost": 983.00,
@@ -405,22 +405,22 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 78,
-    "sku": "OSO-00034",
-    "name": "2 High 4K HPCDU, Without Cassette",
+    "id": 33,
+    "sku": "OSO-00033",
+    "name": "Genmega 2 High HPCDU, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "cost": 1584.00,
     "price": 1800.00,
-    "description": "2 High 4K HPCDU, Without Cassette NOTICE: Does Not Include Shutter Module",
+    "description": "2 High 4K HPCDU, Without Cassettes NOTICE: Does Not Include Shutter Module",
     "partNumber": "151110591",
     "image": "/products/151110591.jpg",
     "inStock": true
   },
   {
-    "id": 79,
-    "sku": "OSO-00035",
-    "name": "GT5000 2 High 4K PCDU II, With Presenter, Without Cassettes",
+    "id": 34,
+    "sku": "OSO-00034",
+    "name": "Genmega GT5000 2 High PCDU II, With Presenter, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "cost": 2130.00,
@@ -431,9 +431,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 80,
-    "sku": "OSO-00036",
-    "name": "2 High 2K SCDU-E III, Without Cassettes",
+    "id": 35,
+    "sku": "OSO-00035",
+    "name": "Genmega 2 High SCDU-E III, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "cost": 973.00,
@@ -444,45 +444,45 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 81,
-    "sku": "OSO-00037",
-    "name": "CDU, Assembly, 3 High HCDU, Front Load, Without CST",
+    "id": 36,
+    "sku": "OSO-00036",
+    "name": "Genmega 3 High HCDU, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #151110461). Contact us for current pricing and availability.",
+    "description": "3 High 6K HCDU, Without Cassettes",
     "partNumber": "151110461",
     "image": "/products/cdu-3high-hcdu-front-load.png",
     "inStock": true
   },
   {
-    "id": 82,
-    "sku": "OSO-00038",
-    "name": "CDU, 3 High Feed Module, Without CST, HCDU",
+    "id": 37,
+    "sku": "OSO-00037",
+    "name": "Genmega 3 High Feed Module Upgrade, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #151120531). Contact us for current pricing and availability.",
+    "description": "3 High Feed Module Upgrade, Turns HCDU Into 4 High 8K",
     "partNumber": "151120531",
     "image": "/products/151120531.jpg",
     "inStock": true
   },
   {
-    "id": 83,
-    "sku": "OSO-00039",
-    "name": "CDU, Control Board, Blue, HCDU",
+    "id": 38,
+    "sku": "OSO-00038",
+    "name": "Genmega CDU Control Board, Blue, HCDU",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #151210481). Contact us for current pricing and availability.",
+    "description": "CDU Control Board, Blue, HCDU",
     "partNumber": "151210481",
     "image": "/products/cdu-control-board-blue-hcdu.png",
     "inStock": true
   },
   {
-    "id": 97,
-    "sku": "OSO-00040",
-    "name": "Digital Media Topper II, Flat Base",
+    "id": 39,
+    "sku": "OSO-00039",
+    "name": "Genmega Digital Media Topper II, Flat Base",
     "manufacturer": "Genmega",
     "category": "Toppers",
     "pricing": "quote",
@@ -492,9 +492,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 98,
-    "sku": "OSO-00041",
-    "name": "Digital Media GenTopper III, 21\", Sloped Base",
+    "id": 40,
+    "sku": "OSO-00040",
+    "name": "Genmega Digital Media GenTopper III, 21\", Sloped Base",
     "manufacturer": "Genmega",
     "category": "Toppers",
     "pricing": "quote",
@@ -504,9 +504,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 99,
-    "sku": "OSO-00042",
-    "name": "Digital Media Topper, HDT-1900",
+    "id": 41,
+    "sku": "OSO-00041",
+    "name": "Genmega Digital Media Topper, HDT-1900",
     "manufacturer": "Genmega",
     "category": "Toppers",
     "pricing": "quote",
@@ -516,9 +516,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 100,
-    "sku": "OSO-00043",
-    "name": "CDU Assembly, 1-High HCDU, Front Load (without Cassette)",
+    "id": 42,
+    "sku": "OSO-00042",
+    "name": "Genmega 1-High HCDU, Without Cassette",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
@@ -528,9 +528,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 101,
-    "sku": "OSO-00044",
-    "name": "CDU Assembly, 1-High HPCDU (without Cassette)",
+    "id": 43,
+    "sku": "OSO-00043",
+    "name": "Genmega 1-High HPCDU, Without Cassette",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
@@ -540,33 +540,33 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 102,
-    "sku": "OSO-00045",
-    "name": "CDU 2nd Feed Module, SCDU-E III (without Cassette)",
+    "id": 44,
+    "sku": "OSO-00044",
+    "name": "Genmega SCDU-E III 2nd Feed Module Upgrade, Without Cassette",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genmega second feed module for the SCDU-E III dispenser. Genuine Genmega part (item #151119981). Contact us for current pricing and availability.",
+    "description": "Second Feed Module For SCDU-E III NOTICE: Will Not Work On Standard SCDU",
     "partNumber": "151119981",
     "image": "/products/151119981.jpg",
     "inStock": true
   },
   {
-    "id": 103,
-    "sku": "OSO-00046",
-    "name": "CDU Assembly, 1-High SCDU-E III (without Cassette)",
+    "id": 45,
+    "sku": "OSO-00045",
+    "name": "Genmega 1-High SCDU-E III, Without Cassette",
     "manufacturer": "Genmega",
     "category": "Dispensers",
     "pricing": "quote",
-    "description": "Genmega 1-high SCDU-E III cash dispensing unit. Genuine Genmega part (item #151130211). Contact us for current pricing and availability.",
+    "description": "Genmega 1-high 1K SCDU-E III CDU NOTICE: SCDU-E Can Be Upgraded To 2 High",
     "partNumber": "151130211",
     "image": "/products/151130211.jpg",
     "inStock": true
   },
   {
-    "id": 104,
-    "sku": "OSO-00047",
-    "name": "Printer, Assembly, 2\", WRPU, ONYX-W Printer",
+    "id": 46,
+    "sku": "OSO-00046",
+    "name": "Genmega 2\" WRPU, ONYX-W Printer",
     "manufacturer": "Genmega",
     "category": "Printers",
     "pricing": "quote",
@@ -576,9 +576,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 105,
-    "sku": "OSO-00048",
-    "name": "Bezel, Front Bezel, G3000 Onyx",
+    "id": 47,
+    "sku": "OSO-00047",
+    "name": "Genmega G3000 Onyx Top Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
     "pricing": "quote",
@@ -588,9 +588,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 106,
-    "sku": "OSO-00049",
-    "name": "Bezel, LCD Bezel, G3000 Onyx",
+    "id": 48,
+    "sku": "OSO-00048",
+    "name": "Genmega G3000 Onyx LCD Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
     "pricing": "quote",
@@ -600,9 +600,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 107,
-    "sku": "OSO-00050",
-    "name": "Bezel, Door Bezel Without LED, Nova",
+    "id": 49,
+    "sku": "OSO-00049",
+    "name": "Genmega Nova Door Bezel, Without LED",
     "manufacturer": "Genmega",
     "category": "Bezels",
     "pricing": "quote",
@@ -612,9 +612,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 108,
-    "sku": "OSO-00051",
-    "name": "Bezel, Door Bezel, G2500/3500",
+    "id": 50,
+    "sku": "OSO-00050",
+    "name": "Genmega G2500 Door Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
     "pricing": "quote",
@@ -624,9 +624,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 109,
-    "sku": "OSO-00052",
-    "name": "Bezel, Front Bezel, With Touchscreen Without MCR EPP Bezel, Nova",
+    "id": 51,
+    "sku": "OSO-00051",
+    "name": "Genmega Nova Top Bezel, With Touchscreen, Without MCR EPP Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
     "pricing": "quote",
@@ -636,9 +636,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 110,
-    "sku": "OSO-00053",
-    "name": "Bezel, Door Bezel, 1700",
+    "id": 52,
+    "sku": "OSO-00052",
+    "name": "Genmega 1700W Door Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
     "pricing": "quote",
@@ -648,9 +648,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 111,
-    "sku": "OSO-00054",
-    "name": "Bezel, Front Bezel, Without Lock 1700",
+    "id": 53,
+    "sku": "OSO-00053",
+    "name": "Genmega 1700W Top Bezel",
     "manufacturer": "Genmega",
     "category": "Bezels",
     "pricing": "quote",
@@ -660,9 +660,9 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 113,
-    "sku": "OSO-00055",
-    "name": "Cassette, WCDU-2K, 2000 Notes",
+    "id": 54,
+    "sku": "OSO-00054",
+    "name": "Genmega WCDU-2K Cassette",
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "pricing": "quote",
@@ -672,97 +672,97 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 114,
-    "sku": "OSO-00056",
-    "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 3rd Cassette, 2000 Notes",
+    "id": 55,
+    "sku": "OSO-00055",
+    "name": "Genmega 2K Note Cassette, 3rd",
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #141139521). Contact us for current pricing and availability.",
+    "description": "3rd Cassette, MCDU/HCDU/HPCDU/PCDU/RCDU",
     "partNumber": "141139521",
     "image": "/products/141139521.png",
     "inStock": true
   },
   {
-    "id": 115,
-    "sku": "OSO-00057",
-    "name": "Cassette, HCDU/HPCDU/PCDU/RCDU Type, Rev, 4th Cassette, 2000 Notes",
+    "id": 56,
+    "sku": "OSO-00056",
+    "name": "Genmega 2K Note Cassette, 4th",
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #141139531). Contact us for current pricing and availability.",
+    "description": "4th Cassette, MCDU/HCDU/HPCDU/PCDU/RCDU",
     "partNumber": "141139531",
     "image": "/products/141139531.png",
     "inStock": true
   },
   {
-    "id": 116,
-    "sku": "OSO-00058",
-    "name": "Cassette, SCDU-E, 1st Cassette",
+    "id": 57,
+    "sku": "OSO-00057",
+    "name": "Genmega SCDU-E Cassette, 1st",
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #141170101). Contact us for current pricing and availability.",
+    "description": "SCDU-E Cassette, 1st NOTICE: Will Not Work With Standard SCDU",
     "partNumber": "141170101",
     "image": "/products/141170101.jpg",
     "inStock": true
   },
   {
-    "id": 117,
-    "sku": "OSO-00059",
-    "name": "Cassette, SCDU-E, 2nd Cassette",
+    "id": 58,
+    "sku": "OSO-00058",
+    "name": "Genmega SCDU-E Cassette, 2nd",
     "manufacturer": "Genmega",
     "category": "Cassettes",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #141170111). Contact us for current pricing and availability.",
+    "description": "SCDU-E Cassette, 2nd NOTICE: Will Not Work With Standard SCDU",
     "partNumber": "141170111",
     "image": "/products/141170111.jpg",
     "inStock": true
   },
   {
-    "id": 118,
-    "sku": "OSO-00060",
-    "name": "LCD, Panel, Color, 8\" Wide",
+    "id": 59,
+    "sku": "OSO-00059",
+    "name": "Genmega 8\" LCD Panel, G2500",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #210207711). Contact us for current pricing and availability.",
+    "description": "8\" LCD Panel, G2500 NOTICE: Does Not Include Ribbon Cable",
     "partNumber": "210207711",
     "image": "/products/210207711.jpg",
     "inStock": true
   },
   {
-    "id": 119,
-    "sku": "OSO-00061",
-    "name": "LCD, Panel, 7\" Color, Wide, 1700W, G1900, GT3000",
+    "id": 60,
+    "sku": "OSO-00060",
+    "name": "Genmega 7\" LCD Panel, 1700W, G1900, GT3000",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #210207701). Contact us for current pricing and availability.",
+    "description": "7\" LCD Panel, 1700W, G1900, GT3000 NOTICE: Does Not Include Ribbon Cable",
     "partNumber": "210207701",
     "image": "/products/210207701.jpg",
     "inStock": true
   },
   {
-    "id": 120,
-    "sku": "OSO-00062",
-    "name": "Assembly, 7\" Wide Color LCD, GT3000",
+    "id": 61,
+    "sku": "OSO-00061",
+    "name": "Genmega GT3000 7\" LCD Assembly",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #210107551). Contact us for current pricing and availability.",
+    "description": "GT3000 LCD With Bezel, Function Keys, Cables",
     "partNumber": "210107551",
     "image": "/products/210107551.jpg",
     "inStock": true
   },
   {
-    "id": 121,
-    "sku": "OSO-00063",
-    "name": "Assembly, 7\" Wide Color LCD",
+    "id": 62,
+    "sku": "OSO-00062",
+    "name": "Genmega 1700W 7\" LCD Assembly",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
     "pricing": "quote",
-    "description": "Genuine Genmega part (item #210107541). Contact us for current pricing and availability.",
+    "description": "1700W LCD With Bezel, Function Keys, Cables",
     "partNumber": "210107541",
     "image": "/products/210107541.jpg",
     "inStock": true
