@@ -360,7 +360,7 @@ export const products = [
     "category": "Keypads",
     "cost": 437.00,
     "price": 550.00,
-    "description": "EPP, PCI V5.X CERTIFIED, EPP B5",
+    "description": "EPP, PCI V5.X CERTIFIED, EPP B5. NOTICE: This Keypad Requires ATM Software Version V05.00.37 Or Higher",
     "partNumber": "201207541",
     "image": "/products/201207541.png",
     "inStock": true
