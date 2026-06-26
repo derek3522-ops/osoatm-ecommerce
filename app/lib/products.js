@@ -381,7 +381,7 @@ export const products = [
   {
     "id": 64,
     "sku": "OSO-00032",
-    "name": "LCD Upgrade Kit, Sunviewable 7\" LCD, GT3000",
+    "name": "GT3000 LCD Upgrade Kit, Sunviewable 7\" LCD",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
     "cost": 710.00,
@@ -394,11 +394,12 @@ export const products = [
   {
     "id": 65,
     "sku": "OSO-00033",
-    "name": "Upgrade Kit, LCD, AA104SH02, T4000",
+    "name": "T4000 LCD Upgrade Kit, AA104SH02",
     "manufacturer": "Genmega",
     "category": "LCD Displays",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #210290944). Contact us for current pricing and availability.",
+    "cost": 983.00,
+    "price": 1100.00,
+    "description": "T4000 LCD Upgrade Kit",
     "partNumber": "210290944",
     "image": "/products/lcd-aa104sh02-t4000.png",
     "inStock": true
@@ -406,11 +407,12 @@ export const products = [
   {
     "id": 78,
     "sku": "OSO-00034",
-    "name": "CDU, Assembly, 2 High HPCDU, Without CST",
+    "name": "2 High 4K HPCDU, Without Cassette",
     "manufacturer": "Genmega",
     "category": "Dispensers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #151110591). Contact us for current pricing and availability.",
+    "cost": 1584.00,
+    "price": 1800.00,
+    "description": "2 High 4K HPCDU, Without Cassette NOTICE: Does Not Include Shutter Module",
     "partNumber": "151110591",
     "image": "/products/151110591.jpg",
     "inStock": true
@@ -418,11 +420,12 @@ export const products = [
   {
     "id": 79,
     "sku": "OSO-00035",
-    "name": "CDU, Assembly, 2 High PCDU II, Presenter, Without CST",
+    "name": "GT5000 2 High 4K PCDU II, With Presenter, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #151112711). Contact us for current pricing and availability.",
+    "cost": 2130.00,
+    "price": 2300.00,
+    "description": "GT5000 2 High 4K PCDU II, With Presenter, Without Cassettes",
     "partNumber": "151112711",
     "image": "/products/cdu-2high-pcdu2-presenter.png",
     "inStock": true
@@ -430,11 +433,12 @@ export const products = [
   {
     "id": 80,
     "sku": "OSO-00036",
-    "name": "CDU, Assembly, 2 High SCDU-E III, Without CST",
+    "name": "2 High 2K SCDU-E III, Without Cassettes",
     "manufacturer": "Genmega",
     "category": "Dispensers",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #151130221). Contact us for current pricing and availability.",
+    "cost": 973.00,
+    "price": 1100.00,
+    "description": "2 High 2K SCDU-E III, Without Cassettes NOTICE: Each Cassette Holds 1K Notes",
     "partNumber": "151130221",
     "image": "/products/151130221.jpg",
     "inStock": true
