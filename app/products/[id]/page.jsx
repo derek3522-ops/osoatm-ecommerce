@@ -87,7 +87,7 @@ export default function ProductPage({ params }) {
             {product.description && product.description.split('NOTICE:').length > 1 ? (
   <>
     <p className="text-gray-600 mb-1 text-lg">{product.description.split('NOTICE:')[0]}</p>
-    <p className="text-gray-600 mb-2 text-base">NOTICE: {product.description.split('NOTICE:')[1]}</p>
+    <p className="text-gray-600 mb-2 text-base"><span className="font-bold">NOTICE:</span> {product.description.split('NOTICE:')[1]}</p>
   </>
 ) : (
   <p className="text-gray-600 mb-2 text-lg">{product.description}</p>
