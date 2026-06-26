@@ -327,18 +327,6 @@ export const products = [
     "inStock": true
   },
   {
-    "id": 42,
-    "sku": "OSO-00027",
-    "name": "Power Supply, Assembly, PSU2100",
-    "manufacturer": "Genmega",
-    "category": "Power Supplies",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #251118791). Contact us for current pricing and availability.",
-    "partNumber": "251118791",
-    "image": "/products/power-supply.png",
-    "inStock": true
-  },
-  {
     "id": 46,
     "sku": "OSO-00028",
     "name": "Lock, Key, Type C415A, Two Keys",
