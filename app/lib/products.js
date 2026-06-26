@@ -342,11 +342,12 @@ export const products = [
   {
     "id": 47,
     "sku": "OSO-00029",
-    "name": "Key, Front Bezel, Eagle",
+    "name": "Genmega Barrel Key, Eagle, 1 Key",
     "manufacturer": "Genmega",
     "category": "Locks",
-    "pricing": "quote",
-    "description": "Genuine Genmega part (item #230200591). Contact us for current pricing and availability.",
+    "cost": 6.00,
+    "price": 9.00,
+    "description": "Genmega Barrel Key, Eagle, 1 Key",
     "partNumber": "230200591",
     "image": "/products/placeholder.png",
     "inStock": true
