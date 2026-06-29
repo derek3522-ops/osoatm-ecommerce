@@ -11,7 +11,7 @@ import { ShoppingCart, AlertCircle } from 'lucide-react';
 export default function ProductPage({ params }) {
   const product = products.find(p => p.id === parseInt(params.id));
   const [quantity, setQuantity] = useState(1);
-  const [addedToCart, setAddedToCart] = useState(false);
+  const [addedToCart, setAddedToCart] = useState(false); const [selectedVariant, setSelectedVariant] = useState(   product?.variants ? product.variants[0] : null );
   const addToCart = useStore(state => state.addToCart);
 
   if (!product) {
@@ -91,6 +91,27 @@ export default function ProductPage({ params }) {
   </>
 ) : (
   <p className="text-gray-600 mb-2 text-lg">{product.description}</p>
+      {product.variants && (
+  <div className="mb-6">
+    <label className="block text-sm font-bold mb-2">Select Service Plan</label>
+    <select
+      value={selectedVariant?.label}
+      onChange={(e) => setSelectedVariant(product.variants.find(v => v.label === e.target.value))}
+      className="w-full px-3 py-2 border rounded"
+    >
+      {product.variants.map(v => (
+        <option key={v.label} value={v.label}>
+          {v.label} — ${v.monthlyFee}/month
+        </option>
+      ))}
+    </select>
+    {selectedVariant && (
+      <p className="text-sm text-gray-500 mt-2">
+        + ${selectedVariant.monthlyFee}/month cellular service fee
+      </p>
+    )}
+  </div>
+)}
 )}
             {product.partNumber && (
               <p className="text-sm text-gray-500 mb-6">Part# : {product.partNumber}</p>
