@@ -242,6 +242,7 @@ export const products = [
   { "label": "Verizon", "monthlyFee": 7 },
   { "label": "Dual (AT&T/Verizon)", "monthlyFee": 12 }
 ],
+    "image": "/products/placeholder.png",
     "inStock": true
   },
   {
