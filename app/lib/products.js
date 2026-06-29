@@ -251,9 +251,14 @@ export const products = [
     "name": "Origin Wireless Router",
     "manufacturer": "Origin",
     "category": "Wireless/Connectivity",
-    "cost": 86.99,
-    "price": 82.99,
-    "description": "Origin by Allpoint Wireless router for ATM. NOTICE: Purchase Outright",
+    "cost": 80.00,
+    "price": 100.00,
+    "description": "Origin Wireless Router For ATM. NOTICE: Purchase Outright",
+    "variants": [
+  { "label": "AT&T", "monthlyFee": 7 },
+  { "label": "Verizon", "monthlyFee": 7 },
+  { "label": "Dual (AT&T/Verizon)", "monthlyFee": 12 }
+],
     "image": "/products/placeholder.png",
     "inStock": true
   },
