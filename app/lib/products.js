@@ -231,12 +231,12 @@ export const products = [
   {
     "id": 21,
     "sku": "OSO-00021",
-    "name": "InHand IR302 4G Wireless Router",
+    "name": "InHand I-22 4G Wireless Router",
     "manufacturer": "InHand",
     "category": "Wireless/Connectivity",
     "cost": 100.00,
     "price": 130.00,
-    "description": "InHand IR302 4G LTE industrial router for ATM connectivity. Purchase outright.",
+    "description": "InHand I-22 4G LTE industrial router for ATM connectivity. Purchase outright.",
 "variants": [
   { "label": "AT&T", "monthlyFee": 7 },
   { "label": "Verizon", "monthlyFee": 7 },
