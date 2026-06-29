@@ -187,13 +187,13 @@ export default function RepairPage() {
                 <div>
                   <p className="font-bold text-lg mb-4">Turnaround</p>
                   <div className="space-y-3">
-                    <div className="flex flex-row gap-3 items-center">
-                      <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} id="standard" />
-                      <label htmlFor="standard" className="cursor-pointer">Standard (2-3 business days)</label>
+                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '12px' }}>
+                      <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} id="standard" style={{ margin: 0, flexShrink: 0 }} />
+                      <label htmlFor="standard" style={{ cursor: 'pointer', margin: 0 }}>Standard (2-3 business days)</label>
                     </div>
-                    <div className="flex flex-row gap-3 items-center">
-                      <input type="radio" name="urgency" value="rush" checked={formData.urgency === 'rush'} onChange={handleChange} id="rush" />
-                      <label htmlFor="rush" className="cursor-pointer">Rush (next business day) &mdash; additional fee applies</label>
+                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '12px' }}>
+                      <input type="radio" name="urgency" value="rush" checked={formData.urgency === 'rush'} onChange={handleChange} id="rush" style={{ margin: 0, flexShrink: 0 }} />
+                      <label htmlFor="rush" style={{ cursor: 'pointer', margin: 0 }}>Rush (next business day) — additional fee applies</label>
                     </div>
                   </div>
                 </div>
