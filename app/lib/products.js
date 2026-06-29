@@ -703,7 +703,7 @@ export const manufacturers = ["All","Genmega","Hyosung","InHand","Origin","Unive
 
 export const repairCategories = [
   "All Services","CDU / Dispenser","Cassette","Note Separator",
-  "Keypad / EPP","Power Supply","Printer","Card Reader","Mainboard","Combo Deals"
+  "Keypad / EPP","Power Supply","Printer","Card Reader","Mainboard",
 ];
 
 export const repairServices = [
