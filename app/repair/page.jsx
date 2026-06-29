@@ -184,19 +184,19 @@ export default function RepairPage() {
                   </div>
                 </fieldset>
 
-                <fieldset>
-                  <legend className="font-bold text-lg mb-4">Turnaround</legend>
+                <div>
+                  <p className="font-bold text-lg mb-4">Turnaround</p>
                   <div className="space-y-3">
-                    <label className="flex items-center cursor-pointer">
-                      <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} className="mr-3 flex-shrink-0" />
+                    <label className="flex flex-row items-center cursor-pointer gap-3">
+                      <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} />
                       <span>Standard (2-3 business days)</span>
                     </label>
-                    <label className="flex items-center cursor-pointer">
-                      <input type="radio" name="urgency" value="rush" checked={formData.urgency === 'rush'} onChange={handleChange} className="mr-3 flex-shrink-0" />
+                    <label className="flex flex-row items-center cursor-pointer gap-3">
+                      <input type="radio" name="urgency" value="rush" checked={formData.urgency === 'rush'} onChange={handleChange} />
                       <span>Rush (next business day) &mdash; additional fee applies</span>
                     </label>
                   </div>
-                </fieldset>
+                </div>
 
                 <button type="submit" className="w-full btn-primary py-3">Submit Repair Request</button>
                 <p className="text-xs text-gray-600 text-center">
