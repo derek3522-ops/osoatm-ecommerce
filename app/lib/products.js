@@ -702,8 +702,8 @@ export const categories = [
 export const manufacturers = ["All","Genmega","Hyosung","InHand","Origin","Universal"];
 
 export const repairCategories = [
-  "All Services","CDU / Dispenser","Cassette","Note Separator",
-  "Keypad / EPP","Power Supply","Printer","Card Reader","Mainboard",
+  "All Services","CDU / Dispenser","Cassette",
+  "Keypad / EPP","Printer",
 ];
 
 export const repairServices = [
