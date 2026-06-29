@@ -164,7 +164,7 @@ export const products = [
     "category": "Wireless/Connectivity",
     "cost": 12.99,
     "price": 11.99,
-    "description": "Standard Antenna - Increases cellular reception, weatherized with magnetic base and 10 foot cord",
+    "description": "Standard Antenna - Increases Cellular Reception",
     "image": "/products/placeholder.png",
     "inStock": true
   },
@@ -200,7 +200,7 @@ export const products = [
     "category": "Card Readers",
     "cost": 289.99,
     "price": 274.99,
-    "description": "Hyosung ATM EMV chip replacement card reader - Card Reader Only. Not an upgrade kit",
+    "description": "Card Reader Only. NOTICE: Not An Upgrade Kit",
     "image": "/products/placeholder.png",
     "inStock": true
   },
@@ -212,19 +212,19 @@ export const products = [
     "category": "LCD Displays",
     "cost": 275.99,
     "price": 261.99,
-    "description": "New Revision LCD Display Panel w/o Electronics Size - 10.1\"",
+    "description": "New Revision 10.1\" LCD Display Panel Without Electronics",
     "image": "/products/placeholder.png",
     "inStock": true
   },
   {
     "id": 18,
     "sku": "OSO-00018",
-    "name": "Hyosung NFC Reader Complete Kit for Halo II",
+    "name": "Hyosung NFC Reader Complete Kit For Halo II",
     "manufacturer": "Hyosung",
     "category": "Card Readers",
     "cost": 379.99,
     "price": 360.99,
-    "description": "NFC Reader Complete Kit to include bracket and cables for Halo II",
+    "description": "NFC Reader Kit For Halo II",
     "image": "/products/placeholder.png",
     "inStock": true
   },
@@ -236,7 +236,7 @@ export const products = [
     "category": "Wireless/Connectivity",
     "cost": 100.00,
     "price": 130.00,
-    "description": "InHand I-22 4G LTE industrial router for ATM connectivity. Purchase outright.",
+    "description": "InHand I-22 4G LTE Router For ATM. NOTICE: Purchase Outright",
 "variants": [
   { "label": "AT&T", "monthlyFee": 7 },
   { "label": "Verizon", "monthlyFee": 7 },
@@ -253,7 +253,7 @@ export const products = [
     "category": "Wireless/Connectivity",
     "cost": 86.99,
     "price": 82.99,
-    "description": "Origin by Allpoint Wireless router for ATM connectivity.",
+    "description": "Origin by Allpoint Wireless router for ATM. NOTICE: Purchase Outright",
     "image": "/products/placeholder.png",
     "inStock": true
   },
