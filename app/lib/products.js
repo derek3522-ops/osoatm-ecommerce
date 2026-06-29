@@ -234,8 +234,8 @@ export const products = [
     "name": "InHand IR302 4G Wireless Router",
     "manufacturer": "InHand",
     "category": "Wireless/Connectivity",
-    "cost": 119.99,
-    "price": 113.99,
+    "cost": 100.00,
+    "price": 130.00,
     "description": "InHand IR302 4G LTE industrial router for ATM connectivity. Purchase outright.",
     "image": "/products/Inhand.png",
     "inStock": true
