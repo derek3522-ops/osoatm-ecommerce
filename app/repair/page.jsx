@@ -186,7 +186,7 @@ export default function RepairPage() {
 
                 <fieldset>
                   <legend className="font-bold text-lg mb-4">Turnaround</legend>
-                  <div className="space-y-2">
+                  <div className="space-y-3">
                     <label className="flex items-center cursor-pointer">
                       <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} className="mr-2" />
                       <span>Standard (2-3 business days)</span>
