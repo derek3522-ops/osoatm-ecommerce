@@ -237,7 +237,7 @@ export const products = [
     "cost": 119.99,
     "price": 113.99,
     "description": "InHand IR302 4G LTE industrial router for ATM connectivity. Purchase outright.",
-    "image": "/products/placeholder.png",
+    "image": "/products/Inhand.png",
     "inStock": true
   },
   {
