@@ -98,29 +98,6 @@ export default function ProductPage({ params }) {
               <p className="text-gray-600 mb-2 text-lg">{product.description}</p>
             )}
 
-            {/* Variants / Service Plan selector */}
-            {product.variants && (
-              <div className="mb-6">
-                <label className="block text-sm font-bold mb-2">Select Service Plan</label>
-                <select
-                  value={selectedVariant?.label}
-                  onChange={(e) => setSelectedVariant(product.variants.find(v => v.label === e.target.value))}
-                  className="w-full px-3 py-2 border rounded"
-                >
-                  {product.variants.map(v => (
-                    <option key={v.label} value={v.label}>
-                      {v.label} — ${v.monthlyFee}/Month
-                    </option>
-                  ))}
-                </select>
-                {selectedVariant && (
-                  <p className="text-sm text-gray-500 mt-2">
-                    + ${selectedVariant.monthlyFee}/Month Cellular Service Fee
-                  </p>
-                )}
-              </div>
-            )}
-
             {/* Part Number */}
             {product.partNumber && (
               <p className="text-sm text-gray-500 mb-6">Part# : {product.partNumber}</p>
@@ -165,7 +142,30 @@ export default function ProductPage({ params }) {
                 </>
               )}
             </div>
-
+            
+ {/* Variants / Service Plan selector */}
+            {product.variants && (
+              <div className="mb-6">
+                <label className="block text-sm font-bold mb-2">Select Service Plan</label>
+                <select
+                  value={selectedVariant?.label}
+                  onChange={(e) => setSelectedVariant(product.variants.find(v => v.label === e.target.value))}
+                  className="w-full px-3 py-2 border rounded"
+                >
+                  {product.variants.map(v => (
+                    <option key={v.label} value={v.label}>
+                      {v.label} — ${v.monthlyFee}/Month
+                    </option>
+                  ))}
+                </select>
+                {selectedVariant && (
+                  <p className="text-sm text-gray-500 mt-2">
+                    + ${selectedVariant.monthlyFee}/Month Cellular Service Fee
+                  </p>
+                )}
+              </div>
+            )}
+            
             {/* Quantity and Add to Cart */}
             <div className="mb-8 space-y-4">
               {product.pricing === 'quote' ? (
