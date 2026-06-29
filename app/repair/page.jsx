@@ -188,11 +188,11 @@ export default function RepairPage() {
                   <legend className="font-bold text-lg mb-4">Turnaround</legend>
                   <div className="space-y-3">
                     <label className="flex items-center cursor-pointer">
-                      <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} className="mr-2" />
+                      <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} className="mr-3 flex-shrink-0" />
                       <span>Standard (2-3 business days)</span>
                     </label>
                     <label className="flex items-center cursor-pointer">
-                      <input type="radio" name="urgency" value="rush" checked={formData.urgency === 'rush'} onChange={handleChange} className="mr-2" />
+                      <input type="radio" name="urgency" value="rush" checked={formData.urgency === 'rush'} onChange={handleChange} className="mr-3 flex-shrink-0" />
                       <span>Rush (next business day) &mdash; additional fee applies</span>
                     </label>
                   </div>
