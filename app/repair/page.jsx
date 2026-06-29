@@ -187,13 +187,17 @@ export default function RepairPage() {
                 <div>
                   <p className="font-bold text-lg mb-4">Turnaround</p>
                   <div className="space-y-3">
-                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '12px' }}>
-                      <input type="radio" name="urgency" value="standard" checked={formData.urgency === 'standard'} onChange={handleChange} id="standard" style={{ margin: 0, flexShrink: 0 }} />
-                      <label htmlFor="standard" style={{ cursor: 'pointer', margin: 0 }}>Standard (2-3 business days)</label>
+                   <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '12px' }}>
+                      <input type="radio" name="urgency" value="ground" checked={formData.urgency === 'ground'} onChange={handleChange} id="ground" style={{ margin: 0, flexShrink: 0 }} />
+                      <label htmlFor="ground" style={{ cursor: 'pointer', margin: 0 }}>Ground (3-5 Business Days)</label>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '12px' }}>
-                      <input type="radio" name="urgency" value="rush" checked={formData.urgency === 'rush'} onChange={handleChange} id="rush" style={{ margin: 0, flexShrink: 0 }} />
-                      <label htmlFor="rush" style={{ cursor: 'pointer', margin: 0 }}>Rush (next business day) — additional fee applies</label>
+                      <input type="radio" name="urgency" value="secondday" checked={formData.urgency === 'secondday'} onChange={handleChange} id="secondday" style={{ margin: 0, flexShrink: 0 }} />
+                      <label htmlFor="secondday" style={{ cursor: 'pointer', margin: 0 }}>2nd Day (2 Business Days)</label>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '12px' }}>
+                      <input type="radio" name="urgency" value="overnight" checked={formData.urgency === 'overnight'} onChange={handleChange} id="overnight" style={{ margin: 0, flexShrink: 0 }} />
+                      <label htmlFor="overnight" style={{ cursor: 'pointer', margin: 0 }}>Overnight (1 Business Day)</label>
                     </div>
                   </div>
                 </div>
