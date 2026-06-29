@@ -201,7 +201,7 @@ export default function RepairPage() {
                     </div>
                     <div className="form-group">
                       <label htmlFor="state">State</label>
-                      <input type="text" id="state" name="state" value={formData.state} onChange={handleChange} maxLength={2} placeholder="AZ" />
+                      <input type="text" id="state" name="state" value={formData.state} onChange={handleChange} maxLength={2} />
                     </div>
                     <div className="form-group">
                       <label htmlFor="zip">Zip Code</label>
