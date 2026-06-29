@@ -207,3 +207,14 @@ label {
   padding-bottom: 10px;
   letter-spacing: 0.03em;
 }
+/* Fix radio/checkbox labels */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline;
+  margin-bottom: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
