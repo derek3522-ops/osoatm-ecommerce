@@ -109,13 +109,13 @@ export default function ProductPage({ params }) {
                 >
                   {product.variants.map(v => (
                     <option key={v.label} value={v.label}>
-                      {v.label} — ${v.monthlyFee}/month
+                      {v.label} — ${v.monthlyFee}/Month
                     </option>
                   ))}
                 </select>
                 {selectedVariant && (
                   <p className="text-sm text-gray-500 mt-2">
-                    + ${selectedVariant.monthlyFee}/month cellular service fee
+                    + ${selectedVariant.monthlyFee}/Month Cellular Service Fee
                   </p>
                 )}
               </div>
