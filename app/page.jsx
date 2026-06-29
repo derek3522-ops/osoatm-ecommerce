@@ -24,8 +24,9 @@ export default function Home() {
                 <span>Browse Parts</span>
                 <ArrowRight size={20} />
               </Link>
-              <Link href="/repair" className="btn-outline text-white border-white hover:bg-white hover:text-navy">
-                Repair Services
+              <Link href="/repair" className="btn-primary inline-flex items-center space-x-2">
+                <span>Repair Services</span>
+                <ArrowRight size={20} />
               </Link>
             </div>
           </div>
