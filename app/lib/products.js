@@ -707,7 +707,7 @@ export const repairCategories = [
 ];
 
 export const repairServices = [
-  {"id":1,"name":"Repair of 1K/2K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":199,"originalPrice":249.99,"description":"Full diagnostics, cleaning, belt/roller service, and bench testing for 1K/2K cash dispensers."},
+  {"id":1,"name":"Repair of 1K/2K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":200,"description":"Full Diagnostics, Cleaning, Belt/Roller Service, And Bench Testing For 1K/2K CDU"},
   {"id":2,"name":"Repair of 4K CDU w/o Cassettes, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":299.99,"description":"4K dispenser unit repair, cassettes not included. Includes full function test."},
   {"id":3,"name":"Repair of Dual 1K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":299.99,"description":"Dual 1K dispenser repair with complete recalibration and testing."},
   {"id":4,"name":"Repair of Drawer CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":244.99,"description":"Drawer-style CDU repair including transport path and sensor service."},
