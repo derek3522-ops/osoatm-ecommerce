@@ -237,7 +237,11 @@ export const products = [
     "cost": 100.00,
     "price": 130.00,
     "description": "InHand IR302 4G LTE industrial router for ATM connectivity. Purchase outright.",
-    "image": "/products/Inhand.png",
+"variants": [
+  { "label": "AT&T", "monthlyFee": 7 },
+  { "label": "Verizon", "monthlyFee": 7 },
+  { "label": "Dual (AT&T/Verizon)", "monthlyFee": 12 }
+],
     "inStock": true
   },
   {
