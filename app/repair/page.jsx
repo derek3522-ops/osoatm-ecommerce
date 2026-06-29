@@ -10,7 +10,8 @@ export default function RepairPage() {
   const [activeCategory, setActiveCategory] = useState('All Services');
   const [selectedService, setSelectedService] = useState(null);
   const [formData, setFormData] = useState({
-    name: '', email: '', phone: '', atmModel: '', issue: '', urgency: 'standard'
+    name: '', email: '', phone: '', atmModel: '', issue: '', urgency: 'ground',
+    address1: '', address2: '', city: '', state: '', zip: '', customerPO: '', comments: ''
   });
   const [submitted, setSubmitted] = useState(false);
 
@@ -183,7 +184,43 @@ export default function RepairPage() {
                       placeholder="What is the part doing (or not doing)? Include any error codes." required></textarea>
                   </div>
                 </fieldset>
+<fieldset>
+                  <legend className="font-bold text-lg mb-4">Shipping Address</legend>
+                  <div className="form-group">
+                    <label htmlFor="address1">Street Address 1</label>
+                    <input type="text" id="address1" name="address1" value={formData.address1} onChange={handleChange} />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="address2">Street Address 2</label>
+                    <input type="text" id="address2" name="address2" value={formData.address2} onChange={handleChange} />
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="form-group">
+                      <label htmlFor="city">City</label>
+                      <input type="text" id="city" name="city" value={formData.city} onChange={handleChange} />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="state">State</label>
+                      <input type="text" id="state" name="state" value={formData.state} onChange={handleChange} maxLength={2} placeholder="AZ" />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="zip">Zip Code</label>
+                      <input type="text" id="zip" name="zip" value={formData.zip} onChange={handleChange} />
+                    </div>
+                  </div>
+                </fieldset>
 
+                <fieldset>
+                  <legend className="font-bold text-lg mb-4">Order Information</legend>
+                  <div className="form-group">
+                    <label htmlFor="customerPO">Customer PO</label>
+                    <input type="text" id="customerPO" name="customerPO" value={formData.customerPO} onChange={handleChange} />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="comments">Comments / Special Instructions</label>
+                    <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="3" placeholder="Any special instructions or notes"></textarea>
+                  </div>
+                </fieldset>
                 <div>
                   <p className="font-bold text-lg mb-4">Turnaround</p>
                   <div className="space-y-3">
