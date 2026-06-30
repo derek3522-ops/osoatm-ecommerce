@@ -104,12 +104,9 @@ export default function Home() {
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Our Team Is Ready To Help You Find The Exact Parts You Need. Contact Us For Technical Support Or Bulk Orders
           </p>
-         <div className="text-center">
+         <div className="flex justify-center gap-4">
             <Link href="/contact" className="btn-primary inline-block">
               Contact Us
-            </Link>
-            <Link href="/repair" className="btn-outline text-white border-white hover:bg-white hover:text-navy inline-block">
-              Repair Services
             </Link>
           </div>
         </div>
