@@ -73,9 +73,9 @@ export default function RepairPage() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <HowItWorks icon={<Wrench className="text-orange-500" size={28} />} step="1" title="Send Your Part" text="Ship Us The Component That Needs To Be Serviced" />
-            <HowItWorks icon={<ShieldCheck className="text-orange-500" size={28} />} step="2" title="Diagnose & Repair" text="Full Diagnostics And Component-Level Repairs" />
-            <HowItWorks icon={<Clock className="text-orange-500" size={28} />} step="3" title="Fast Turnaround" text="Most Repairs Are Done And Shipped In 2-3 Business Days" />
-            <HowItWorks icon={<ShieldCheck className="text-orange-500" size={28} />} step="4" title="90-Day Warranty" text="Every Repair Is Backed By Our Industry-Warranty" />
+            <HowItWorks icon={<ShieldCheck className="text-orange-500" size={28} />} step="2" title="Diagnose & Repair" text="Full Diagnostics With Component-Level Repairs" />
+            <HowItWorks icon={<Clock className="text-orange-500" size={28} />} step="3" title="Fast Turnaround" text="Most Repairs Are Done In 2-3 Business Days" />
+            <HowItWorks icon={<ShieldCheck className="text-orange-500" size={28} />} step="4" title="90-Day Warranty" text="Every Repair Is Backed By Our Industry-Leading Warranty" />
           </div>
         </div>
       </section>
