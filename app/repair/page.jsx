@@ -159,9 +159,9 @@ export default function RepairPage() {
 
                 <fieldset>
                   <legend className="font-bold text-lg mb-4">Equipment & Issue</legend>
-                  <div className="form-group">
+                 <div className="form-group">
                     <label htmlFor="atmModel">Parts for Repair</label>
-                    <input type="text" id="atmModel" name="atmModel" value={formData.atmModel} onChange={handleChange} placeholder="List the part(s) you're sending in for repair" />
+                    <textarea id="atmModel" name="atmModel" value={formData.atmModel} onChange={handleChange} rows="4" placeholder="List the part(s) you're sending in for repair"></textarea>
                   </div>
                    <div className="form-group">
                     <label htmlFor="issue">Describe the Issue</label>
