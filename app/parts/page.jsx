@@ -61,7 +61,7 @@ export default function PartsPage() {
       <div className="bg-navy text-white py-8">
         <div className="container">
           <h1 className="text-4xl font-bold">ATM Parts</h1>
-          <p className="text-gray-300 mt-2">{filteredProducts.length} products found</p>
+          <p className="text-gray-300 mt-2">{filteredProducts.length} Products Found</p>
         </div>
       </div>
 
