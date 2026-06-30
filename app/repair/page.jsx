@@ -160,23 +160,8 @@ export default function RepairPage() {
                 <fieldset>
                   <legend className="font-bold text-lg mb-4">Equipment & Issue</legend>
                   <div className="form-group">
-                    <label htmlFor="atmModel">ATM Model</label>
-                    <select id="atmModel" name="atmModel" value={formData.atmModel} onChange={handleChange}>
-                      <option value="">Select ATM Model</option>
-                      <optgroup label="Genmega">
-                        <option>Genmega G2500</option>
-                        <option>Genmega GT3000</option>
-                        <option>Genmega GT5000</option>
-                        <option>Genmega Onyx</option>
-                      </optgroup>
-                      <optgroup label="Hyosung">
-                        <option>Hyosung NH 1800</option>
-                        <option>Hyosung NH 2700</option>
-                        <option>Hyosung MX 5000</option>
-                        <option>Hyosung Halo / Halo II</option>
-                        <option>Hyosung Force</option>
-                      </optgroup>
-                    </select>
+                    <label htmlFor="atmModel">Parts for Repair</label>
+                    <input type="text" id="atmModel" name="atmModel" value={formData.atmModel} onChange={handleChange} placeholder="List the part(s) you're sending in for repair" />
                   </div>
                   <div className="form-group">
                     <label htmlFor="issue">Describe the Issue *</label>
