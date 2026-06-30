@@ -8,7 +8,7 @@ import { Wrench, Phone, Mail, Clock, ShieldCheck } from 'lucide-react';
 
 export default function RepairPage() {
   const [activeCategory, setActiveCategory] = useState('All Services');
-  const [selectedService, setSelectedService] = useState(null);
+  const [selectedServices, setSelectedServices] = useState([]);
   const [formData, setFormData] = useState({
     name: '', email: '', phone: '', atmModel: '', issue: '', urgency: 'ground',
     address1: '', address2: '', city: '', state: '', zip: '', customerPO: '', comments: ''
@@ -26,17 +26,33 @@ export default function RepairPage() {
   };
 
   const handleRequestService = (service) => {
-    setSelectedService(service);
+    setSelectedServices(prev => {
+      const existing = prev.find(s => s.id === service.id);
+      if (existing) {
+        return prev.map(s => s.id === service.id ? { ...s, qty: s.qty + 1 } : s);
+      }
+      return [...prev, { ...service, qty: 1 }];
+    });
     document.getElementById('inquiry-form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const updateQty = (id, qty) => {
+    if (qty < 1) {
+      setSelectedServices(prev => prev.filter(s => s.id !== id));
+    } else {
+      setSelectedServices(prev => prev.map(s => s.id === id ? { ...s, qty } : s));
+    }
+  };
+
+  const totalPrice = selectedServices.reduce((sum, s) => sum + s.price * s.qty, 0);
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Repair request:', { ...formData, service: selectedService });
+    console.log('Repair request:', { ...formData, services: selectedServices });
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
-      setSelectedService(null);
+      setSelectedServices([]);
       setFormData({ name: '', email: '', phone: '', atmModel: '', issue: '', urgency: 'standard' });
     }, 4000);
   };
@@ -122,11 +138,24 @@ export default function RepairPage() {
       <section id="inquiry-form" className="bg-gray-50 py-16">
         <div className="container max-w-2xl">
           <h2 className="text-3xl font-bold mb-2 text-center">Request a Repair</h2>
-          <p className="text-gray-600 text-center mb-8">
-            {selectedService
-              ? <>Selected service: <span className="font-bold text-navy">{selectedService.name}</span> &mdash; <span className="text-orange-600 font-bold">${selectedService.price.toFixed(2)}</span></>
-              : 'Pick a service above, or describe your issue and we\u2019ll recommend one.'}
-          </p>
+          {selectedServices.length > 0 ? (
+            <div className="mb-8 space-y-2">
+              {selectedServices.map(s => (
+                <div key={s.id} className="flex items-center justify-between bg-white p-3 rounded border">
+                  <span className="font-bold text-navy text-sm">{s.name}</span>
+                  <div className="flex items-center space-x-3">
+                    <button type="button" onClick={() => updateQty(s.id, s.qty - 1)} className="px-2 border rounded">-</button>
+                    <span>{s.qty}</span>
+                    <button type="button" onClick={() => updateQty(s.id, s.qty + 1)} className="px-2 border rounded">+</button>
+                    <span className="text-orange-600 font-bold w-20 text-right">${(s.price * s.qty).toFixed(2)}</span>
+                  </div>
+                </div>
+              ))}
+              <div className="text-right font-bold text-lg pt-2 border-t">Total: ${totalPrice.toFixed(2)}</div>
+            </div>
+          ) : (
+            <p className="text-gray-600 text-center mb-8">Pick one or more services above, or describe your issue and we&rsquo;ll recommend one.</p>
+          )}
 
           <div className="card">
             {submitted ? (
