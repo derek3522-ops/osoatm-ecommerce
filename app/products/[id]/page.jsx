@@ -66,11 +66,6 @@ export default function ProductPage({ params }) {
                 <span>Photo coming soon</span>
               </div>
             )}
-            <div className="grid grid-cols-3 gap-2">
-              {[1, 2, 3].map(i => (
-                <div key={i} className="img-placeholder h-20"></div>
-              ))}
-            </div>
           </div>
 
           {/* Details */}
