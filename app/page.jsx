@@ -51,7 +51,7 @@ export default function Home() {
             <FeatureCard 
               icon={<Truck className="text-orange-400" size={32} />}
               title="Expert Support"
-              description="Technical Support And Consultation Available For All Purchases."
+              description="Technical Support And Consultation Available For All Purchases"
             />
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Our Team Is Ready To Help You Find The Exact Parts You Need. Contact Us For Technical Support Or Bulk Orders
           </p>
-          <div className="space-x-4">
+         <div className="flex justify-center space-x-4">
             <Link href="/contact" className="btn-primary inline-block">
               Contact Us
             </Link>
