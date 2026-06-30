@@ -707,16 +707,16 @@ export const repairCategories = [
 ];
 
 export const repairServices = [
-  {"id":1,"name":"Repair of 1K/2K/4K/6K/8K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":250.00,"description":"Full Diagnostics, Cleaning, Belt/Roller Service, And Bench Testing For 1K/2K/4K/6K/8K CDU"},
-  {"id":2,"name":"Repair of Drawer CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":250.00,"description":"Drawer-Style CDU Repair And Bench Testing"},
+  {"id":1,"name":"Repair of 1K/2K/4K/6K/8K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":250.00,"description":"Full Diagnostics, Cleaning, Repair, And Bench Testing"},
+  {"id":2,"name":"Repair of Drawer CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":250.00,"description":"Drawer-Style Dispenser Repair And Bench Testing"},
   {"id":3,"name":"Repair of TCDU CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":250.00,"description":"TCDU Dispenser Repair And Bench Testing"},
-  {"id":4,"name":"Repair of 1K/2K/4K/6K/8K CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":250.00,"description":"Full Diagnostics, Cleaning, Belt/Roller Service, And Bench Testing For 1K/2K/4K/6K/8K CDU"},
+  {"id":4,"name":"Repair of 1K/2K/4K/6K/8K CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":250.00,"description":"Full Diagnostics, Cleaning, Repair, And Bench Testing For 1K/2K/4K/6K/8K CDU"},
   {"id":5,"name":"Repair of 1K/2K Cassette, Hyosung","manufacturer":"Hyosung","category":"Cassette","price":150.00,"description":"Cassette Repair Including Cleaning And Bench Testing"},
   {"id":6,"name":"Repair of 1K/2K Cassette, Hantle/Genmega","manufacturer":"Genmega","category":"Cassette","price":150.00,"description":"Cassette Repair Including Cleaning And Bench Testing"},
-  {"id":7,"name":"Repair of Drawer Note Separator, Hyosung","manufacturer":"Hyosung","category":"Note Separator","price":150.00,"description":"Note Separator Repair For Drawer-Style Dispensers."},
-  {"id":8,"name":"Repair of B1/B2/B3/B5 Keypad/EPP, Hantle/Genmega","manufacturer":"Genmega","category":"Keypad / EPP","price":160.00,"description":"EPP Keypad Repair For Hantle/Genmega B-series units."},
-  {"id":9,"name":"Repair of PCI 5.0 EPP X1, Hyosung","manufacturer":"Hyosung","category":"Keypad / EPP","price":200.00,"description":"PCI 5.0 EPP X1 Keypad Repair."},
-  {"id":10,"name":"Repair of PCI 3.0 EPP 8000R, Hyosung","manufacturer":"Hyosung","category":"Keypad / EPP","price":200.00,"description":"PCI 3.0 EPP 8000R Keypad Repair."},
+  {"id":7,"name":"Repair of Drawer Note Separator, Hyosung","manufacturer":"Hyosung","category":"Note Separator","price":150.00,"description":"Note Separator Repair For Drawer-Style Dispensers"},
+  {"id":8,"name":"Repair of B1/B2/B3/B5 Keypad/EPP, Hantle/Genmega","manufacturer":"Genmega","category":"Keypad / EPP","price":160.00,"description":"EPP Keypad Repair For Hantle/Genmega B-series units"},
+  {"id":9,"name":"Repair of PCI 5.0 EPP X1, Hyosung","manufacturer":"Hyosung","category":"Keypad / EPP","price":200.00,"description":"PCI 5.0 EPP X1 Keypad Repair"},
+  {"id":10,"name":"Repair of PCI 3.0 EPP 8000R, Hyosung","manufacturer":"Hyosung","category":"Keypad / EPP","price":200.00,"description":"PCI 3.0 EPP 8000R Keypad Repair"},
   {"id":11,"name":"Repair of Printer, Hyosung","manufacturer":"Hyosung","category":"Printer","price":160.00,"description":"Receipt Printer Repair"},
   {"id":12,"name":"Repair of Printer, Hantle/Genmega","manufacturer":"Genmega","category":"Printer","price":160.00,"description":"Receipt Printer Repair"},
 ];
