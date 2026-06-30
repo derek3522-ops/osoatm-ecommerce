@@ -228,7 +228,7 @@ export default function RepairPage() {
                   <legend className="font-bold text-lg mb-4">Order Information</legend>
                   <div className="form-group">
                     <label htmlFor="customerPO">Customer PO</label>
-                    <input type="text" id="customerPO" name="customerPO" value={formData.customerPO} onChange={handleChange} />
+                    <input type="text" id="customerPO" name="customerPO" value={formData.customerPO} onChange={handleChange} placeholder="Optional" />
                   </div>
                   <div className="form-group">
                     <label htmlFor="comments">Comments / Special Instructions</label>
