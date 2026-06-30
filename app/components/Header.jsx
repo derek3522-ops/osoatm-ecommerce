@@ -12,7 +12,7 @@ export default function Header() {
     <header className="bg-white border-b shadow-sm sticky top-0 z-50">
       <div className="container flex items-center justify-between py-4">
         <Link href="/" className="flex items-center space-x-2">
-          <img src="/oso-logo.png" alt="OSO ATM" className="h-10" />
+          <img src="/oso-logo.png" alt="OSO ATM" className="h-16" />
         </Link>
         <nav className="flex items-center space-x-6 text-sm font-bold">
           <Link href="/" className="hover:text-orange-500">Home</Link>
