@@ -137,7 +137,7 @@ export default function RepairPage() {
       {/* Inquiry form */}
       <section id="inquiry-form" className="bg-gray-50 py-16">
         <div className="container max-w-2xl">
-          <h2 className="text-3xl font-bold mb-2 text-center">Request a Repair</h2>
+          <h2 className="text-3xl font-bold mb-2 text-center">Request A Repair</h2>
           {selectedServices.length > 0 ? (
             <div className="mb-8 space-y-2">
               {selectedServices.map(s => (
@@ -154,7 +154,7 @@ export default function RepairPage() {
               <div className="text-right font-bold text-lg pt-2 border-t">Total: ${totalPrice.toFixed(2)}</div>
             </div>
           ) : (
-            <p className="text-gray-600 text-center mb-8">Pick one or more services above, or describe your issue and we&rsquo;ll recommend one.</p>
+            <p className="text-gray-600 text-center mb-8">Pick One Or More Services Above</p>
           )}
 
           <div className="card">
@@ -189,13 +189,13 @@ export default function RepairPage() {
                 <fieldset>
                   <legend className="font-bold text-lg mb-4">Equipment & Issue</legend>
                  <div className="form-group">
-                    <label htmlFor="atmModel">Parts for Repair</label>
-                    <textarea id="atmModel" name="atmModel" value={formData.atmModel} onChange={handleChange} rows="4" placeholder="List the part(s) you're sending in for repair"></textarea>
+                    <label htmlFor="atmModel">Parts For Repair</label>
+                    <textarea id="atmModel" name="atmModel" value={formData.atmModel} onChange={handleChange} rows="4" placeholder="List The Part(s) You're Sending In For Repair"></textarea>
                   </div>
                    <div className="form-group">
-                    <label htmlFor="issue">Describe the Issue</label>
+                    <label htmlFor="issue">Describe The Issue</label>
                     <textarea id="issue" name="issue" value={formData.issue} onChange={handleChange} rows="4"
-                      placeholder="What is the part doing (or not doing)? Include any error codes."></textarea>
+                      placeholder="What Is The Part Doing (Or Not Doing)? Include Any Error Codes"></textarea>
                   </div>
                 </fieldset>
 <fieldset>
@@ -232,7 +232,7 @@ export default function RepairPage() {
                   </div>
                   <div className="form-group">
                     <label htmlFor="comments">Comments / Special Instructions</label>
-                    <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="3" placeholder="Any special instructions or notes"></textarea>
+                    <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="3" placeholder="Any Special Instructions Or Notes"></textarea>
                   </div>
                 </fieldset>
                 <div>
@@ -255,7 +255,7 @@ export default function RepairPage() {
 
                 <button type="submit" className="w-full btn-primary py-3">Submit Repair Request</button>
                 <p className="text-xs text-gray-600 text-center">
-                  We&rsquo;ll Confirm Pricing And Shipping Details Before Any Work Begins.
+                  We&rsquo;ll Confirm Pricing And Shipping Details Before Any Work Begins
                 </p>
               </form>
             )}
