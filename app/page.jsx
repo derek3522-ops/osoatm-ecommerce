@@ -17,7 +17,10 @@ export default function Home() {
               Quality ATM Parts For <span className="text-orange-400">Genmega</span> & <span className="text-orange-400">Hyosung</span>
             </h1>
             <p className="text-xl text-gray-200 mb-8">
-              Professional-Grade Replacement Parts And Accessories. Fast Shipping, Competitive Pricing, And Expert Support
+              Professional-Grade Replacement Parts And Accessories. 
+            </p>
+            <p className="text-xl text-gray-200 mb-8">
+              Fast Shipping, Competitive Pricing, And Expert Support
             </p>
             <div className="flex space-x-4">
               <Link href="/parts" className="btn-primary inline-flex items-center space-x-2">
