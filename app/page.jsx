@@ -14,7 +14,7 @@ export default function Home() {
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-6 whitespace-nowrap">
-              Quality ATM Parts For<br /> <span className="text-orange-400">Genmega</span> & <span className="text-orange-400">Hyosung</span>
+              Quality ATM Parts For<br /> <span className="text-orange-400">Genmega</span> & <span className="text-orange-400">Hyosung</span><br />
             </h1>
             <p className="text-lg text-gray-200 mb-8 leading-snug">
               Professional-Grade Replacement Parts And Accessories<br />
