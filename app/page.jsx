@@ -16,7 +16,7 @@ export default function Home() {
             <h1 className="text-5xl font-bold mb-6 whitespace-nowrap">
               Quality ATM Parts For <span className="text-orange-400">Genmega</span> & <span className="text-orange-400">Hyosung</span>
             </h1>
-            <p className="text-xl text-gray-200 mb-8 leading-tight">
+            <p className="text-xl text-gray-200 mb-8">
               Professional-Grade Replacement Parts And Accessories. 
             </p>
             <p className="text-xl text-gray-200 mb-8 leading-tight">
