@@ -14,10 +14,10 @@ export default function Home() {
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-6">
-              Quality ATM Parts for <span className="text-orange-400">Genmega</span> & <span className="text-orange-400">Hyosung</span>
+              Quality ATM Parts For <span className="text-orange-400">Genmega & Hyosung</span>
             </h1>
             <p className="text-xl text-gray-200 mb-8">
-              Professional-grade replacement parts and accessories. Fast shipping, competitive pricing, and expert support.
+              Professional-Grade Replacement Parts And Accessories. Fast Shipping, Competitive Pricing, And Expert Support
             </p>
             <div className="flex space-x-4">
               <Link href="/parts" className="btn-primary inline-flex items-center space-x-2">
@@ -40,17 +40,17 @@ export default function Home() {
             <FeatureCard 
               icon={<Zap className="text-orange-400" size={32} />}
               title="Fast Shipping"
-              description="Most orders ship within 24 hours. Express shipping available."
+              description="Most Orders Ship Within 24 Hours. Express Shipping Available"
             />
             <FeatureCard 
               icon={<Lock className="text-orange-400" size={32} />}
               title="Quality Guaranteed"
-              description="All parts tested and verified for compatibility and function."
+              description="All Parts Tested And Verified For Compatibility And Function"
             />
             <FeatureCard 
               icon={<Truck className="text-orange-400" size={32} />}
               title="Expert Support"
-              description="Technical support and consultation available for all purchases."
+              description="Technical Support And Consultation Available For All Purchases."
             />
           </div>
         </div>
@@ -61,7 +61,6 @@ export default function Home() {
         <div className="container">
           <div className="mb-12">
             <h2 className="text-4xl font-bold mb-4">Featured Parts</h2>
-            <p className="text-gray-600 text-lg">Popular replacements and bestsellers</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -82,7 +81,7 @@ export default function Home() {
       {/* Categories Section */}
       <section className="py-16 bg-gray-50">
         <div className="container">
-          <h2 className="text-4xl font-bold mb-12">Shop by Category</h2>
+          <h2 className="text-4xl font-bold mb-12">Shop By Category</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {['Dispensers', 'Cassettes', 'Printers', 'Keypads', 'Card Readers', 'Power Supplies', 'LCD Displays', 'Accessories'].map(category => (
               <Link 
@@ -102,7 +101,7 @@ export default function Home() {
         <div className="container text-center">
           <h2 className="text-4xl font-bold mb-6">Need Help Finding Parts?</h2>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Our team is ready to help you find the exact parts you need. Contact us for technical support or bulk orders.
+            Our Team Is Ready To Help You Find The Exact Parts You Need. Contact Us For Technical Support Or Bulk Orders
           </p>
           <div className="space-x-4">
             <Link href="/contact" className="btn-primary inline-block">
