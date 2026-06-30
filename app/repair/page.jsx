@@ -63,7 +63,7 @@ export default function RepairPage() {
         <div className="container">
           <h1 className="text-4xl font-bold">Parts Repair Services</h1>
           <p className="text-gray-300 mt-2">
-            Professional bench repair for Genmega, Hantle, and Hyosung components &mdash; {repairServices.length} services available
+            Professional Bench Repair For Genmega, Hantle, And Hyosung Components &mdash; {repairServices.length} Services Available
           </p>
         </div>
       </div>
