@@ -102,7 +102,7 @@ export default function Home() {
         <div className="container text-center">
           <h2 className="text-4xl font-bold mb-6">Need Help Finding Parts?</h2>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Our Team Is Ready To Help You Find The Exact Parts You Need. Contact Us For Technical Support Or Bulk Orders
+            Our Team Is Ready To Help You Find The Exact Parts You Need<br /> Contact Us For Technical Support Or Bulk Orders
           </p>
          <div className="flex justify-center gap-4">
             <Link href="/contact" className="btn-primary inline-block">
