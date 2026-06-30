@@ -14,7 +14,7 @@ export default function Home() {
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-6">
-              Quality ATM Parts For <span className="text-orange-400">Genmega & Hyosung</span>
+              Quality ATM Parts For <span className="text-orange-400">Genmega</span> & <span className="text-orange-400">Hyosung</span>
             </h1>
             <p className="text-xl text-gray-200 mb-8">
               Professional-Grade Replacement Parts And Accessories. Fast Shipping, Competitive Pricing, And Expert Support
