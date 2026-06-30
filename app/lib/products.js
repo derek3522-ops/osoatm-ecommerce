@@ -710,7 +710,7 @@ export const repairServices = [
   {"id":1,"name":"Repair of 1K/2K/4K/6K/8K CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":250.00,"description":"Full Diagnostics, Cleaning, Repair, And Bench Testing"},
   {"id":2,"name":"Repair of Drawer CDU, Hyosung","manufacturer":"Hyosung","category":"CDU / Dispenser","price":250.00,"description":"Drawer-Style Dispenser Repair And Bench Testing"},
   {"id":3,"name":"Repair of TCDU CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":250.00,"description":"TCDU Dispenser Repair And Bench Testing"},
-  {"id":4,"name":"Repair of 1K/2K/4K/6K/8K CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":250.00,"description":"Full Diagnostics, Cleaning, Repair, And Bench Testing For 1K/2K/4K/6K/8K CDU"},
+  {"id":4,"name":"Repair of 1K/2K/4K/6K/8K CDU, Hantle/Genmega","manufacturer":"Genmega","category":"CDU / Dispenser","price":250.00,"description":"Full Diagnostics, Cleaning, Repair, And Bench Testing"},
   {"id":5,"name":"Repair of 1K/2K Cassette, Hyosung","manufacturer":"Hyosung","category":"Cassette","price":150.00,"description":"Cassette Repair Including Cleaning And Bench Testing"},
   {"id":6,"name":"Repair of 1K/2K Cassette, Hantle/Genmega","manufacturer":"Genmega","category":"Cassette","price":150.00,"description":"Cassette Repair Including Cleaning And Bench Testing"},
   {"id":7,"name":"Repair of Drawer Note Separator, Hyosung","manufacturer":"Hyosung","category":"Note Separator","price":150.00,"description":"Note Separator Repair For Drawer-Style Dispensers"},
