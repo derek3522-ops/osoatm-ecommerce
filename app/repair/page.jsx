@@ -255,7 +255,7 @@ export default function RepairPage() {
 
                 <button type="submit" className="w-full btn-primary py-3">Submit Repair Request</button>
                 <p className="text-xs text-gray-600 text-center">
-                  We&rsquo;ll confirm pricing and shipping details before any work begins.
+                  We&rsquo;ll Confirm Pricing And Shipping Details Before Any Work Begins.
                 </p>
               </form>
             )}
