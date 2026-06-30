@@ -163,10 +163,10 @@ export default function RepairPage() {
                     <label htmlFor="atmModel">Parts for Repair</label>
                     <input type="text" id="atmModel" name="atmModel" value={formData.atmModel} onChange={handleChange} placeholder="List the part(s) you're sending in for repair" />
                   </div>
-                  <div className="form-group">
-                    <label htmlFor="issue">Describe the Issue *</label>
+                   <div className="form-group">
+                    <label htmlFor="issue">Describe the Issue</label>
                     <textarea id="issue" name="issue" value={formData.issue} onChange={handleChange} rows="4"
-                      placeholder="What is the part doing (or not doing)? Include any error codes." required></textarea>
+                      placeholder="What is the part doing (or not doing)? Include any error codes."></textarea>
                   </div>
                 </fieldset>
 <fieldset>
