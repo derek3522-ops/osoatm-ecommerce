@@ -181,7 +181,7 @@ export default function ATMsPage() {
                 </div>
                 <div className="form-group">
                   <label htmlFor="comments">Comments / Questions</label>
-                  <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="4" placeholder="Any questions about the ATM or your specific needs"></textarea>
+                  <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="4" placeholder="Any Questions About The ATM Or Your Specific Needs"></textarea>
                 </div>
                 <button type="submit" className="w-full btn-primary py-3">Submit Quote Request</button>
                 <p className="text-xs text-gray-600 text-center">We'll Confirm Pricing And Availability Within One Business Day</p>
