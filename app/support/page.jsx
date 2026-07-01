@@ -91,7 +91,7 @@ export default function SupportPage() {
 
           {/* Coverage note */}
           <div className="bg-gray-50 border border-gray-200 text-gray-700 text-sm rounded p-3 mb-6">
-            Showing {filtered.length} {active.label} {filtered.length === 1 ? 'code' : 'codes'}.
+            Showing {filtered.length} {active.label} {filtered.length === 1 ? 'code' : 'codes'}
             {active.id === 'hyosung'}
           </div>
 
