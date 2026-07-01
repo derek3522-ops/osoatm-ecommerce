@@ -172,9 +172,9 @@ export default function PartsPage() {
           <div className="lg:col-span-3">
             {/* Sort Control */}
             <div className="mb-6 flex justify-between items-center">
-              <p className="text-sm text-gray-600">Showing {filteredProducts.length} results</p>
+              <p className="text-sm text-gray-600">Showing {filteredProducts.length} Results</p>
               <div>
-                <label className="text-sm mr-2">Sort by:</label>
+                <label className="text-sm mr-2">Sort By:</label>
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
