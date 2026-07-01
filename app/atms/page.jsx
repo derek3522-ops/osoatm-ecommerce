@@ -136,7 +136,7 @@ export default function ATMsPage() {
                   onClick={() => handleQuote(atm)}
                   className="w-full btn-primary mt-auto"
                 >
-                  Request a Quote
+                  Request A Quote
                 </button>
               </div>
             ))}
