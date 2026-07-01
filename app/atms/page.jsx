@@ -10,14 +10,14 @@ const atms = [
     id: 1,
     name: "Genmega G2500 ATM",
     manufacturer: "Genmega",
-    priceRange: "$2,565 – $7,827",
+    priceRange: "$2,565 – $7,830",
     image: "/products/atm-g2500.png",
   },
   {
     id: 2,
     name: "Genmega Onyx ATM",
     manufacturer: "Genmega",
-    priceRange: "$2,750 – $8,167",
+    priceRange: "$2,750 – $8,170",
     image: "/products/atm-onyx.png",
   },
   {
@@ -31,7 +31,7 @@ const atms = [
     id: 4,
     name: "Genmega C6000 ATM",
     manufacturer: "Genmega",
-    priceRange: "$3,430 – $8,372",
+    priceRange: "$3,430 – $8,375",
     image: "/products/atm-c6000.png",
   },
   {
@@ -45,42 +45,42 @@ const atms = [
     id: 6,
     name: "Genmega GT5000 ATM",
     manufacturer: "Genmega",
-    priceRange: "$7,734 – $11,884",
+    priceRange: "$7,735 – $11,885",
     image: "/products/atm-gt5000.png",
   },
   {
     id: 7,
     name: "Genmega Nova ATM",
     manufacturer: "Genmega",
-    priceRange: "$3,590 – $8,427",
+    priceRange: "$3,590 – $8,430",
     image: "/products/atm-nova.png",
   },
   {
     id: 8,
     name: "Hyosung Halo II ATM",
     manufacturer: "Hyosung",
-    priceRange: "$2,619 – $4,783",
+    priceRange: "$2,620 – $4,785",
     image: "/products/atm-halo2.png",
   },
   {
     id: 9,
     name: "Hyosung Force ATM",
     manufacturer: "Hyosung",
-    priceRange: "$2,881 – $8,122",
+    priceRange: "$2,885 – $8,125",
     image: "/products/atm-force.png",
   },
   {
     id: 10,
     name: "Hyosung 2800T ATM",
     manufacturer: "Hyosung",
-    priceRange: "$4,589 – $7,450",
+    priceRange: "$4,590 – $7,450",
     image: "/products/atm-2800t.png",
   },
   {
     id: 11,
     name: "Hyosung 5400SE ATM",
     manufacturer: "Hyosung",
-    priceRange: "$5,575 – $10,568",
+    priceRange: "$5,575 – $10,570",
     image: "/products/atm-5400se.png",
   },
 ];
@@ -116,7 +116,7 @@ export default function ATMsPage() {
       <div className="bg-navy text-white py-8">
         <div className="container">
           <h1 className="text-4xl font-bold">ATM Machines</h1>
-          <p className="text-gray-300 mt-2">New Genmega and Hyosung ATMs — contact us for a custom quote</p>
+          <p className="text-gray-300 mt-2">New Genmega And Hyosung ATMs — Contact Us For A Custom Quote</p>
         </div>
       </div>
 
@@ -147,11 +147,11 @@ export default function ATMsPage() {
       {/* Quote Form */}
       <section id="quote-form" className="bg-gray-50 py-16">
         <div className="container max-w-2xl">
-          <h2 className="text-3xl font-bold mb-2 text-center">Request a Quote</h2>
+          <h2 className="text-3xl font-bold mb-2 text-center">Request A Quote</h2>
           <p className="text-gray-600 text-center mb-8">
             {selectedATM
-              ? <>Requesting quote for: <span className="font-bold text-navy">{selectedATM.name}</span></>
-              : 'Select an ATM above or fill out the form and we\'ll get back to you.'}
+              ? <>Requesting Quote For: <span className="font-bold text-navy">{selectedATM.name}</span></>
+              : 'Select An ATM Above Or Fill Out The Form And We\'ll Get Back To You'}
           </p>
 
           <div className="card">
@@ -161,7 +161,7 @@ export default function ATMsPage() {
                   <span className="text-white text-2xl">&#10003;</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Quote Request Submitted</h3>
-                <p className="text-gray-600">We'll contact you within one business day with pricing and availability.</p>
+                <p className="text-gray-600">We'll Contact You Within One Business Day With Pricing And Availability</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -184,7 +184,7 @@ export default function ATMsPage() {
                   <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="4" placeholder="Any questions about the ATM or your specific needs"></textarea>
                 </div>
                 <button type="submit" className="w-full btn-primary py-3">Submit Quote Request</button>
-                <p className="text-xs text-gray-600 text-center">We'll confirm pricing and availability within one business day.</p>
+                <p className="text-xs text-gray-600 text-center">We'll Confirm Pricing And Availability Within One Business Day</p>
               </form>
             )}
           </div>
