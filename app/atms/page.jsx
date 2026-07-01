@@ -1,0 +1,195 @@
+// app/atms/page.jsx - ATM machines for sale
+
+'use client';
+
+import { useState } from 'react';
+import Link from 'next/link';
+
+const atms = [
+  {
+    id: 1,
+    name: "Genmega G2500 ATM",
+    manufacturer: "Genmega",
+    priceRange: "$2,565 – $7,827",
+    image: "/products/atm-g2500.png",
+  },
+  {
+    id: 2,
+    name: "Genmega Onyx ATM",
+    manufacturer: "Genmega",
+    priceRange: "$2,750 – $8,167",
+    image: "/products/atm-onyx.png",
+  },
+  {
+    id: 3,
+    name: "Genmega Onyx W ATM",
+    manufacturer: "Genmega",
+    priceRange: "$2,975 – $4,340",
+    image: "/products/atm-onyx-w.png",
+  },
+  {
+    id: 4,
+    name: "Genmega C6000 ATM",
+    manufacturer: "Genmega",
+    priceRange: "$3,430 – $8,372",
+    image: "/products/atm-c6000.png",
+  },
+  {
+    id: 5,
+    name: "Genmega GT3000 ATM",
+    manufacturer: "Genmega",
+    priceRange: "$4,625 – $5,940",
+    image: "/products/atm-gt3000.png",
+  },
+  {
+    id: 6,
+    name: "Genmega GT5000 ATM",
+    manufacturer: "Genmega",
+    priceRange: "$7,734 – $11,884",
+    image: "/products/atm-gt5000.png",
+  },
+  {
+    id: 7,
+    name: "Genmega Nova ATM",
+    manufacturer: "Genmega",
+    priceRange: "$3,590 – $8,427",
+    image: "/products/atm-nova.png",
+  },
+  {
+    id: 8,
+    name: "Hyosung Halo II ATM",
+    manufacturer: "Hyosung",
+    priceRange: "$2,619 – $4,783",
+    image: "/products/atm-halo2.png",
+  },
+  {
+    id: 9,
+    name: "Hyosung Force ATM",
+    manufacturer: "Hyosung",
+    priceRange: "$2,881 – $8,122",
+    image: "/products/atm-force.png",
+  },
+  {
+    id: 10,
+    name: "Hyosung 2800T ATM",
+    manufacturer: "Hyosung",
+    priceRange: "$4,589 – $7,450",
+    image: "/products/atm-2800t.png",
+  },
+  {
+    id: 11,
+    name: "Hyosung 5400SE ATM",
+    manufacturer: "Hyosung",
+    priceRange: "$5,575 – $10,568",
+    image: "/products/atm-5400se.png",
+  },
+];
+
+export default function ATMsPage() {
+  const [selectedATM, setSelectedATM] = useState(null);
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', comments: '' });
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleQuote = (atm) => {
+    setSelectedATM(atm);
+    document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('ATM quote request:', { ...formData, atm: selectedATM });
+    setSubmitted(true);
+    setTimeout(() => {
+      setSubmitted(false);
+      setSelectedATM(null);
+      setFormData({ name: '', email: '', phone: '', comments: '' });
+    }, 4000);
+  };
+
+  return (
+    <>
+      <div className="bg-navy text-white py-8">
+        <div className="container">
+          <h1 className="text-4xl font-bold">ATM Machines</h1>
+          <p className="text-gray-300 mt-2">New Genmega and Hyosung ATMs — contact us for a custom quote</p>
+        </div>
+      </div>
+
+      {/* ATM Grid */}
+      <section className="py-16">
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {atms.map(atm => (
+              <div key={atm.id} className="card flex flex-col">
+                <div className="text-xs font-bold text-orange-500 uppercase mb-3">{atm.manufacturer}</div>
+                <div className="h-64 mb-4 rounded bg-white border border-gray-200 flex items-center justify-center overflow-hidden">
+                  <img src={atm.image} alt={atm.name} className="max-h-full max-w-full object-contain p-4" />
+                </div>
+                <h3 className="font-bold text-lg mb-2">{atm.name}</h3>
+                <p className="text-orange-600 font-bold text-lg mb-4">{atm.priceRange}</p>
+                <button
+                  onClick={() => handleQuote(atm)}
+                  className="w-full btn-primary mt-auto"
+                >
+                  Request a Quote
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Quote Form */}
+      <section id="quote-form" className="bg-gray-50 py-16">
+        <div className="container max-w-2xl">
+          <h2 className="text-3xl font-bold mb-2 text-center">Request a Quote</h2>
+          <p className="text-gray-600 text-center mb-8">
+            {selectedATM
+              ? <>Requesting quote for: <span className="font-bold text-navy">{selectedATM.name}</span></>
+              : 'Select an ATM above or fill out the form and we\'ll get back to you.'}
+          </p>
+
+          <div className="card">
+            {submitted ? (
+              <div className="text-center py-12">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white text-2xl">&#10003;</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-2">Quote Request Submitted</h3>
+                <p className="text-gray-600">We'll contact you within one business day with pricing and availability.</p>
+              </div>
+            ) : (
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="form-group">
+                    <label htmlFor="name">Full Name *</label>
+                    <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} required />
+                  </div>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="email">Email Address *</label>
+                  <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="comments">Comments / Questions</label>
+                  <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="4" placeholder="Any questions about the ATM or your specific needs"></textarea>
+                </div>
+                <button type="submit" className="w-full btn-primary py-3">Submit Quote Request</button>
+                <p className="text-xs text-gray-600 text-center">We'll confirm pricing and availability within one business day.</p>
+              </form>
+            )}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
