@@ -44,7 +44,7 @@ export default function SupportPage() {
         <div className="container">
           <h1 className="text-4xl font-bold mb-3">Resource Center</h1>
           <p className="text-gray-200 text-lg max-w-2xl">
-            Look up ATM error codes, find solutions, and get the support you need to keep your machines running.
+            Look Up ATM Error Codes, Find Solutions, And Get The Support You Need To Keep Your Machines Running
           </p>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function SupportPage() {
             <h2 className="text-3xl font-bold">ATM Error Codes</h2>
           </div>
           <p className="text-gray-600 mb-8">
-            Select your ATM manufacturer and search by code or description.
+            Select Your ATM Manufacturer And Search By Code Or Description
           </p>
 
           {/* Manufacturer toggle */}
@@ -109,7 +109,7 @@ export default function SupportPage() {
                 {pageRows.length === 0 ? (
                   <tr>
                     <td colSpan={3} className="px-4 py-8 text-center text-gray-500">
-                      No codes match &ldquo;{query}&rdquo;. Try a different search, or call us for help.
+                      No Codes Match &ldquo;{query}&rdquo;. Try A Different Search, Or Call Us For Help
                     </td>
                   </tr>
                 ) : (
@@ -129,7 +129,7 @@ export default function SupportPage() {
           {totalPages > 1 && (
             <div className="flex items-center justify-between mt-4">
               <span className="text-sm text-gray-600">
-                Page {currentPage} of {totalPages}
+                Page {currentPage} Of {totalPages}
               </span>
               <div className="flex gap-2">
                 <button
@@ -160,17 +160,17 @@ export default function SupportPage() {
             <Link href="/repair" className="card hover:border-navy">
               <FileText className="text-orange-500 mb-3" size={28} />
               <h3 className="font-bold mb-2">Parts Repair</h3>
-              <p className="text-sm text-gray-600">Send us a component for professional bench repair with a 90-day warranty.</p>
+              <p className="text-sm text-gray-600">Send Us A Component For Professional Bench Repair With A 90-Day Warranty</p>
             </Link>
             <Link href="/parts" className="card hover:border-navy">
               <FileText className="text-orange-500 mb-3" size={28} />
               <h3 className="font-bold mb-2">Browse Parts</h3>
-              <p className="text-sm text-gray-600">Find the replacement part you need for Genmega and Hyosung machines.</p>
+              <p className="text-sm text-gray-600">Find The Replacement Part You Need For Genmega And Hyosung Machines</p>
             </Link>
             <div className="card">
               <Phone className="text-orange-500 mb-3" size={28} />
               <h3 className="font-bold mb-2">Talk to a Tech</h3>
-              <p className="text-sm text-gray-600">Call 1-800-OSO-ATMS, Mon-Fri 8am-5pm MST, for hands-on troubleshooting help.</p>
+              <p className="text-sm text-gray-600">Call 1-800-OSO-ATMS, Mon-Fri 8am-5pm MST, For Hands-On Troubleshooting Help</p>
             </div>
           </div>
         </div>
