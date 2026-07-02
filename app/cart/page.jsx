@@ -152,7 +152,7 @@ export default function CartPage() {
 
                 <div className="flex justify-between text-xl font-bold mb-6">
                   <span>Total:</span>
-                  <span className="text-orange-600">${(Total + Shipping).toFixed(2)}</span>
+                  <span className="text-orange-600">${(total + shipping).toFixed(2)}</span>
                 </div>
 
                 <button
