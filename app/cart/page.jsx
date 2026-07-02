@@ -33,11 +33,11 @@ export default function CartPage() {
       });
       const data = await res.json();
       if (!res.ok || !data.url) {
-        throw new Error(data.error || 'Checkout failed.');
+        throw new Error(data.error || 'Checkout Failed.');
       }
       window.location.href = data.url; // redirect to Stripe-hosted checkout
     } catch (err) {
-      setCheckoutError(err.message || 'Something went wrong starting checkout.');
+      setCheckoutError(err.message || 'Something Went Wrong Starting Checkout.');
       setCheckingOut(false);
     }
   };
@@ -53,8 +53,8 @@ export default function CartPage() {
       <div className="container py-12">
         {cart.length === 0 ? (
           <div className="card text-center py-16">
-            <h2 className="text-2xl font-bold mb-4">Your cart is empty</h2>
-            <p className="text-gray-600 mb-6">Add some parts to get started</p>
+            <h2 className="text-2xl font-bold mb-4">Your Cart Is Empty</h2>
+            <p className="text-gray-600 mb-6">Add Some Parts To Get Started</p>
             <Link href="/parts" className="btn-primary inline-block">
               Continue Shopping
             </Link>
@@ -145,14 +145,14 @@ export default function CartPage() {
                   </div>
                   {shipping === 0 && total > 100 && (
                     <div className="text-sm text-accent-green font-bold">
-                      ✓ Free shipping on orders over $100
+                      ✓ Free Shipping On Orders Over $100
                     </div>
                   )}
                 </div>
 
                 <div className="flex justify-between text-xl font-bold mb-6">
                   <span>Total:</span>
-                  <span className="text-orange-600">${(total + shipping).toFixed(2)}</span>
+                  <span className="text-orange-600">${(Total + Shipping).toFixed(2)}</span>
                 </div>
 
                 <button
@@ -184,15 +184,15 @@ export default function CartPage() {
                 <div className="mt-6 pt-6 border-t text-sm text-gray-600 space-y-2">
                   <div className="flex items-start">
                     <span className="mr-2">✓</span>
-                    <span>30-day returns on all parts</span>
+                    <span>30-Day Returns On All Parts</span>
                   </div>
                   <div className="flex items-start">
                     <span className="mr-2">✓</span>
-                    <span>Secure checkout with Stripe</span>
+                    <span>Secure Checkout With Stripe</span>
                   </div>
                   <div className="flex items-start">
                     <span className="mr-2">✓</span>
-                    <span>Free technical support</span>
+                    <span>Free Technical Support</span>
                   </div>
                 </div>
               </div>
