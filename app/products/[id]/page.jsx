@@ -121,18 +121,18 @@ export default function ProductPage({ params }) {
               {product.pricing === 'quote' ? (
                 <>
                   <div className="text-sm text-gray-600 mb-2">Pricing</div>
-                  <div className="text-3xl font-bold text-navy mb-2">Request a Quote</div>
-                  <div className="text-sm text-gray-600">Contact us for current pricing and availability on this part.</div>
+                  <div className="text-3xl font-bold text-navy mb-2">Request A Quote</div>
+                  <div className="text-sm text-gray-600">Contact Us For Current Pricing And Availability On This Part.</div>
                 </>
               ) : (
                 <>
                   <div className="text-sm text-gray-600 mb-2">{product.rental ? 'Monthly Rental' : 'Price'}</div>
                   <div className="flex items-baseline space-x-2 mb-2">
                     <span className="text-5xl font-bold text-orange-600">${product.price.toFixed(2)}</span>
-                    {product.rental && <span className="text-lg text-gray-500">/ month</span>}
+                    {product.rental && <span className="text-lg text-gray-500">/ Month</span>}
                   </div>
                   {product.inStock && (
-                    <div className="text-sm text-accent-green font-bold">In stock and ready to ship</div>
+                    <div className="text-sm text-accent-green font-bold">In Stock And Ready To Ship</div>
                   )}
                 </>
               )}
@@ -169,10 +169,10 @@ export default function ProductPage({ params }) {
                     href={`/support`}
                     className="w-full btn-primary py-4 flex items-center justify-center space-x-2 text-lg"
                   >
-                    <span>Request a Quote</span>
+                    <span>Request A Quote</span>
                   </Link>
                   <p className="text-sm text-gray-600 text-center">
-                    Call 1-800-OSO-ATMS or contact us for pricing on item {product.sku}.
+                    Call 1-800-OSO-ATMS Or Contact Us For Pricing On Item {product.sku}.
                   </p>
                 </>
               ) : (
@@ -213,14 +213,14 @@ export default function ProductPage({ params }) {
                   {addedToCart && (
                     <div className="bg-accent-green text-white p-4 rounded flex items-center space-x-2">
                       <AlertCircle size={20} />
-                      <span>Added to cart successfully!</span>
+                      <span>Added To Cart Successfully!</span>
                     </div>
                   )}
 
                   {!product.inStock && (
                     <div className="bg-red-50 text-red-700 p-4 rounded flex items-center space-x-2 border border-red-200">
                       <AlertCircle size={20} />
-                      <span>This item is currently out of stock</span>
+                      <span>This Item Is Currently Out Of Stock</span>
                     </div>
                   )}
                 </>
@@ -267,19 +267,19 @@ export default function ProductPage({ params }) {
             <ul className="space-y-2 text-sm text-gray-600">
               <li className="flex items-start">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
-                <span>30-day returns on all parts</span>
+                <span>30-Day Returns On All Parts</span>
               </li>
               <li className="flex items-start">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
-                <span>Technical support included</span>
+                <span>Technical Support Included</span>
               </li>
               <li className="flex items-start">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
-                <span>Warranty varies by part</span>
+                <span>Warranty Varies By Part</span>
               </li>
               <li className="flex items-start">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
-                <span>Contact us for details</span>
+                <span>Contact Us For Details</span>
               </li>
             </ul>
           </div>
