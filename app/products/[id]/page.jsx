@@ -207,7 +207,7 @@ export default function ProductPage({ params }) {
                     className="w-full btn-primary py-4 flex items-center justify-center space-x-2 text-lg disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <ShoppingCart size={24} />
-                    <span>Add to Cart</span>
+                    <span>Add To Cart</span>
                   </button>
 
                   {addedToCart && (
