@@ -162,10 +162,10 @@ export const products = [
     "name": "ATM Wireless Antenna",
     "manufacturer": "Universal",
     "category": "Wireless/Connectivity",
-    "cost": 12.99,
-    "price": 11.99,
+    "cost": 5.00,
+    "price": 12.00,
     "description": "Standard Antenna - Increases Cellular Reception",
-    "image": "/products/placeholder.png",
+    "image": "/products/StandardAntenna.png",
     "inStock": true
   },
   {
