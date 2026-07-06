@@ -253,7 +253,7 @@ export default function ProductPage({ params }) {
                   {optionError && (
                     <div className="bg-red-50 text-red-700 p-4 rounded flex items-center space-x-2 border border-red-200">
                       <AlertCircle size={20} />
-                      <span>Please select all available options before adding to cart</span>
+                      <span>Please Select ATM Type To Continue</span>
                     </div>
                   )}
 
