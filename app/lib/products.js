@@ -701,7 +701,7 @@ export const products = [
     "price": 250.00,
     "description": "EMV Card Reader, Bracket, And Cable. Type TDR-R240N. NOTICE: Select Machine Type",
     "partNumber": "281215504,281215514,281215524,281215534,281215544,281215554,281215564,281215574,281215584,281215594",
-    "image": "/products/241180071.jpg",
+    "image": "/products/EMVupgrade.png",
     "inStock": true
   }
 ];
