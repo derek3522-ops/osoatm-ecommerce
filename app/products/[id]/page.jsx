@@ -16,6 +16,7 @@ export default function ProductPage({ params }) {
     product?.variants ? product.variants[0] : null
   );
   const [selectedOptions, setSelectedOptions] = useState({});
+  const [optionError, setOptionError] = useState(false);
   const addToCart = useStore(state => state.addToCart);
 
   if (!product) {
@@ -28,6 +29,19 @@ export default function ProductPage({ params }) {
   }
 
   const handleAddToCart = () => {
+    // Check if product has options and all are selected
+    if (product.options && product.options.length > 0) {
+      const allOptionsSelected = product.options.every(
+        option => selectedOptions[option.name] && selectedOptions[option.name] !== ''
+      );
+      
+      if (!allOptionsSelected) {
+        setOptionError(true);
+        setTimeout(() => setOptionError(false), 3000);
+        return;
+      }
+    }
+    
     addToCart(product, quantity, selectedOptions);
     setAddedToCart(true);
     setTimeout(() => setAddedToCart(false), 2000);
@@ -235,6 +249,13 @@ export default function ProductPage({ params }) {
                     <ShoppingCart size={24} />
                     <span>Add To Cart</span>
                   </button>
+
+                  {optionError && (
+                    <div className="bg-red-50 text-red-700 p-4 rounded flex items-center space-x-2 border border-red-200">
+                      <AlertCircle size={20} />
+                      <span>Please select all available options before adding to cart</span>
+                    </div>
+                  )}
 
                   {addedToCart && (
                     <div className="bg-accent-green text-white p-4 rounded flex items-center space-x-2">
