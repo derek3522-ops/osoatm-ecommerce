@@ -691,7 +691,8 @@ export const products = [
     "image": "/products/210107541.jpg",
     "inStock": true
    },
-   {
+  {
+  "id": 60,
   "sku": "OSO-00060",
   "name": "Gengmega EMV Card Reader Kit, Type TDR",
   "manufacturer": "Genmega",
@@ -705,7 +706,7 @@ export const products = [
   "options": [
     {
       "name": "ATM Type",
-      "values": ["1700W", "G1900", "G2500", "T4000", "GT5000" "C6000", "G6000", "Onyx", "GT3000", "Kiosk"]
+      "values": ["1700W", "G1900", "G2500", "T4000", "GT5000", "C6000", "G6000", "Onyx", "GT3000", "Kiosk"]
     }
   ]
 }
