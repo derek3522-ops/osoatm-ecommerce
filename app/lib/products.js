@@ -692,18 +692,23 @@ export const products = [
     "inStock": true
    },
    {
-    "id": 60,
-    "sku": "OSO-00060",
-    "name": "Gengmega EMV Card Reader Kit, Type TDR",
-    "manufacturer": "Genmega",
-    "category": "Card Readers",
-    "cost": 262.00,
-    "price": 290.00,
-    "description": "EMV Card Reader, Bracket, And Cable. Type TDR-R240N. NOTICE: Select Machine Type",
-    "partNumber": "281215504, 281215514, 281215524, 281215534, 281215544, 281215554, 281215564, 281215574, 281215584, 281215594",
-    "image": "/products/EMVupgrade.png",
-    "inStock": true
-  }
+  "sku": "OSO-00060",
+  "name": "Gengmega EMV Card Reader Kit, Type TDR",
+  "manufacturer": "Genmega",
+  "category": "Card Readers",
+  "cost": 262.00,
+  "price": 290.00,
+  "description": "EMV Card Reader, Bracket, And Cable. Type TDR-R240N. NOTICE: Select Machine Type",
+  "partNumber": "281215504, 281215514, 281215524, 281215534, 281215544, 281215554, 281215564, 281215574, 281215584, 281215594",
+  "image": "/products/EMVupgrade.png",
+  "inStock": true,
+  "options": [
+    {
+      "name": "ATM Type",
+      "values": ["1700W", "G1900", "G2500", "T4000", "GT5000" "C6000", "G6000", "Onyx", "GT3000", "Kiosk"]
+    }
+  ]
+}
 ];
 
 export const categories = [
