@@ -15,6 +15,7 @@ export default function ProductPage({ params }) {
   const [selectedVariant, setSelectedVariant] = useState(
     product?.variants ? product.variants[0] : null
   );
+  const [selectedOptions, setSelectedOptions] = useState({});
   const addToCart = useStore(state => state.addToCart);
 
   if (!product) {
@@ -27,7 +28,7 @@ export default function ProductPage({ params }) {
   }
 
   const handleAddToCart = () => {
-    addToCart(product, quantity);
+    addToCart(product, quantity, selectedOptions);
     setAddedToCart(true);
     setTimeout(() => setAddedToCart(false), 2000);
   };
@@ -158,6 +159,31 @@ export default function ProductPage({ params }) {
                     + ${selectedVariant.monthlyFee}/Month Cellular Service Fee
                   </p>
                 )}
+              </div>
+            )}
+
+            {/* Product Options (e.g., ATM Type) */}
+            {product.options && product.options.length > 0 && (
+              <div className="mb-6 space-y-4">
+                {product.options.map((option) => (
+                  <div key={option.name}>
+                    <label className="block text-sm font-bold mb-2">{option.name}</label>
+                    <select
+                      value={selectedOptions[option.name] || ''}
+                      onChange={(e) => setSelectedOptions({
+                        ...selectedOptions,
+                        [option.name]: e.target.value
+                      })}
+                      className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-orange-500"
+                      required
+                    >
+                      <option value="">-- Select {option.name} --</option>
+                      {option.values.map((value) => (
+                        <option key={value} value={value}>{value}</option>
+                      ))}
+                    </select>
+                  </div>
+                ))}
               </div>
             )}
             
