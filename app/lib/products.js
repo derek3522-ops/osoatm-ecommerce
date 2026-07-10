@@ -153,6 +153,7 @@ export const products = [
     "cost": 6.00,
     "price": 9.00,
     "description": "Fits All Hyosung Model Types",
+    "partNumber": "45110110",
     "image": "/products/HyoKey.png",
     "inStock": false
   },
