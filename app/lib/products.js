@@ -154,7 +154,7 @@ export const products = [
     "price": 8.99,
     "description": "Fits All ATM Hyosung Model Types",
     "image": "/products/placeholder.png",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 13,
@@ -178,7 +178,7 @@ export const products = [
     "price": 683.99,
     "description": "Hyosung Receipt Printer Assembly",
     "image": "/products/placeholder.png",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 15,
@@ -190,7 +190,7 @@ export const products = [
     "price": 330.99,
     "description": "New Revision Power Supply",
     "image": "/products/placeholder.png",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 16,
@@ -202,7 +202,7 @@ export const products = [
     "price": 274.99,
     "description": "Card Reader Only. NOTICE: Not An Upgrade Kit",
     "image": "/products/placeholder.png",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 17,
@@ -214,7 +214,7 @@ export const products = [
     "price": 261.99,
     "description": "New Revision 10.1\" LCD Display Panel Without Electronics",
     "image": "/products/placeholder.png",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 18,
