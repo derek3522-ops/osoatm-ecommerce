@@ -150,10 +150,10 @@ export const products = [
     "name": "Hyosung Bezel Key",
     "manufacturer": "Hyosung",
     "category": "Keys & Accessories",
-    "cost": 9.59,
-    "price": 8.99,
-    "description": "Fits All ATM Hyosung Model Types",
-    "image": "/products/placeholder.png",
+    "cost": 6.00,
+    "price": 9.00,
+    "description": "Fits All Hyosung Model Types",
+    "image": "/products/HyoKey.png",
     "inStock": false
   },
   {
