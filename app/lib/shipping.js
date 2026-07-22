@@ -3,8 +3,8 @@ const DEFAULT_WEIGHT = 2;
 
 // Ground price per weight tier (cents)
 const TIERS = [
-  { maxLbs: 1,  amount: 899 },
-  { maxLbs: 5,  amount: 1299 },
+  { maxLbs: 1,  amount: 999 },
+  { maxLbs: 5,  amount: 1399 },
   { maxLbs: 20, amount: 1999 },
   { maxLbs: 50, amount: 3499 },
   { maxLbs: Infinity, amount: 5999 },
