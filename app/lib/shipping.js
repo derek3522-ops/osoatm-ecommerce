@@ -12,9 +12,9 @@ const TIERS = [
 
 // Speed options: multiplier is applied to the ground tier price
 const SPEEDS = [
-  { display_name: 'Ground',    multiplier: 1,    estDays: [5, 7] },
-  { display_name: '2-Day',     multiplier: 1.75, estDays: [2, 3] },
-  { display_name: 'Overnight', multiplier: 2.5,  estDays: [1, 2] },
+  { display_name: 'Ground',    multiplier: 1.5,    estDays: [5, 7] },
+  { display_name: '2-Day',     multiplier: 2.5, estDays: [2, 3] },
+  { display_name: 'Overnight', multiplier: 3.5,  estDays: [1, 2] },
 ];
 
 export function getCartWeight(items, products) {
