@@ -146,7 +146,7 @@ export default function CartPage() {
                     <span>${shipping.toFixed(2)}</span>
                   </div>
                   <div className="text-xs text-gray-500">
-                    2-Day and Overnight available at checkout
+                    2-Day And Overnight Available At Checkout
                   </div>
                   
                 </div>
