@@ -142,8 +142,11 @@ export default function CartPage() {
                     <span>${total.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-gray-600">
-                    <span>Shipping:</span>
+                    <span>Shipping (Ground):</span>
                     <span>${shipping.toFixed(2)}</span>
+                  </div>
+                  <div className="text-xs text-gray-500">
+                    2-Day and Overnight available at checkout
                   </div>
                   
                 </div>
