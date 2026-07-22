@@ -5,7 +5,7 @@
 // taken from the client. This prevents a tampered cart from changing prices.
 // The client only sends product ids + quantities.
 
-import { getCartWeight, getShippingRate } from '../../lib/shipping';
+import { getCartWeight, getShippingOptions } from '../../lib/shipping';
 import Stripe from 'stripe';
 import { products } from '../../lib/products';
 
@@ -56,7 +56,7 @@ export async function POST(req) {
     }
 
    const cartWeight = getCartWeight(items, products);
-    const shippingRate = getShippingRate(cartWeight);
+    const shippingOptions = getShippingOptions(cartWeight);
 
     const origin =
       req.headers.get('origin') ||
@@ -67,15 +67,14 @@ export async function POST(req) {
       mode: 'payment',
       line_items,
       shipping_address_collection: { allowed_countries: ['US'] },
-      shipping_options: [
-        {
-          shipping_rate_data: {
-            type: 'fixed_amount',
-            fixed_amount: { amount: shippingRate.amount, currency: 'usd' },
-            display_name: shippingRate.display_name,
-          },
+      shipping_options: shippingOptions.map((opt) => ({
+        shipping_rate_data: {
+          type: 'fixed_amount',
+          fixed_amount: { amount: opt.amount, currency: 'usd' },
+          display_name: opt.display_name,
+          delivery_estimate: opt.delivery_estimate,
         },
-      ],
+      })),
       phone_number_collection: { enabled: true },
       success_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/cart`,
