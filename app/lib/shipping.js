@@ -1,13 +1,20 @@
-// Tiered shipping by total cart weight (lbs)
+// Tiered shipping by total cart weight (lbs), with speed options
 const DEFAULT_WEIGHT = 2;
 
+// Ground price per weight tier (cents)
 const TIERS = [
-  { maxLbs: 20,  amount: 25,  label: "Standard Shipping" },
-  { maxLbs: 20,  amount: 50, label: "Standard Shipping" },
-  { maxLbs: 20,  amount: 100, label: "Standard Shipping" },
-  { maxLbs: 100, amount: 50, label: "Standard Shipping" },
-  { maxLbs: 100, amount: 100, label: "Standard Shipping" },
-  { maxLbs: 100, amount: 200, label: "Standard Shipping" },
+  { maxLbs: 1,  amount: 899 },
+  { maxLbs: 5,  amount: 1299 },
+  { maxLbs: 20, amount: 1999 },
+  { maxLbs: 50, amount: 3499 },
+  { maxLbs: Infinity, amount: 5999 },
+];
+
+// Speed options: multiplier is applied to the ground tier price
+const SPEEDS = [
+  { display_name: 'Ground',    multiplier: 1,    estDays: [5, 7] },
+  { display_name: '2-Day',     multiplier: 1.75, estDays: [2, 3] },
+  { display_name: 'Overnight', multiplier: 2.5,  estDays: [1, 2] },
 ];
 
 export function getCartWeight(items, products) {
@@ -19,7 +26,19 @@ export function getCartWeight(items, products) {
   }, 0);
 }
 
-export function getShippingRate(weightLbs) {
+export function getShippingOptions(weightLbs) {
   const tier = TIERS.find((t) => weightLbs <= t.maxLbs);
-  return { amount: tier.amount, display_name: tier.label }; // amount in cents
+  return SPEEDS.map((s) => ({
+    display_name: s.display_name,
+    amount: Math.round(tier.amount * s.multiplier),
+    delivery_estimate: {
+      minimum: { unit: 'business_day', value: s.estDays[0] },
+      maximum: { unit: 'business_day', value: s.estDays[1] },
+    },
+  }));
+}
+
+// Ground rate — used by the cart page display
+export function getShippingRate(weightLbs) {
+  return getShippingOptions(weightLbs)[0];
 }
