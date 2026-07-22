@@ -5,6 +5,7 @@
 // taken from the client. This prevents a tampered cart from changing prices.
 // The client only sends product ids + quantities.
 
+import { getCartWeight, getShippingRate } from '../../lib/shipping';
 import Stripe from 'stripe';
 import { products } from '../../lib/products';
 
@@ -54,11 +55,8 @@ export async function POST(req) {
       return Response.json({ error: 'No purchasable items in cart.' }, { status: 400 });
     }
 
-    // Free shipping over $100, otherwise a flat $15.99 — matches the cart display
-    const shippingRate =
-      subtotal >= 100
-        ? { display_name: 'Free shipping', amount: 0 }
-        : { display_name: 'Standard shipping', amount: 1599 };
+   const cartWeight = getCartWeight(items, products);
+    const shippingRate = getShippingRate(cartWeight);
 
     const origin =
       req.headers.get('origin') ||
