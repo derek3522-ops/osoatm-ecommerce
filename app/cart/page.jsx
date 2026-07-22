@@ -4,7 +4,8 @@
 
 import { useState } from 'react';
 import { useStore } from '../lib/store';
-import { hasRealImage } from '../lib/products';
+import { hasRealImage, products } from '../lib/products';
+import { getCartWeight, getShippingRate } from '../lib/shipping';
 import Link from 'next/link';
 import { Trash2 } from 'lucide-react';
 
@@ -18,7 +19,8 @@ export default function CartPage() {
   const [checkoutError, setCheckoutError] = useState('');
 
   const total = getCartTotal();
-  const shipping = total > 0 && total < 100 ? 15.99 : total > 0 ? 0 : 0; // Free shipping over $100
+  const cartWeight = getCartWeight(cart, products);
+  const shipping = cart.length > 0 ? getShippingRate(cartWeight).amount / 100 : 0;
 
   const handleCheckout = async () => {
     setCheckingOut(true);
@@ -143,11 +145,7 @@ export default function CartPage() {
                     <span>Shipping:</span>
                     <span>${shipping.toFixed(2)}</span>
                   </div>
-                  {shipping === 0 && total > 100 && (
-                    <div className="text-sm text-accent-green font-bold">
-                      ✓ Free Shipping On Orders Over $100
-                    </div>
-                  )}
+                  
                 </div>
 
                 <div className="flex justify-between text-xl font-bold mb-6">
