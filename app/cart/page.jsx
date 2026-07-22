@@ -161,7 +161,7 @@ export default function CartPage() {
                   disabled={checkingOut || cart.length === 0}
                   className="w-full btn-primary py-3 mb-4 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {checkingOut ? 'Redirecting to secure checkout…' : 'Proceed to Checkout'}
+                  {checkingOut ? 'Redirecting to secure checkout…' : 'Proceed To Checkout'}
                 </button>
 
                 {checkoutError && (
