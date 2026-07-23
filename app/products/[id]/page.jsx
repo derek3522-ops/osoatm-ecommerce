@@ -214,7 +214,7 @@ export default function ProductPage({ params }) {
                     <span>Request A Quote</span>
                   </Link>
                   <p className="text-sm text-gray-600 text-center">
-                    Call 1-800-OSO-ATMS Or Contact Us For Pricing On Item {product.sku}.
+                    Call 1-866-676-2861 Or Contact Us For Pricing On Item {product.sku}.
                   </p>
                 </>
               ) : (
