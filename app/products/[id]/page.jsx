@@ -12,6 +12,7 @@ export default function ProductPage({ params }) {
   const product = products.find(p => p.id === parseInt(params.id));
   const [quantity, setQuantity] = useState(1);
   const [addedToCart, setAddedToCart] = useState(false);
+  const [showCheckout, setShowCheckout] = useState(false);
   const [selectedVariant, setSelectedVariant] = useState(
     product?.variants ? product.variants[0] : null
   );
@@ -44,6 +45,7 @@ export default function ProductPage({ params }) {
     
     addToCart(product, quantity, selectedOptions);
     setAddedToCart(true);
+    setShowCheckout(true);
     setTimeout(() => setAddedToCart(false), 2000);
   };
 
@@ -249,6 +251,15 @@ export default function ProductPage({ params }) {
                     <ShoppingCart size={24} />
                     <span>Add To Cart</span>
                   </button>
+
+                  {showCheckout && (
+                    <Link
+                      href="/cart"
+                      className="w-full btn-outline text-navy border-navy py-3 block text-center font-bold"
+                    >
+                      Go To Checkout
+                    </Link>
+                  )}
 
                   {optionError && (
                     <div className="bg-red-50 text-red-700 p-4 rounded flex items-center space-x-2 border border-red-200">
