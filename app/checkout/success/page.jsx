@@ -40,7 +40,7 @@ export default function CheckoutSuccessPage() {
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-orange-400 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
-              <span>Questions? Call 1-800-OSO-ATMS, Mon&ndash;Fri 8am&ndash;5pm MST.</span>
+             <span>Questions? Call 1-866-676-2861, Mon&ndash;Fri 8am&ndash;5pm MST.</span>
             </li>
           </ul>
         </div>
