@@ -100,15 +100,27 @@ export default function ATMsPage() {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const [submitError, setSubmitError] = useState('');
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('ATM quote request:', { ...formData, atm: selectedATM });
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setSelectedATM(null);
-      setFormData({ name: '', email: '', phone: '', comments: '' });
-    }, 4000);
+    setSubmitError('');
+    try {
+      const res = await fetch('/api/quote', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...formData, atm: selectedATM?.name }),
+      });
+      if (!res.ok) throw new Error();
+      setSubmitted(true);
+      setTimeout(() => {
+        setSubmitted(false);
+        setSelectedATM(null);
+        setFormData({ name: '', email: '', phone: '', comments: '' });
+      }, 4000);
+    } catch {
+      setSubmitError('Something went wrong. Please call us at 1-866-676-2861.');
+    }
   };
 
   return (
@@ -183,6 +195,11 @@ export default function ATMsPage() {
                   <label htmlFor="comments">Comments / Questions</label>
                   <textarea id="comments" name="comments" value={formData.comments} onChange={handleChange} rows="4" placeholder="Any Questions About The ATM Or Your Specific Needs"></textarea>
                 </div>
+                {submitError && (
+                  <div className="bg-red-50 border border-red-200 text-red-700 text-sm rounded p-3">
+                    {submitError}
+                  </div>
+                )}
                 <button type="submit" className="w-full btn-primary py-3">Submit Quote Request</button>
                 <p className="text-xs text-gray-600 text-center">We'll Confirm Pricing And Availability Within One Business Day</p>
               </form>
