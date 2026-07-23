@@ -170,7 +170,7 @@ export default function SupportPage() {
             <div className="card">
               <Phone className="text-orange-500 mb-3" size={28} />
               <h3 className="font-bold mb-2">Talk to a Tech</h3>
-              <p className="text-sm text-gray-600">Call 1-800-OSO-ATMS, Mon-Fri 8am-5pm MST, For Hands-On Troubleshooting Help</p>
+              <p className="text-sm text-gray-600">Call 1-866-676-2861, Mon-Fri 8am-5pm MST, For Hands-On Troubleshooting Help</p>
             </div>
           </div>
         </div>
