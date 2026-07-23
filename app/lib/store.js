@@ -1,8 +1,10 @@
 // app/lib/store.js - Shopping cart and app state management
 
 import { create } from 'zustand';
-
-export const useStore = create((set, get) => ({
+import { persist } from 'zustand/middleware';
+export const useStore = create(
+  persist(
+    (set, get) => ({
   cart: [],
   
   addToCart: (product, quantity = 1) => {
@@ -52,4 +54,7 @@ export const useStore = create((set, get) => ({
     const { cart } = get();
     return cart.reduce((count, item) => count + item.quantity, 0);
   }
-}));
+    }),
+    { name: 'oso-cart' }
+  )
+);
