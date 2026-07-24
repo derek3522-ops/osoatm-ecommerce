@@ -1,17 +1,26 @@
-// app/api/orders/route.js
-// Returns saved orders for the Admin dashboard.
-//
-// NOTE: This is currently open. Before going live, protect this route (and the
-// /admin page) behind authentication so only your team can read order data.
+// app/api/orders/route.js - Fetch orders from Supabase
+import { createClient } from '@supabase/supabase-js';
 
-import { getOrders } from '../../lib/orders';
-
-export async function GET() {
+export async function GET(req) {
   try {
-    const orders = await getOrders();
-    return Response.json({ orders });
+    const supabase = createClient(
+      process.env.SUPABASE_URL,
+      process.env.SUPABASE_SERVICE_KEY
+    );
+
+    const { data, error } = await supabase
+      .from('orders')
+      .select('*')
+      .order('date', { ascending: false });
+
+    if (error) {
+      console.error('Supabase error:', error);
+      return Response.json({ orders: [] }, { status: 500 });
+    }
+
+    return Response.json({ orders: data || [] });
   } catch (err) {
-    console.error('Failed to load orders:', err.message);
-    return Response.json({ orders: [], error: 'Could not load orders.' }, { status: 500 });
+    console.error('Orders API error:', err);
+    return Response.json({ orders: [] }, { status: 500 });
   }
 }
