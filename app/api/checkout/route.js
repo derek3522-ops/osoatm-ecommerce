@@ -5,6 +5,7 @@
 // taken from the client. This prevents a tampered cart from changing prices.
 // The client only sends product ids + quantities.
 
+import { createClient } from '@supabase/supabase-js';
 import { getCartWeight, getShippingOptions } from '../../lib/shipping';
 import Stripe from 'stripe';
 import { products } from '../../lib/products';
@@ -78,6 +79,31 @@ export async function POST(req) {
       phone_number_collection: { enabled: true },
       success_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/cart`,
+    });
+
+    // Store order in Supabase after Stripe checkout succeeds
+    // (We'll verify payment via webhook, but can pre-stage it here)
+    const supabase = createClient(
+      process.env.SUPABASE_URL,
+      process.env.SUPABASE_SERVICE_KEY
+    );
+
+    await supabase.from('orders').insert({
+      id: session.id,
+      customer_name: session.customer_details?.name || 'Customer',
+      customer_email: session.customer_details?.email || '',
+      customer_phone: session.customer_details?.phone || '',
+      items: line_items.map(item => ({
+        name: item.price_data.product_data.name,
+        sku: item.price_data.product_data.metadata.sku,
+        quantity: item.quantity,
+        amount: item.price_data.unit_amount / 100,
+      })),
+      subtotal: subtotal,
+      shipping: shippingRate.amount / 100,
+      total: (subtotal + shippingRate.amount / 100),
+      shipping_address: session.shipping_details || null,
+      status: 'pending',
     });
 
     return Response.json({ url: session.url });
