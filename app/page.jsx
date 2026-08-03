@@ -1,7 +1,7 @@
 // app/page.jsx - Home page
 
 import Link from 'next/link';
-import { ArrowRight, Zap, Truck, Lock } from 'lucide-react';
+import { ArrowRight, Zap, Truck, Lock, Phone, Mail } from 'lucide-react';
 import { products, hasRealImage } from './lib/products';
 
 export default function Home() {
@@ -104,7 +104,7 @@ export default function Home() {
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Our Team Is Ready To Help You Find The Exact Parts You Need<br /> Contact Us For Technical Support Or Bulk Orders
           </p>
-         <div className="flex justify-center gap-4">
+         
             <Link href="/contact" className="btn-primary inline-block">
               Contact Us
             </Link>
