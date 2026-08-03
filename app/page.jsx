@@ -109,16 +109,16 @@ export default function Home() {
               
                 href="tel:+18666762861"
                 className="flex items-center gap-2 text-orange-400 font-bold text-xl hover:text-orange-300 transition"
-              >
+              <a>
                 <Phone size={22} className="shrink-0" />
                 866-OSO-ATM1
               </a>
               
                 href="mailto:sales@osoatm.com"
                 className="flex items-center gap-2 text-orange-400 font-bold text-xl hover:text-orange-300 transition"
-              >
+              <a>
                 <Mail size={22} className="shrink-0" />
-                support@osoatm.com
+                sales@osoatm.com
               </a>
             </div>
           </div>
