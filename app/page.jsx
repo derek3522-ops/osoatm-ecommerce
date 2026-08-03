@@ -106,17 +106,17 @@ export default function Home() {
           </p>
          
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
-              
+              <a
                 href="tel:+18666762861"
                 className="flex items-center gap-2 text-orange-400 font-bold text-xl hover:text-orange-300 transition"
-              <a>
+              >
                 <Phone size={22} className="shrink-0" />
                 866-OSO-ATM1
               </a>
-              
+              <a
                 href="mailto:sales@osoatm.com"
                 className="flex items-center gap-2 text-orange-400 font-bold text-xl hover:text-orange-300 transition"
-              <a>
+              >
                 <Mail size={22} className="shrink-0" />
                 sales@osoatm.com
               </a>
