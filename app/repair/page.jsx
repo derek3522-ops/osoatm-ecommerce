@@ -273,7 +273,7 @@ export default function RepairPage() {
                 <Phone size={28} />
               </div>
               <h3 className="font-bold mb-2">Call Us</h3>
-              <p className="text-gray-300">1-800-OSO-ATMS</p>
+              <p className="text-gray-300">866-OSO-ATM1</p>
               <p className="text-sm text-gray-400 mt-2">Mon-Fri, 8am-5pm MST</p>
             </div>
             <div>
@@ -281,7 +281,7 @@ export default function RepairPage() {
                 <Mail size={28} />
               </div>
               <h3 className="font-bold mb-2">Email Us</h3>
-              <p className="text-gray-300">repair@osoatm.com</p>
+              <p className="text-gray-300">support@osoatm.com</p>
               <p className="text-sm text-gray-400 mt-2">Response Within 24 Hours</p>
             </div>
           </div>
