@@ -5,7 +5,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { errorCodeManufacturers } from '../lib/errorCodes';
-import { Search, AlertTriangle, FileText, Phone } from 'lucide-react';
+import { Search, AlertTriangle, FileText, Phone, Mail } from 'lucide-react';
 
 const PAGE_SIZE = 15;
 
@@ -41,11 +41,23 @@ export default function SupportPage() {
     <>
       {/* Hero */}
       <section className="bg-gradient-to-r from-navy to-navy-light text-white py-16">
-        <div className="container">
-          <h1 className="text-4xl font-bold mb-3">Resource Center</h1>
-          <p className="text-gray-200 text-lg max-w-2xl">
-            Look Up ATM Error Codes, Find Solutions, And Get The Support You Need To Keep Your Machines Running
-          </p>
+        <div className="container flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+          <div>
+            <h1 className="text-4xl font-bold mb-3">Resource Center</h1>
+            <p className="text-gray-200 text-lg max-w-2xl">
+              Look Up ATM Error Codes, Find Solutions, And Get The Support You Need To Keep Your Machines Running
+            </p>
+          </div>
+          <div className="shrink-0 md:text-right space-y-2">
+            <a href="tel:+18666762861" className="flex md:justify-end items-center gap-2 text-orange-400 font-bold text-xl hover:text-orange-300 transition">
+              <Phone size={20} className="shrink-0" />
+              866-OSO-ATM1
+            </a>
+            <a href="mailto:support@osoatm.com" className="flex md:justify-end items-center gap-2 text-orange-400 font-bold text-lg hover:text-orange-300 transition">
+              <Mail size={20} className="shrink-0" />
+              support@osoatm.com
+            </a>
+          </div>
         </div>
       </section>
 
@@ -92,7 +104,6 @@ export default function SupportPage() {
           {/* Coverage note */}
           <div className="bg-gray-50 border border-gray-200 text-gray-700 text-sm rounded p-3 mb-6">
             Showing {filtered.length} {active.label} {filtered.length === 1 ? 'code' : 'Codes'}
-            {active.id === 'hyosung'}
           </div>
 
           {/* Table */}
@@ -170,7 +181,13 @@ export default function SupportPage() {
             <div className="card">
               <Phone className="text-orange-500 mb-3" size={28} />
               <h3 className="font-bold mb-2">Talk to a Tech</h3>
-              <p className="text-sm text-gray-600">Call 1-866-676-2861, Mon-Fri 8am-5pm MST, For Hands-On Troubleshooting Help</p>
+              <p className="text-sm text-gray-600">
+                Call{' '}
+                <a href="tel:+18666762861" className="font-bold text-navy hover:text-orange-500 transition">
+                  866-OSO-ATM1
+                </a>
+                , Mon-Fri 8am-5pm MST, For Hands-On Troubleshooting Help
+              </p>
             </div>
           </div>
         </div>
