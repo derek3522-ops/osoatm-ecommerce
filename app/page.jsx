@@ -118,7 +118,7 @@ export default function Home() {
                 className="flex items-center gap-2 text-orange-400 font-bold text-xl hover:text-orange-300 transition"
               >
                 <Mail size={22} className="shrink-0" />
-                sales@osoatm.com
+                support@osoatm.com
               </a>
             </div>
           </div>
