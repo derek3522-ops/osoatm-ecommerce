@@ -26,7 +26,7 @@ export default function PartsPage() {
   // Filter and sort products
   const filteredProducts = useMemo(() => {
     let result = products.filter(product => {
-      const manufacturerMatch = selectedManufacturer === 'All' ||    product.manufacturer === selectedManufacturer ||   (product.manufacturer && product.manufacturer.includes(selectedManufacturer));
+      const manufacturerMatch = selectedManufacturer === 'All' || product.manufacturer === selectedManufacturer || (product.manufacturer && product.manufacturer.includes(selectedManufacturer));
       const categoryMatch = selectedCategory === 'All Parts' || product.category === selectedCategory;
       const priceMatch = product.pricing === 'quote' || (product.price >= priceRange[0] && product.price <= priceRange[1]);
       const searchMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -213,6 +213,31 @@ export default function PartsPage() {
           </div>
         </div>
       </div>
+
+      {/* Contact */}
+      <section className="bg-navy text-white py-16">
+        <div className="container">
+          <h2 className="text-3xl font-bold mb-12 text-center">Questions About A Part?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto text-center">
+            <div>
+              <div className="w-16 h-16 bg-navy-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <Phone size={28} />
+              </div>
+              <h3 className="font-bold mb-2">Call Us</h3>
+              <p className="text-gray-300">866-OSO-ATM1</p>
+              <p className="text-sm text-gray-400 mt-2">Mon-Fri, 8am-5pm MST</p>
+            </div>
+            <div>
+              <div className="w-16 h-16 bg-navy-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <Mail size={28} />
+              </div>
+              <h3 className="font-bold mb-2">Email Us</h3>
+              <p className="text-gray-300">support@osoatm.com</p>
+              <p className="text-sm text-gray-400 mt-2">Response Within 24 Hours</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
@@ -249,30 +274,6 @@ function ProductCard({ product }) {
             <span className="text-xs font-bold text-red-600">Out of Stock</span>
           )}
         </div>
-        {/* Contact */}
-      <section className="bg-navy text-white py-16">
-        <div className="container">
-          <h2 className="text-3xl font-bold mb-12 text-center">Questions About A Part?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto text-center">
-            <div>
-              <div className="w-16 h-16 bg-navy-light rounded-full flex items-center justify-center mx-auto mb-4">
-                <Phone size={28} />
-              </div>
-              <h3 className="font-bold mb-2">Call Us</h3>
-              <p className="text-gray-300">866-OSO-ATM1</p>
-              <p className="text-sm text-gray-400 mt-2">Mon-Fri, 8am-5pm MST</p>
-            </div>
-            <div>
-              <div className="w-16 h-16 bg-navy-light rounded-full flex items-center justify-center mx-auto mb-4">
-                <Mail size={28} />
-              </div>
-              <h3 className="font-bold mb-2">Email Us</h3>
-              <p className="text-gray-300">support@osoatm.com</p>
-              <p className="text-sm text-gray-400 mt-2">Response Within 24 Hours</p>
-            </div>
-          </div>
-        </div>
-      </section>
       </div>
     </Link>
   );
