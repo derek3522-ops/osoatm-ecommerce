@@ -5,7 +5,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { products, categories, manufacturers, hasRealImage } from '../lib/products';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Phone, Mail } from 'lucide-react';
 
 export default function PartsPage() {
   const [selectedManufacturer, setSelectedManufacturer] = useState('All');
